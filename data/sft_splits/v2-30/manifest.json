@@ -1,0 +1,448 @@
+{
+  "version": "v2-30",
+  "created_utc": "2026-05-21T04:00:06.835510+00:00",
+  "seed": 42,
+  "train_size": 30,
+  "test_size": 25,
+  "oversample_factor": 10,
+  "split_strategy": "iid_index_split_post_dedup",
+  "layout": "flat",
+  "train_path": "train.jsonl",
+  "test_path": "test.jsonl",
+  "configs": {
+    "count_primes_easy": {
+      "task": "count_primes",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "count_primes_hard": {
+      "task": "count_primes",
+      "preset": "hard",
+      "dataset_kwargs": {
+        "min_n": 10000,
+        "max_n": 50000
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "rotten_oranges_easy": {
+      "task": "rotten_oranges",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "word_ladder_easy": {
+      "task": "word_ladder",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "sokoban_easy": {
+      "task": "sokoban",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "sokoban_hard": {
+      "task": "sokoban",
+      "preset": "hard",
+      "dataset_kwargs": {
+        "min_w": 10,
+        "max_w": 15,
+        "min_h": 10,
+        "max_h": 15
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "cryptarithm_easy": {
+      "task": "cryptarithm",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "cryptarithm_hard": {
+      "task": "cryptarithm",
+      "preset": "hard",
+      "dataset_kwargs": {
+        "min_words": 5,
+        "max_words": 10
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "futoshiki_easy": {
+      "task": "futoshiki",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "futoshiki_hard": {
+      "task": "futoshiki",
+      "preset": "hard",
+      "dataset_kwargs": {
+        "min_board_size": 6,
+        "max_board_size": 7,
+        "min_difficulty": 1,
+        "max_difficulty": 2
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "propositional_logic_easy": {
+      "task": "propositional_logic",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "tower_of_hanoi_easy": {
+      "task": "tower_of_hanoi",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "tower_of_hanoi_hard": {
+      "task": "tower_of_hanoi",
+      "preset": "hard",
+      "dataset_kwargs": {
+        "min_disks": 5,
+        "max_disks": 10,
+        "min_pegs": 3,
+        "max_pegs": 4
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "mahjong_puzzle_easy": {
+      "task": "mahjong_puzzle",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "mahjong_puzzle_hard": {
+      "task": "mahjong_puzzle",
+      "preset": "hard",
+      "dataset_kwargs": {
+        "min_num_rounds": 50,
+        "max_num_rounds": 100
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "n_queens_easy": {
+      "task": "n_queens",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "rubiks_cube_easy": {
+      "task": "rubiks_cube",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "rush_hour_easy": {
+      "task": "rush_hour",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "emoji_mystery_easy": {
+      "task": "emoji_mystery",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "figlet_font_easy": {
+      "task": "figlet_font",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "boxnet_easy": {
+      "task": "boxnet",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "boxnet_custom_hard": {
+      "task": "boxnet",
+      "preset": "custom_hard",
+      "dataset_kwargs": {
+        "min_row_num": 3,
+        "max_row_num": 6,
+        "min_column_num": 3,
+        "max_column_num": 6,
+        "min_box_num": 2,
+        "max_box_num": 4
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "polynomial_equations_easy": {
+      "task": "polynomial_equations",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "gsm_symbolic_easy": {
+      "task": "gsm_symbolic",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "shortest_path_easy": {
+      "task": "shortest_path",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "countdown_easy": {
+      "task": "countdown",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "course_schedule_easy": {
+      "task": "course_schedule",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "knights_knaves_easy": {
+      "task": "knights_knaves",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "syllogism_easy": {
+      "task": "syllogism",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "circuit_logic_easy": {
+      "task": "circuit_logic",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "palindrome_partitioning_easy": {
+      "task": "palindrome_partitioning",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "group_anagrams_easy": {
+      "task": "group_anagrams",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "letter_jumble_easy": {
+      "task": "letter_jumble",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "maze_easy": {
+      "task": "maze",
+      "preset": "easy",
+      "dataset_kwargs": {
+        "min_dist": 15,
+        "max_dist": 30,
+        "min_grid_size": 30,
+        "max_grid_size": 50
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "mini_sudoku_easy": {
+      "task": "mini_sudoku",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "modulo_grid_easy": {
+      "task": "modulo_grid",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "bf_easy": {
+      "task": "bf",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "codeio_easy": {
+      "task": "codeio",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "family_relationships_easy": {
+      "task": "family_relationships",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "color_cube_rotation_easy": {
+      "task": "color_cube_rotation",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "arc_1d_easy": {
+      "task": "arc_1d",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "ab_easy": {
+      "task": "ab",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "acre_easy": {
+      "task": "acre",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "arc_agi_train_only": {
+      "task": "arc_agi",
+      "preset": "train_only",
+      "dataset_kwargs": {
+        "use_train": true,
+        "use_eval": false
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "arc_agi_eval_only": {
+      "task": "arc_agi",
+      "preset": "eval_only",
+      "dataset_kwargs": {
+        "use_train": false,
+        "use_eval": true
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "binary_alternation_easy": {
+      "task": "binary_alternation",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "caesar_cipher_easy": {
+      "task": "caesar_cipher",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "game_of_life_halting_easy": {
+      "task": "game_of_life_halting",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "jugs_easy": {
+      "task": "jugs",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "knight_swap_easy": {
+      "task": "knight_swap",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "quantum_lock_easy": {
+      "task": "quantum_lock",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "puzzle24_easy": {
+      "task": "puzzle24",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "kakurasu_easy": {
+      "task": "kakurasu",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "sudoku_easy": {
+      "task": "sudoku",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "zebra_puzzles_easy": {
+      "task": "zebra_puzzles",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "list_functions_easy": {
+      "task": "list_functions",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    }
+  }
+}
