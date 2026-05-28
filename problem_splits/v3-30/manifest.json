@@ -1,0 +1,76 @@
+{
+  "version": "v3",
+  "created_utc": "2026-05-25T21:50:38.583182+00:00",
+  "seed": 20260525,
+  "train_size": 30,
+  "test_size": 25,
+  "oversample_factor": 20,
+  "split_strategy": "iid_index_split_post_dedup_excl_v2",
+  "layout": "flat",
+  "train_path": "train.jsonl",
+  "test_path": "test.jsonl",
+  "purpose": "8-task generalization benchmark; tasks span 4B baseline 0.01-0.80; instances disjoint from v2-30",
+  "configs": {
+    "n_queens_easy": {
+      "task": "n_queens",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "cryptarithm_easy": {
+      "task": "cryptarithm",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "futoshiki_easy": {
+      "task": "futoshiki",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "propositional_logic_easy": {
+      "task": "propositional_logic",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "rotten_oranges_easy": {
+      "task": "rotten_oranges",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "sokoban_easy": {
+      "task": "sokoban",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    },
+    "tower_of_hanoi_hard": {
+      "task": "tower_of_hanoi",
+      "preset": "hard",
+      "dataset_kwargs": {
+        "min_disks": 4,
+        "max_disks": 12,
+        "min_pegs": 3,
+        "max_pegs": 4
+      },
+      "train_count": 30,
+      "test_count": 25
+    },
+    "rubiks_cube_easy": {
+      "task": "rubiks_cube",
+      "preset": "easy",
+      "dataset_kwargs": {},
+      "train_count": 30,
+      "test_count": 25
+    }
+  }
+}

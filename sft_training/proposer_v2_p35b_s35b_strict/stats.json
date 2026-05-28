@@ -1,0 +1,59 @@
+{
+  "input_path": "/tmp/hf_traces/data/proposer_implementer_sft.jsonl",
+  "variant_filter": "p35b_s35b",
+  "max_chars": 110000,
+  "holdout_tasks": [
+    "circuit_logic_easy",
+    "binary_alternation_easy"
+  ],
+  "tiers": [
+    100,
+    200,
+    400,
+    800
+  ],
+  "seed": 42,
+  "raw_rows": 3458,
+  "dropped_wrong_variant": 2521,
+  "dropped_no_response": 94,
+  "dropped_invalid_implement": 26,
+  "dropped_too_long": 44,
+  "kept_train_pool": 656,
+  "kept_holdout": 117,
+  "train_pool_by_stage": {
+    "diagnose": 341,
+    "implement": 263,
+    "implement_retry_2": 40,
+    "implement_retry_3": 12
+  },
+  "train_pool_by_task": {
+    "ab_easy": 23,
+    "acre_easy": 18,
+    "arc_1d_easy": 24,
+    "arc_agi_eval_only": 30,
+    "arc_agi_train_only": 20,
+    "bf_easy": 43,
+    "caesar_cipher_easy": 30,
+    "codeio_easy": 25,
+    "color_cube_rotation_easy": 14,
+    "countdown_easy": 60,
+    "family_relationships_easy": 22,
+    "group_anagrams_easy": 20,
+    "gsm_symbolic_easy": 50,
+    "jugs_easy": 20,
+    "kakurasu_easy": 10,
+    "knight_swap_easy": 17,
+    "letter_jumble_easy": 10,
+    "list_functions_easy": 49,
+    "maze_easy": 10,
+    "mini_sudoku_easy": 10,
+    "modulo_grid_easy": 41,
+    "palindrome_partitioning_easy": 20,
+    "polynomial_equations_easy": 20,
+    "puzzle24_easy": 10,
+    "quantum_lock_easy": 10,
+    "shortest_path_easy": 10,
+    "sudoku_easy": 10,
+    "syllogism_easy": 30
+  }
+}
