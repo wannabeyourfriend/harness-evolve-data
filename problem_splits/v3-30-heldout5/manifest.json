@@ -1,0 +1,12 @@
+{
+  "name": "v3-30-heldout5",
+  "description": "OOD held-out-TASK benchmark: 5 v3-30 tasks EXCLUDED from proposer SFT (futoshiki/propositional_logic/rubiks_cube/sokoban/tower_of_hanoi). Instances disjoint from SFT.",
+  "tasks": [
+    "futoshiki",
+    "propositional_logic",
+    "rubiks_cube",
+    "sokoban",
+    "tower_of_hanoi"
+  ],
+  "source": "subset of v3-30"
+}
