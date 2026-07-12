@@ -1,0 +1,82 @@
+{
+  "benchmark": "tau2_mix",
+  "derived_from": {
+    "benchmark": "tau2",
+    "parent_splits": {
+      "tau2_airline": {
+        "dev": {
+          "path": "dev/tau2/tau2_airline.jsonl",
+          "sha256": "b9c3dc7ad75f2ca662bac2a53a13f61b7a5d883f11322dbdb178c5f509dca083"
+        },
+        "test": {
+          "path": "heldout/tau2/tau2_airline.jsonl",
+          "sha256": "e5c22ae037523f5b546bd8f13bb9bdb18ab534382c20065739024c0d7e3e0ccd"
+        }
+      },
+      "tau2_retail": {
+        "dev": {
+          "path": "dev/tau2/tau2_retail.jsonl",
+          "sha256": "e8a30760a553e4fb78bcb8112b31bd76f4ab1db600da1e61ae617d583a8c7884"
+        },
+        "test": {
+          "path": "heldout/tau2/tau2_retail.jsonl",
+          "sha256": "1524655ada6395dd2928d31ab498e08d8f048144e4f79e46b04ada03b0487283"
+        }
+      },
+      "tau2_telecom": {
+        "dev": {
+          "path": "dev/tau2/tau2_telecom.jsonl",
+          "sha256": "c1789abad0a64ab82b4ae632164da2ba9f6fda8594f886584871d51d29bcbb53"
+        },
+        "test": {
+          "path": "heldout/tau2/tau2_telecom.jsonl",
+          "sha256": "8dd38222ed007c081b488e5c3e9fda623704a7d572e2ebdfe79cdbc3b76cddd2"
+        }
+      }
+    }
+  },
+  "invariants": {
+    "candidate_visible_oracle_fields": 0,
+    "cross_split_task_overlap": 0,
+    "unique_task_ids": true
+  },
+  "sampling": {
+    "dev_seed": 42,
+    "dev_strata": {
+      "airline": 5,
+      "retail": 10,
+      "telecom": 10
+    },
+    "heldout_seed": 20260712,
+    "heldout_strata": {
+      "airline": 15,
+      "retail": 30,
+      "telecom": 30
+    },
+    "unit": "task_id"
+  },
+  "schema_version": "task-sample/v1",
+  "splits": {
+    "dev": {
+      "count": 25,
+      "domain_counts": {
+        "airline": 5,
+        "retail": 10,
+        "telecom": 10
+      },
+      "path": "dev/tau2_mix/tau2_mix.jsonl",
+      "sha256": "576d0ff3c52b514221b3b11ec8a0f3deaa5cd26b27056f9c74a74db98abf24e6"
+    },
+    "test": {
+      "count": 75,
+      "domain_counts": {
+        "airline": 15,
+        "retail": 30,
+        "telecom": 30
+      },
+      "path": "heldout/tau2_mix/tau2_mix.jsonl",
+      "sha256": "034cfb580a7b08e40ddca706080c3e35e274709d5dec685025afe7fd6810b044"
+    }
+  },
+  "task_family": "tau2_mix"
+}

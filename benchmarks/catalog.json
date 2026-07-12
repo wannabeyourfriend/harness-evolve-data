@@ -1896,6 +1896,25 @@
       "task_family": "tau2_telecom"
     },
     {
+      "benchmark": "tau2_mix",
+      "manifest": "manifests/tau2_mix/tau2_mix.json",
+      "name": "tau2_mix",
+      "source": {},
+      "splits": {
+        "dev": {
+          "count": 25,
+          "path": "dev/tau2_mix/tau2_mix.jsonl",
+          "sha256": "576d0ff3c52b514221b3b11ec8a0f3deaa5cd26b27056f9c74a74db98abf24e6"
+        },
+        "test": {
+          "count": 75,
+          "path": "heldout/tau2_mix/tau2_mix.jsonl",
+          "sha256": "034cfb580a7b08e40ddca706080c3e35e274709d5dec685025afe7fd6810b044"
+        }
+      },
+      "task_family": "tau2_mix"
+    },
+    {
       "benchmark": "terminal_bench",
       "manifest": "manifests/terminal_bench/terminal_bench_2.json",
       "name": "terminal-bench@2.0",
@@ -1958,10 +1977,11 @@
       "reasoning_gym_mix",
       "swe_bench",
       "tau2",
+      "tau2_mix",
       "terminal_bench",
       "text_classification"
     ],
-    "datasets": 84,
-    "rows": 8264
+    "datasets": 85,
+    "rows": 8364
   }
 }
