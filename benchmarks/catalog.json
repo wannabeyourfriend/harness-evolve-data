@@ -2,23 +2,22 @@
   "datasets": [
     {
       "benchmark": "aime",
-      "manifest": "manifests/aime/aime_2026.json",
-      "name": "aime_2026",
-      "source": {
-        "artifact_sha256": "d91db799651b4cc1f0734f52792a695c9cc60dac342524b3d8e5b2ff31c3e957",
-        "license": "CC-BY-NC-SA-4.0",
-        "revision": "d2de22f3c656b4f56cf8981212186377d1e23bc3",
-        "source_split": "train",
-        "uri": "https://huggingface.co/datasets/MathArena/aime_2026"
-      },
+      "manifest": "manifests/aime/aime.json",
+      "name": "aime",
+      "source": {},
       "splits": {
+        "dev": {
+          "count": 25,
+          "path": "dev/aime/aime.jsonl",
+          "sha256": "8d639136c5c05bf8c6ccca667145e7b4a44a47a9acb8132d2652007a23e3eaec"
+        },
         "test": {
-          "count": 30,
-          "path": "heldout/aime/aime_2026.jsonl",
-          "sha256": "48d0fa410861b8efc3a5485cce54760a99834b0c7973fdc86275754a9e3af6a8"
+          "count": 75,
+          "path": "heldout/aime/aime.jsonl",
+          "sha256": "940914822e19c435deded47bde1e9cde776966f50ee49a72f85f53f98ba949cf"
         }
       },
-      "task_family": "aime_2026"
+      "task_family": "aime"
     },
     {
       "benchmark": "livecodebench",
@@ -1943,6 +1942,6 @@
       "text_classification"
     ],
     "datasets": 83,
-    "rows": 8094
+    "rows": 8164
   }
 }

@@ -23,7 +23,7 @@ The referee retains `oracle` and provenance. The catalog currently includes:
 | GoEmotions | 25 | 75 | official validation/test splits; 30 labeled train-pool rows |
 | LoCoMo | 3 conversations / 692 QAs | 7 conversations / 1,294 QAs | conversation-disjoint; CC BY-NC 4.0; only 10 conversations exist |
 | TAU2 | airline 12, retail 25, telecom 25 | airline 38, retail 75, telecom 75 | task-ID disjoint (airline pool is 50 tasks, kept at 1:3); official v0.2 simulator; heldout seed 707122026 |
-| AIME 2026 | — | all 30 problems | reporting-only; MathArena release; CC BY-NC-SA 4.0 |
+| AIME | 25 (2022-2023) | 75 (2024-2026, all 30 of 2026 forced) | multi-year; temporally disjoint (max dev 2023 < min heldout 2024); 2026 is the uncontaminated slice; AI-MO Apache-2.0 (2022-2024) + MathArena CC BY-NC-SA 4.0 (2025-2026); dev seed 42, heldout seed 20260712 |
 | Terminal-Bench 2 | 25 | 64 | all 89 public tasks, stratified by category and difficulty |
 | SWE-bench Verified | 25 | 75 | repository-disjoint; gold patches are not redistributed |
 | LiveCodeBench | 25 (release_v5 delta, 2024-09..2025-01) | 75 (release_v6 delta, 2025-01..2025-04) | temporal disjointness across the release boundary; tests embedded in oracle payloads (private tests keep the lite encoding); dataset card license "cc" without a stated variant |
