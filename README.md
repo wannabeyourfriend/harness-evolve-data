@@ -18,8 +18,10 @@ the code repository's `data/` submodule.
 ## Layout
 
 - `benchmarks/`: canonical task-sample envelopes, split manifests, schema, and catalog.
-- `problem_splits/`: legacy fixed reasoning-gym experiment splits.
-- `sft_training/`: proposer training artifacts.
+
+Legacy `problem_splits/` (fixed reasoning-gym experiment splits) and
+`sft_training/` (proposer training artifacts) were removed on 2026-07-12; they
+remain available in git history and on the Hugging Face mirror.
 
 `benchmarks/heldout/` is reporting-only. The code repository blocks proposer
 sessions from reading the whole data submodule and requires an explicit
