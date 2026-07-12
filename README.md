@@ -12,7 +12,7 @@ tags:
 # Harness Evolve Data
 
 Private artifact repository for `harness-evolve`. The Hugging Face mirror is
-`ssrm/harness-evolve-data`; the GitHub repository remains the source used by
+`wannabeyourfriend-hf/harness-evolve-data`; the GitHub repository remains the source used by
 the code repository's `data/` submodule.
 
 ## Layout
