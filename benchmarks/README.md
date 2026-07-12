@@ -10,6 +10,8 @@ Every JSONL row follows [`schema/task_sample.schema.json`](schema/task_sample.sc
   directory.
 - `manifests/<benchmark>/`: pinned source, license, sampling configuration,
   counts, hashes, and leakage checks.
+- `sources/<benchmark>/`: pinned runtime assets required by an evaluator but
+  omitted from its Python package (currently TAU2 policies and databases).
 - `catalog.json`: generated inventory of every materialized dataset.
 
 Candidate harnesses receive only the public `input` and `environment` fields.

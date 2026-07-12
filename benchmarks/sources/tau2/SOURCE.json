@@ -1,0 +1,9 @@
+{
+  "dataset": "HuggingFaceH4/tau2-bench-data",
+  "license": "MIT",
+  "revision": "60e37c7a19672769a6034c45a5c8b36e7cd3768b",
+  "runtime": {
+    "repository": "https://github.com/sierra-research/tau2-bench",
+    "revision": "f8de30c298689cbe0117d76a378e7315a17e5bd8"
+  }
+}
