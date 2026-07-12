@@ -1,0 +1,35 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "dataset_kwargs": {},
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/basic_arithmetic.jsonl",
+      "sha256": "6c76218bdda34700a324306dc8bd1df74bf1ac140b571c3102d2058a4080f535"
+    },
+    "test": {
+      "count": 30,
+      "dataset_kwargs": {},
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/basic_arithmetic.jsonl",
+      "sha256": "d66d8eb064c2161e729fe46a84b0a717303b2cec00a130b070f32f254a92033a"
+    }
+  },
+  "task_family": "basic_arithmetic"
+}

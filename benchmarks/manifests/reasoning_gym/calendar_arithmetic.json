@@ -1,0 +1,35 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "dataset_kwargs": {},
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/calendar_arithmetic.jsonl",
+      "sha256": "986db06536b863cfa83c514a549ea819f7c6211abb71f2be81e0521dd552e64a"
+    },
+    "test": {
+      "count": 30,
+      "dataset_kwargs": {},
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/calendar_arithmetic.jsonl",
+      "sha256": "97e6254af2ccb0f40ceeba9249d851bf8e85991441b3e053dbf5d91cb866092f"
+    }
+  },
+  "task_family": "calendar_arithmetic"
+}

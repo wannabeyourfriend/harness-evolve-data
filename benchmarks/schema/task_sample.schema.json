@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://harness-evolve.local/schemas/task-sample-v1.json",
+  "title": "Harness Evolve Task Sample",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "sample_id",
+    "benchmark",
+    "task_family",
+    "split",
+    "input",
+    "oracle",
+    "environment",
+    "limits",
+    "metadata",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {"const": "task-sample/v1"},
+    "sample_id": {"type": "string", "minLength": 1},
+    "benchmark": {"type": "string", "minLength": 1},
+    "task_family": {"type": "string", "minLength": 1},
+    "split": {
+      "enum": ["train_pool", "dev", "validation", "test", "heldout"]
+    },
+    "input": {
+      "type": "object",
+      "required": ["type", "text", "assets"],
+      "properties": {
+        "type": {"const": "text"},
+        "text": {"type": "string", "minLength": 1},
+        "assets": {"type": "array"}
+      },
+      "additionalProperties": true
+    },
+    "oracle": {
+      "type": "object",
+      "required": ["target", "grader", "payload"],
+      "properties": {
+        "grader": {"type": "string", "minLength": 1},
+        "payload": {"type": "object"}
+      },
+      "additionalProperties": true
+    },
+    "environment": {"type": ["object", "null"]},
+    "limits": {"type": "object"},
+    "metadata": {"type": "object"},
+    "provenance": {
+      "type": "object",
+      "required": ["input_sha256"],
+      "properties": {
+        "input_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      },
+      "additionalProperties": true
+    }
+  }
+}

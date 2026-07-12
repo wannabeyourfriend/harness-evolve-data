@@ -1,0 +1,82 @@
+{
+  "benchmark": "tau2",
+  "invariants": {
+    "candidate_visible_oracle_fields": 0,
+    "cross_split_task_overlap": 0,
+    "unique_task_ids": true
+  },
+  "runtime": {
+    "revision": "f8de30c298689cbe0117d76a378e7315a17e5bd8",
+    "uri": "https://github.com/sierra-research/tau2-bench"
+  },
+  "sampling": {
+    "dev_seed": 42,
+    "heldout_seed": 707122026,
+    "unit": "task_id"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "artifact_sha256": "76e1fa649a359bef2d2fd30eae834b99d261d84e2e5d364856f6632fdf778dfd",
+    "license": "MIT",
+    "path": "domains/retail/tasks.json",
+    "revision": "60e37c7a19672769a6034c45a5c8b36e7cd3768b",
+    "uri": "https://huggingface.co/datasets/HuggingFaceH4/tau2-bench-data"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "path": "dev/tau2/tau2_retail.jsonl",
+      "sha256": "088d36d832e2fc3ae732616a5eda851f420983b0d8b0b067e59eb4986cd05766",
+      "task_ids": [
+        "42",
+        "35",
+        "91",
+        "6",
+        "11",
+        "62",
+        "13",
+        "9",
+        "93",
+        "85"
+      ]
+    },
+    "test": {
+      "count": 30,
+      "path": "heldout/tau2/tau2_retail.jsonl",
+      "sha256": "a3c78703960b37e6acee1317f02b26f7887830fdfe6a599ef0982c3aa1f9b36d",
+      "task_ids": [
+        "26",
+        "29",
+        "103",
+        "110",
+        "10",
+        "72",
+        "45",
+        "69",
+        "48",
+        "27",
+        "43",
+        "4",
+        "89",
+        "31",
+        "53",
+        "74",
+        "37",
+        "96",
+        "38",
+        "107",
+        "8",
+        "50",
+        "109",
+        "7",
+        "21",
+        "39",
+        "5",
+        "112",
+        "64",
+        "1"
+      ]
+    }
+  },
+  "task_family": "tau2_retail"
+}

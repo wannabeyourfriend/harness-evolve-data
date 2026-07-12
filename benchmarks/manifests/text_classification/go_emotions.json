@@ -1,0 +1,72 @@
+{
+  "benchmark": "text_classification",
+  "dataset": "go_emotions",
+  "invariants": {
+    "cross_split_input_overlap": 0,
+    "official_source_splits_preserved": true,
+    "unique_public_inputs": true
+  },
+  "labels": [
+    "admiration",
+    "amusement",
+    "anger",
+    "annoyance",
+    "approval",
+    "caring",
+    "confusion",
+    "curiosity",
+    "desire",
+    "disappointment",
+    "disapproval",
+    "disgust",
+    "embarrassment",
+    "excitement",
+    "fear",
+    "gratitude",
+    "grief",
+    "joy",
+    "love",
+    "nervousness",
+    "optimism",
+    "pride",
+    "realization",
+    "relief",
+    "remorse",
+    "sadness",
+    "surprise",
+    "neutral"
+  ],
+  "sampling": {
+    "balanced": true,
+    "seed": 42,
+    "single_label_only": true
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "config": "simplified",
+    "license": "Apache-2.0",
+    "revision": "add492243ff905527e67aeb8b80c082af02207c3",
+    "uri": "https://huggingface.co/datasets/google-research-datasets/go_emotions"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "path": "dev/text_classification/go_emotions.jsonl",
+      "sha256": "08faeff43850137bc755cfd44f47210a0af4842eab2282c3b5fc7cd24f84e0c6",
+      "source_split": "validation"
+    },
+    "test": {
+      "count": 30,
+      "path": "heldout/text_classification/go_emotions.jsonl",
+      "sha256": "b0506849096e09258a274e630e0255463de61eda2de01d7c79c32390ed6044c6",
+      "source_split": "test"
+    },
+    "train_pool": {
+      "count": 30,
+      "path": "train_pool/text_classification/go_emotions.jsonl",
+      "sha256": "07715e4cbe6e0fe5aee0fefd7f5442af339e5ed02361252d5aaa1875d1ebf67f",
+      "source_split": "train"
+    }
+  },
+  "task_family": "text_classification"
+}

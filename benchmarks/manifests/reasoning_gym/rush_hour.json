@@ -1,0 +1,35 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "dynamic"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "dataset_kwargs": {},
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/rush_hour.jsonl",
+      "sha256": "2224909244ed74f672ebf5d140308b1cd0f3b8ff59a014db6435b8cfa3480c6c"
+    },
+    "test": {
+      "count": 30,
+      "dataset_kwargs": {},
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/rush_hour.jsonl",
+      "sha256": "69b6cc2f1a7f1c15c56c67841344a422ccdb16323713ba6b596a4a4028e0fc4c"
+    }
+  },
+  "task_family": "rush_hour"
+}

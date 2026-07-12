@@ -1,0 +1,35 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "dataset_kwargs": {},
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/figlet_font.jsonl",
+      "sha256": "75f64c1023a7b221b4527f372d60569f8e4094874caecdfa9d244b5dd3b18b48"
+    },
+    "test": {
+      "count": 30,
+      "dataset_kwargs": {},
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/figlet_font.jsonl",
+      "sha256": "38b6edfed66e390eb1c49cb8173fc2bc5d246c3e2b5af4c82c834f4e8c00e527"
+    }
+  },
+  "task_family": "figlet_font"
+}

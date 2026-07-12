@@ -1,0 +1,93 @@
+{
+  "benchmark": "swe_bench",
+  "invariants": {
+    "cross_split_instance_overlap": 0,
+    "cross_split_repository_overlap": 0
+  },
+  "oracle_policy": "patch and test_patch are intentionally not redistributed",
+  "sampling": {
+    "dev_repositories": [
+      "mwaskom/seaborn",
+      "pallets/flask",
+      "psf/requests"
+    ],
+    "group_key": "repo",
+    "seed": 42,
+    "test_repositories": [
+      "astropy/astropy",
+      "django/django",
+      "matplotlib/matplotlib",
+      "pydata/xarray",
+      "pylint-dev/pylint",
+      "pytest-dev/pytest",
+      "scikit-learn/scikit-learn",
+      "sphinx-doc/sphinx",
+      "sympy/sympy"
+    ],
+    "unit": "instance_id"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "upstream-repository-specific; dataset card has no declared license",
+    "revision": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a",
+    "source_split": "test",
+    "uri": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "instance_ids": [
+        "mwaskom__seaborn-3069",
+        "psf__requests-1921",
+        "psf__requests-5414",
+        "psf__requests-2931",
+        "psf__requests-6028",
+        "psf__requests-1724",
+        "mwaskom__seaborn-3187",
+        "psf__requests-2317",
+        "pallets__flask-5014",
+        "psf__requests-1766"
+      ],
+      "path": "dev/swe_bench/swe_bench_verified.jsonl",
+      "sha256": "cc53e03986c3f3964986c49fd5dc04192039272b10d205698f9baafb1e7880ea"
+    },
+    "test": {
+      "count": 30,
+      "instance_ids": [
+        "sympy__sympy-20916",
+        "sphinx-doc__sphinx-8056",
+        "pylint-dev__pylint-6903",
+        "sphinx-doc__sphinx-9320",
+        "astropy__astropy-13236",
+        "scikit-learn__scikit-learn-12973",
+        "pydata__xarray-6721",
+        "scikit-learn__scikit-learn-25931",
+        "django__django-16819",
+        "astropy__astropy-14539",
+        "pylint-dev__pylint-4604",
+        "sphinx-doc__sphinx-8593",
+        "pytest-dev__pytest-7490",
+        "matplotlib__matplotlib-14623",
+        "pytest-dev__pytest-10356",
+        "pylint-dev__pylint-8898",
+        "sympy__sympy-17630",
+        "scikit-learn__scikit-learn-11310",
+        "astropy__astropy-7671",
+        "matplotlib__matplotlib-26466",
+        "matplotlib__matplotlib-13989",
+        "django__django-15280",
+        "sympy__sympy-20154",
+        "django__django-16662",
+        "pydata__xarray-2905",
+        "matplotlib__matplotlib-25287",
+        "pydata__xarray-4075",
+        "django__django-15277",
+        "astropy__astropy-14365",
+        "pytest-dev__pytest-7432"
+      ],
+      "path": "heldout/swe_bench/swe_bench_verified.jsonl",
+      "sha256": "f4571d2562ee9a85abe876814c210dcb1979aef6130f55e495202c5e68b9e632"
+    }
+  },
+  "task_family": "swe_bench_verified"
+}

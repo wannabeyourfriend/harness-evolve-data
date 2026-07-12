@@ -1,0 +1,35 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "dataset_kwargs": {},
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/arc_1d.jsonl",
+      "sha256": "d648e40706795e7b857cb2b605843cf2714e442ff1726e088ecf822c0c6f1d61"
+    },
+    "test": {
+      "count": 30,
+      "dataset_kwargs": {},
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/arc_1d.jsonl",
+      "sha256": "a30c0c5dde32c477fd244bb8ecbf751c4a7576e047930fb3ba24404aed16cd92"
+    }
+  },
+  "task_family": "arc_1d"
+}

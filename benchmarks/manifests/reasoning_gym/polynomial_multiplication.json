@@ -1,0 +1,35 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "dataset_kwargs": {},
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/polynomial_multiplication.jsonl",
+      "sha256": "f8ba5aa8656a8f1a0eb91d9aeab0ad948375072c2cc10df5302078bf9035c4b7"
+    },
+    "test": {
+      "count": 30,
+      "dataset_kwargs": {},
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/polynomial_multiplication.jsonl",
+      "sha256": "3e29b99a69d0f244b8c30960884b06dff557e7d2337327fcc79cd6397b4a9f91"
+    }
+  },
+  "task_family": "polynomial_multiplication"
+}

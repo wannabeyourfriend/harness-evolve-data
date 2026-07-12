@@ -1,0 +1,61 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "dataset_kwargs": {
+        "mirrors": [],
+        "mirrors_weights": [
+          1.0
+        ],
+        "rotations": [],
+        "rotations_weights": [
+          1.0
+        ],
+        "shuffle_example_order": false,
+        "use_color_permutation": false,
+        "use_eval": false,
+        "use_train": true
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/arc_agi.jsonl",
+      "sha256": "2aa7f5dae386ad10b579c93e5ba3190fff74cfb3ab9b476916e9fc4d9dac1a0a"
+    },
+    "test": {
+      "count": 30,
+      "dataset_kwargs": {
+        "mirrors": [],
+        "mirrors_weights": [
+          1.0
+        ],
+        "rotations": [],
+        "rotations_weights": [
+          1.0
+        ],
+        "shuffle_example_order": false,
+        "use_color_permutation": false,
+        "use_eval": true,
+        "use_train": false
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/arc_agi.jsonl",
+      "sha256": "a77af154bad97fa626881601e1079054a9d7f7328c32520fd81e4fd3edddc60e"
+    }
+  },
+  "task_family": "arc_agi"
+}

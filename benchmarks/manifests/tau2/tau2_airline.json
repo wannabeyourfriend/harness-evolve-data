@@ -1,0 +1,82 @@
+{
+  "benchmark": "tau2",
+  "invariants": {
+    "candidate_visible_oracle_fields": 0,
+    "cross_split_task_overlap": 0,
+    "unique_task_ids": true
+  },
+  "runtime": {
+    "revision": "f8de30c298689cbe0117d76a378e7315a17e5bd8",
+    "uri": "https://github.com/sierra-research/tau2-bench"
+  },
+  "sampling": {
+    "dev_seed": 42,
+    "heldout_seed": 707122026,
+    "unit": "task_id"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "artifact_sha256": "40d692b3fca780f46b56d48b447fd8db79a653f216667b8ed7c1a88380544532",
+    "license": "MIT",
+    "path": "domains/airline/tasks.json",
+    "revision": "60e37c7a19672769a6034c45a5c8b36e7cd3768b",
+    "uri": "https://huggingface.co/datasets/HuggingFaceH4/tau2-bench-data"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "path": "dev/tau2/tau2_airline.jsonl",
+      "sha256": "9746d02fd1b96a9ce6911efbd9ee1c7844c9e44fd222f56340fb8f829924c1c6",
+      "task_ids": [
+        "39",
+        "6",
+        "16",
+        "7",
+        "8",
+        "3",
+        "4",
+        "45",
+        "20",
+        "11"
+      ]
+    },
+    "test": {
+      "count": 30,
+      "path": "heldout/tau2/tau2_airline.jsonl",
+      "sha256": "165893e7720aef133bcf0fac198043e18f29bd9e4c1aae797d975836761ff507",
+      "task_ids": [
+        "34",
+        "15",
+        "5",
+        "29",
+        "33",
+        "48",
+        "9",
+        "30",
+        "25",
+        "0",
+        "31",
+        "21",
+        "13",
+        "23",
+        "46",
+        "2",
+        "32",
+        "44",
+        "26",
+        "38",
+        "49",
+        "36",
+        "12",
+        "40",
+        "10",
+        "42",
+        "22",
+        "1",
+        "18",
+        "28"
+      ]
+    }
+  },
+  "task_family": "tau2_airline"
+}

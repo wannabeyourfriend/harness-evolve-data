@@ -1,0 +1,39 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 10,
+      "dataset_kwargs": {
+        "train": 1
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/acre.jsonl",
+      "sha256": "dd8b25839d8ab2cabd8490e75f61492ec25cb5262835b570f19925fcdd8d95f1"
+    },
+    "test": {
+      "count": 30,
+      "dataset_kwargs": {
+        "train": 0
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/acre.jsonl",
+      "sha256": "9606fd436df9d7a8a76994bcc248be6712c8e479761316e23e45caa394c45863"
+    }
+  },
+  "task_family": "acre"
+}

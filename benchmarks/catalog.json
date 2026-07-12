@@ -1,0 +1,1914 @@
+{
+  "datasets": [
+    {
+      "benchmark": "aime",
+      "manifest": "manifests/aime/aime_2026.json",
+      "name": "aime_2026",
+      "source": {
+        "artifact_sha256": "d91db799651b4cc1f0734f52792a695c9cc60dac342524b3d8e5b2ff31c3e957",
+        "license": "CC-BY-NC-SA-4.0",
+        "revision": "d2de22f3c656b4f56cf8981212186377d1e23bc3",
+        "source_split": "train",
+        "uri": "https://huggingface.co/datasets/MathArena/aime_2026"
+      },
+      "splits": {
+        "test": {
+          "count": 30,
+          "path": "heldout/aime/aime_2026.jsonl",
+          "sha256": "48d0fa410861b8efc3a5485cce54760a99834b0c7973fdc86275754a9e3af6a8"
+        }
+      },
+      "task_family": "aime_2026"
+    },
+    {
+      "benchmark": "locomo",
+      "manifest": "manifests/locomo/locomo.json",
+      "name": "locomo",
+      "source": {
+        "license": "CC-BY-NC-4.0",
+        "revision": "d95b872",
+        "uri": "https://raw.githubusercontent.com/snap-research/locomo/d95b872/data/locomo10.json"
+      },
+      "splits": {
+        "dev": {
+          "count": 3,
+          "path": "dev/locomo/locomo.jsonl",
+          "sha256": "b1cca047e7cbc4bddb93d4674d5c4edc31b07efadfdec17c457e3b9b7b511cb4"
+        },
+        "test": {
+          "count": 7,
+          "path": "heldout/locomo/locomo.jsonl",
+          "sha256": "2f9d6a71b385b6ff0e5d7f2afc460bf0d12ac1d5617e224f10d8888603e6691c"
+        }
+      },
+      "task_family": "locomo"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/ab.json",
+      "name": "ab",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/ab.jsonl",
+          "sha256": "485fe75dfce41f7287e763b1bcc4b1a553f297900dacc580a1ef35fc8ebde694"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/ab.jsonl",
+          "sha256": "f199d4bf62429696c46cf0f3c407ea9f48984eba818faf273c5e0cbb2fe8f4b7"
+        }
+      },
+      "task_family": "ab"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/acre.json",
+      "name": "acre",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/acre.jsonl",
+          "sha256": "dd8b25839d8ab2cabd8490e75f61492ec25cb5262835b570f19925fcdd8d95f1"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/acre.jsonl",
+          "sha256": "9606fd436df9d7a8a76994bcc248be6712c8e479761316e23e45caa394c45863"
+        }
+      },
+      "task_family": "acre"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/advanced_geometry.json",
+      "name": "advanced_geometry",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/advanced_geometry.jsonl",
+          "sha256": "51c96b4049e683d535119f673150fa5ee9f937b878cd109fdf9b9bacbe74b242"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/advanced_geometry.jsonl",
+          "sha256": "6e878d1def9228a56fbce03535bdba3f346a8b7c6eb29ece73e258ab822606e2"
+        }
+      },
+      "task_family": "advanced_geometry"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/arc_1d.json",
+      "name": "arc_1d",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/arc_1d.jsonl",
+          "sha256": "d648e40706795e7b857cb2b605843cf2714e442ff1726e088ecf822c0c6f1d61"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/arc_1d.jsonl",
+          "sha256": "a30c0c5dde32c477fd244bb8ecbf751c4a7576e047930fb3ba24404aed16cd92"
+        }
+      },
+      "task_family": "arc_1d"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/arc_agi.json",
+      "name": "arc_agi",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/arc_agi.jsonl",
+          "sha256": "2aa7f5dae386ad10b579c93e5ba3190fff74cfb3ab9b476916e9fc4d9dac1a0a"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/arc_agi.jsonl",
+          "sha256": "a77af154bad97fa626881601e1079054a9d7f7328c32520fd81e4fd3edddc60e"
+        }
+      },
+      "task_family": "arc_agi"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/base_conversion.json",
+      "name": "base_conversion",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/base_conversion.jsonl",
+          "sha256": "299056ccf541852f748e03de56674f5c2dbe5f0a4e1fd4d19293e9d0f3202b4b"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/base_conversion.jsonl",
+          "sha256": "5c35dd7e960d3160eda0c5c4f8f79f079640a86001db3ef72e63bc56d97c319b"
+        }
+      },
+      "task_family": "base_conversion"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/basic_arithmetic.json",
+      "name": "basic_arithmetic",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/basic_arithmetic.jsonl",
+          "sha256": "6c76218bdda34700a324306dc8bd1df74bf1ac140b571c3102d2058a4080f535"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/basic_arithmetic.jsonl",
+          "sha256": "d66d8eb064c2161e729fe46a84b0a717303b2cec00a130b070f32f254a92033a"
+        }
+      },
+      "task_family": "basic_arithmetic"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/bf.json",
+      "name": "bf",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/bf.jsonl",
+          "sha256": "0d25fb2fffbda41bad461e013fba0dc5d19ac8179fa9ce5bb0acb04ac9fe3b6e"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/bf.jsonl",
+          "sha256": "bcceb1288d74ba43d5e9a86f694ea8da6372625f13a2ef475464ef306d5f8bd9"
+        }
+      },
+      "task_family": "bf"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/binary_alternation.json",
+      "name": "binary_alternation",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/binary_alternation.jsonl",
+          "sha256": "a7f5a0a33659ef9218a228568fa292ec0ddbe1b957d20c752c7ba7e8d36c3763"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/binary_alternation.jsonl",
+          "sha256": "db056c6cb307bbf57ad8b4b425a1d8115a93e84c7efaf55dd7b722ed3cf04853"
+        }
+      },
+      "task_family": "binary_alternation"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/bitwise_arithmetic.json",
+      "name": "bitwise_arithmetic",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/bitwise_arithmetic.jsonl",
+          "sha256": "b0b1c43dd60260b5b5765894ce28178ea3a5c1167373a7c73b54914cbe1b0131"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/bitwise_arithmetic.jsonl",
+          "sha256": "2f11f2d596b8bc488b44a09767a68edb78aa0e7fb19f85e771f97ef59a64a7e1"
+        }
+      },
+      "task_family": "bitwise_arithmetic"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/boxnet.json",
+      "name": "boxnet",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/boxnet.jsonl",
+          "sha256": "3f9c84cf1425094fac0fe1c9ea83ed6c5f25f723f355b1f686606571f236c1ff"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/boxnet.jsonl",
+          "sha256": "e59a4513d01a42ab255c370e9da5f6a90facb2cdc3325a8fa056594de1365439"
+        }
+      },
+      "task_family": "boxnet"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/caesar_cipher.json",
+      "name": "caesar_cipher",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/caesar_cipher.jsonl",
+          "sha256": "e3dc8712f370f1f7e24462bedf19a264b4066396ba3b4b4ce1ad76b01ee7473c"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/caesar_cipher.jsonl",
+          "sha256": "447574888e46185b557f10431c0fcff6aafce0e42e0f5cf793ed31ca219634de"
+        }
+      },
+      "task_family": "caesar_cipher"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/calendar_arithmetic.json",
+      "name": "calendar_arithmetic",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/calendar_arithmetic.jsonl",
+          "sha256": "986db06536b863cfa83c514a549ea819f7c6211abb71f2be81e0521dd552e64a"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/calendar_arithmetic.jsonl",
+          "sha256": "97e6254af2ccb0f40ceeba9249d851bf8e85991441b3e053dbf5d91cb866092f"
+        }
+      },
+      "task_family": "calendar_arithmetic"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/chain_sum.json",
+      "name": "chain_sum",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/chain_sum.jsonl",
+          "sha256": "8b09a6aacced34c44524a3088c9723a6cf3fd5b046306046a821d37054215361"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/chain_sum.jsonl",
+          "sha256": "0983a1c7f01c7dab70ebcadaa90ddf0feff4843cf5110fbfe69abef93bd14c19"
+        }
+      },
+      "task_family": "chain_sum"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/circuit_logic.json",
+      "name": "circuit_logic",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/circuit_logic.jsonl",
+          "sha256": "f7e6159aed6ec894795f666241e0c0fab136bef47f9b664653da1a93a4721f04"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/circuit_logic.jsonl",
+          "sha256": "6448a1cc14206dd90e81576eed55df597282bbbd7ef8c700a94950528214a3b0"
+        }
+      },
+      "task_family": "circuit_logic"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/codeio.json",
+      "name": "codeio",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/codeio.jsonl",
+          "sha256": "793a3dcfa0859b352512793b1ff2e5706983fae3795cf6f9cd0c41b8103555c6"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/codeio.jsonl",
+          "sha256": "2d21aa5eec1bce718e5bfdf391b18c696f06e00f87ec9a4217045d0f8c1581e7"
+        }
+      },
+      "task_family": "codeio"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/color_cube_rotation.json",
+      "name": "color_cube_rotation",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/color_cube_rotation.jsonl",
+          "sha256": "10979f9e95285f4e7cea92a7ce66a44fc1b44a5032603f25759b2b1de30b178a"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/color_cube_rotation.jsonl",
+          "sha256": "bb2f13796e9cbe1306e1b41c020f54df88322251e1708fdcc599981c30b48ebf"
+        }
+      },
+      "task_family": "color_cube_rotation"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/complex_arithmetic.json",
+      "name": "complex_arithmetic",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/complex_arithmetic.jsonl",
+          "sha256": "d5602d37941bd580b2c69bed5ee2724c7bef8f25778d2f578a2a5cf45517c452"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/complex_arithmetic.jsonl",
+          "sha256": "f052d568952aa11baca72f6b5999eeecd1ac708370f0cc600290fd82cda13b36"
+        }
+      },
+      "task_family": "complex_arithmetic"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/count_bits.json",
+      "name": "count_bits",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/count_bits.jsonl",
+          "sha256": "859d32ddb857bfa6b0f23792de039c28e0215629a8f73cf8bd2db19f11b454ff"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/count_bits.jsonl",
+          "sha256": "9861d7288ebc816539396f6d2b52072ca12e4510f787a30df8f4627a21a90a62"
+        }
+      },
+      "task_family": "count_bits"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/count_primes.json",
+      "name": "count_primes",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/count_primes.jsonl",
+          "sha256": "33272d6fb7ced378534baf678601fe214b4b252f6b48c12ccffb4ea76cda7f71"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/count_primes.jsonl",
+          "sha256": "0de53c817821717004290f7e031c6397fadeef2e739819bff7580d256b71a30e"
+        }
+      },
+      "task_family": "count_primes"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/countdown.json",
+      "name": "countdown",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/countdown.jsonl",
+          "sha256": "c31e21f68bc6fc2aca5f42c988f9b6c16e020f884ecf6e9732ce6585dab6f844"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/countdown.jsonl",
+          "sha256": "1259b37a13856a62129c49ae286c0feb8ad6c8453fcfd3200380cd7cbf85ed58"
+        }
+      },
+      "task_family": "countdown"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/course_schedule.json",
+      "name": "course_schedule",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/course_schedule.jsonl",
+          "sha256": "9b2d2949177fc74ce9ed85dd161cb5b98c58a3693fcf784c56eee7696bc92cfc"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/course_schedule.jsonl",
+          "sha256": "bfe4aed1be6f73ab9dd2e20313d430f868e7ce5e94e41f9996cfe4ed8cd70d27"
+        }
+      },
+      "task_family": "course_schedule"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/cryptarithm.json",
+      "name": "cryptarithm",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/cryptarithm.jsonl",
+          "sha256": "43e59985a7560266256f75c50f3e5f826a85621ec927e7bee1f7b63bcdd77b3a"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/cryptarithm.jsonl",
+          "sha256": "9bfda502ac8adc2c31e28b66b91685347fc492d087733183b6afd71d0e40c489"
+        }
+      },
+      "task_family": "cryptarithm"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/decimal_arithmetic.json",
+      "name": "decimal_arithmetic",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/decimal_arithmetic.jsonl",
+          "sha256": "c1cccc54d6216e545c2e1214a406867c7c67bf64734d5354f1a192ecbb510263"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/decimal_arithmetic.jsonl",
+          "sha256": "5ce7726a55cd01b1ef5b51541765ba3be9d5ce7665d559d94f7c81668a293f8e"
+        }
+      },
+      "task_family": "decimal_arithmetic"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/decimal_chain_sum.json",
+      "name": "decimal_chain_sum",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/decimal_chain_sum.jsonl",
+          "sha256": "554ae9acb246d7bffd97ac46e1835be796ac11cdd73dc05a98d0c0fbdd30b507"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/decimal_chain_sum.jsonl",
+          "sha256": "3531b69731f13e31ba9b06448303b286717cffb9de33550550832585edc53bd9"
+        }
+      },
+      "task_family": "decimal_chain_sum"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/dice.json",
+      "name": "dice",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/dice.jsonl",
+          "sha256": "95ed201bab1d2aad6e94c9b813221ab12d3814f93ae2aaedd9ba88e35cae9bda"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/dice.jsonl",
+          "sha256": "9bdbba790217be078cbfe9d585944259c9208c37a3476b85a446eae1c2a3a05e"
+        }
+      },
+      "task_family": "dice"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/emoji_mystery.json",
+      "name": "emoji_mystery",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/emoji_mystery.jsonl",
+          "sha256": "36d451d94df99ce64c847bf9ca883e1168deed03a602af442d6d5ef88ef50112"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/emoji_mystery.jsonl",
+          "sha256": "ec6740651a65dee2af6e3de48262b50ac451c1d9f010d3afde699c78e798018e"
+        }
+      },
+      "task_family": "emoji_mystery"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/family_relationships.json",
+      "name": "family_relationships",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/family_relationships.jsonl",
+          "sha256": "cbe3f16bb76a95d719841425a2a09027b86aefbaad4e08bcd087ad34a8f8e344"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/family_relationships.jsonl",
+          "sha256": "ed86ca9c6195bb89e889804a51f000090b566b9e28a3824f94fc59143d2eeb43"
+        }
+      },
+      "task_family": "family_relationships"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/figlet_font.json",
+      "name": "figlet_font",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/figlet_font.jsonl",
+          "sha256": "75f64c1023a7b221b4527f372d60569f8e4094874caecdfa9d244b5dd3b18b48"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/figlet_font.jsonl",
+          "sha256": "38b6edfed66e390eb1c49cb8173fc2bc5d246c3e2b5af4c82c834f4e8c00e527"
+        }
+      },
+      "task_family": "figlet_font"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/fraction_simplification.json",
+      "name": "fraction_simplification",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/fraction_simplification.jsonl",
+          "sha256": "9a67c87f9376470f7af162adb3c44d9483d03f6831ba294e5fd2d6fd8d93a72f"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/fraction_simplification.jsonl",
+          "sha256": "6b536ef64191e4118e293e8d786ac789d106078d2d969c8869b8d937b860f357"
+        }
+      },
+      "task_family": "fraction_simplification"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/futoshiki.json",
+      "name": "futoshiki",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/futoshiki.jsonl",
+          "sha256": "2849a33edb807488eebfdca2fca02b46099e293ba736c7d93820d608f63251cc"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/futoshiki.jsonl",
+          "sha256": "bd3320bfaad84a47d0e4ceef47ae4f9fa04532d913994ef27d91fa35cc342987"
+        }
+      },
+      "task_family": "futoshiki"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/game_of_life.json",
+      "name": "game_of_life",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/game_of_life.jsonl",
+          "sha256": "fbfd255a63b0e5963556ffe670827c2ba14c951c160f29b890d067d1d3a281f6"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/game_of_life.jsonl",
+          "sha256": "7dfe454a24d70bb2e6ebcee4e449077ca9b31be2441e9419170b7c211f0d1d7b"
+        }
+      },
+      "task_family": "game_of_life"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/game_of_life_halting.json",
+      "name": "game_of_life_halting",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/game_of_life_halting.jsonl",
+          "sha256": "1f5c616052737982cb7acc4a25f1049987566ef378f710ccf9654d7bb4cfd4d1"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/game_of_life_halting.jsonl",
+          "sha256": "250bbc4ca0aa2d7e51618ddeeeb3b4db813a74b3c5aa3bb3dc4754306d54c2eb"
+        }
+      },
+      "task_family": "game_of_life_halting"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/gcd.json",
+      "name": "gcd",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/gcd.jsonl",
+          "sha256": "b4c6162495e9d909a78b923a68eee6d3ad097aad67b060b9dcdbdf3011da3e91"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/gcd.jsonl",
+          "sha256": "27a89b71c802fe24f1cd3055347b847310197440180224f17618898dac3ee1b4"
+        }
+      },
+      "task_family": "gcd"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/group_anagrams.json",
+      "name": "group_anagrams",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/group_anagrams.jsonl",
+          "sha256": "0e8fa68667294043d39110dcdb150d952230bce99fc869fd8fd92b85c51c85b8"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/group_anagrams.jsonl",
+          "sha256": "44e8456933d44e23585f8fb8b4103f31ee1f6c324e6344c4720d123eadc0eb47"
+        }
+      },
+      "task_family": "group_anagrams"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/gsm_symbolic.json",
+      "name": "gsm_symbolic",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/gsm_symbolic.jsonl",
+          "sha256": "fd18162b9c862caed5b47f224a6a14101776712f94827211ead8ba7020455349"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/gsm_symbolic.jsonl",
+          "sha256": "76b930767125a5f61939f2c0c2eed51fad9a11664e1b3ae4288a89379c5a8491"
+        }
+      },
+      "task_family": "gsm_symbolic"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/intermediate_integration.json",
+      "name": "intermediate_integration",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/intermediate_integration.jsonl",
+          "sha256": "f647ec2e58e58806cf66735d722521eef37b1f160543d5d9b0f36cd41d364a9b"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/intermediate_integration.jsonl",
+          "sha256": "64645bceef7450fbc8e7745c33e92cc1574e3108ae2cbfc9f78c99f5f22c960d"
+        }
+      },
+      "task_family": "intermediate_integration"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/jugs.json",
+      "name": "jugs",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/jugs.jsonl",
+          "sha256": "0833041e694c87e9c95299c8fda4893f66b9b9331df21cf89eb1c926b7c72c3c"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/jugs.jsonl",
+          "sha256": "26a116d29f12a48c5da805d02b00792403ec89359fb9e9ccfa04c8276ebb39e2"
+        }
+      },
+      "task_family": "jugs"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/kakurasu.json",
+      "name": "kakurasu",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/kakurasu.jsonl",
+          "sha256": "b1229370fac2e7c636cd333325454fc0feb13b6a9f555bdbb53426fcd053e2b4"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/kakurasu.jsonl",
+          "sha256": "a1de058ef541b755951cc250695870e6c3b70efb4767a119b5628c205e2383a8"
+        }
+      },
+      "task_family": "kakurasu"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/knight_swap.json",
+      "name": "knight_swap",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/knight_swap.jsonl",
+          "sha256": "54bac388236a6b8401979995e4799065910153e1f7bad8546552b060f13fee9a"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/knight_swap.jsonl",
+          "sha256": "e539d4653be982841f6d244fa0da2ab1c35a92d2f1fa737d4ece10cacf81a1a6"
+        }
+      },
+      "task_family": "knight_swap"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/knights_knaves.json",
+      "name": "knights_knaves",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/knights_knaves.jsonl",
+          "sha256": "7bdfc18724b4b35d6f8940ef69bb18340be96955359d83ecd0e8448da7cc9a20"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/knights_knaves.jsonl",
+          "sha256": "ca6180aad867e7d83f0aca545215e080d1e3efdc01cfa399cc16cb761e726cad"
+        }
+      },
+      "task_family": "knights_knaves"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/lcm.json",
+      "name": "lcm",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/lcm.jsonl",
+          "sha256": "b9a0ac45f43ed33ae51fb96f71039c8963908cd8bb8082cee25eeb29b9a2d872"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/lcm.jsonl",
+          "sha256": "a606523202f685df22e437407c3beb46746e71a9e67ad598c158621f495729b0"
+        }
+      },
+      "task_family": "lcm"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/leg_counting.json",
+      "name": "leg_counting",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/leg_counting.jsonl",
+          "sha256": "78ef1d329a2c97166fbea8a5313d2882985887007c109643564ffcc1ad659625"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/leg_counting.jsonl",
+          "sha256": "e0d434ee536150c8362c873cc7e9d6a6b512a74ca1b23b3c5321459ee5b1a1e8"
+        }
+      },
+      "task_family": "leg_counting"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/letter_jumble.json",
+      "name": "letter_jumble",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/letter_jumble.jsonl",
+          "sha256": "7cef119009d8d36cb3ef07c041e6e2295695b2c189e468955fab464f21a88dc6"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/letter_jumble.jsonl",
+          "sha256": "9bf54763e8f1793e6264936303ad92ec6bbd924ef162495254593545522dfe18"
+        }
+      },
+      "task_family": "letter_jumble"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/list_functions.json",
+      "name": "list_functions",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/list_functions.jsonl",
+          "sha256": "4c0ffff226d7b61a96935129a5f222da639a897e9221b3f5edd4e6d4bfe5dfb4"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/list_functions.jsonl",
+          "sha256": "a6c0a2557eb0b659abc3a3bc1716715ab3017ae1f20a6889bf00423364d8a7fd"
+        }
+      },
+      "task_family": "list_functions"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/mahjong_puzzle.json",
+      "name": "mahjong_puzzle",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/mahjong_puzzle.jsonl",
+          "sha256": "47dbc5a9775a7a317c260894aa695801a60a13b5b6faaf44e9c90f50566099d7"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/mahjong_puzzle.jsonl",
+          "sha256": "d52998ef2fba76653ad11991d11ca9c317cd5e2f8ed83e7bf1bf81c89ad59f97"
+        }
+      },
+      "task_family": "mahjong_puzzle"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/maze.json",
+      "name": "maze",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/maze.jsonl",
+          "sha256": "3d10df2bf08de12f8d35f1d07718cfad1a5f48016578a9e2d6baf26c6267d670"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/maze.jsonl",
+          "sha256": "f360c71bc4271bd7b9c78a75b68aadf7c318a15dba3b1095d364b34d4b28f3cd"
+        }
+      },
+      "task_family": "maze"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/mini_sudoku.json",
+      "name": "mini_sudoku",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/mini_sudoku.jsonl",
+          "sha256": "bbac744fad2f41804cb22eec5c6a58f3063f1f2280d742c2fb8f44f0e6081901"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/mini_sudoku.jsonl",
+          "sha256": "4c72dd93f4f0c2fa7af82608fc3bee37dec660f996ec11eea106b02cafbca9e4"
+        }
+      },
+      "task_family": "mini_sudoku"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/modulo_grid.json",
+      "name": "modulo_grid",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/modulo_grid.jsonl",
+          "sha256": "6451d251a5767b09080e63aed1b3568e8187d3e2f98b4f2f0a07f16c9e75d2a4"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/modulo_grid.jsonl",
+          "sha256": "bc702337cb97c7bb5952af1a67a616b2b467fdaa76f804d510da52d385afe0a1"
+        }
+      },
+      "task_family": "modulo_grid"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/n_queens.json",
+      "name": "n_queens",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/n_queens.jsonl",
+          "sha256": "3be09a27c7fb0ae5b45d51b61db35cbff415d066c38e69694a36d799a1b0b7ba"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/n_queens.jsonl",
+          "sha256": "17f89c77387223e0d38e764967816cb7d45aff67a5ea867ff9c1ed94c6ec7f6e"
+        }
+      },
+      "task_family": "n_queens"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/number_format.json",
+      "name": "number_format",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/number_format.jsonl",
+          "sha256": "21fc6279907bacc77a40a5754d6b156bf99e253d48619dad27236ff8825fc888"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/number_format.jsonl",
+          "sha256": "89a28c96749f62297a0765676b460a338ef95258ca00e6cba05f695a1c3f3a10"
+        }
+      },
+      "task_family": "number_format"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/palindrome_partitioning.json",
+      "name": "palindrome_partitioning",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/palindrome_partitioning.jsonl",
+          "sha256": "c08782c45e12b17754dadd9a12e577c888b1bd486e6569bc18fbaa0299f97d82"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/palindrome_partitioning.jsonl",
+          "sha256": "9daecddc9597945e8894372c34e252c53b503daa0e99a0b3a25fba1ebfde67e5"
+        }
+      },
+      "task_family": "palindrome_partitioning"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/polynomial_equations.json",
+      "name": "polynomial_equations",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/polynomial_equations.jsonl",
+          "sha256": "5edc17b3c82b725ac8f0e310cf48f79df77f49aca57b7c8970bdef46fc348937"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/polynomial_equations.jsonl",
+          "sha256": "dcc40664ea1a48d04b9d7bb847c7f49039538bb45f097e87e2e373846c67b345"
+        }
+      },
+      "task_family": "polynomial_equations"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/polynomial_multiplication.json",
+      "name": "polynomial_multiplication",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/polynomial_multiplication.jsonl",
+          "sha256": "f8ba5aa8656a8f1a0eb91d9aeab0ad948375072c2cc10df5302078bf9035c4b7"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/polynomial_multiplication.jsonl",
+          "sha256": "3e29b99a69d0f244b8c30960884b06dff557e7d2337327fcc79cd6397b4a9f91"
+        }
+      },
+      "task_family": "polynomial_multiplication"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/power_function.json",
+      "name": "power_function",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/power_function.jsonl",
+          "sha256": "194dfe99af6fb7f7c9801e7a153fed3e04884d0ebda6ebf1e29d339e677c61ee"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/power_function.jsonl",
+          "sha256": "d2ed600a932ee450dfda6506bf0e857e4a27d28f2ea1a74c5b2223b3a9226d7e"
+        }
+      },
+      "task_family": "power_function"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/prime_factorization.json",
+      "name": "prime_factorization",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/prime_factorization.jsonl",
+          "sha256": "683f898e0a69e401a0bae6d9e0c89d156c362eebe119e39841ca0e2563ee719b"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/prime_factorization.jsonl",
+          "sha256": "2a1c87ec638cbbc07c4266b07e6be0cde60f198951e0449896cfb0ff6b61ed24"
+        }
+      },
+      "task_family": "prime_factorization"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/products.json",
+      "name": "products",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/products.jsonl",
+          "sha256": "2b6aa4525de6be4f9a2ff0c11bb096f63c3694b92c4662eebb5dc47b850c9963"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/products.jsonl",
+          "sha256": "4b3f6c972c797acd14e67096214ae2c42e4409f7e52bc4b85d307b6b57b427ed"
+        }
+      },
+      "task_family": "products"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/propositional_logic.json",
+      "name": "propositional_logic",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/propositional_logic.jsonl",
+          "sha256": "9921e60549ea3e760cca9fba813d76a10c6c195763b270af32e08530c4e58acb"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/propositional_logic.jsonl",
+          "sha256": "721e300d008e167d23bcf2db377d10f23813c13cde0becd3073ca4ff036053af"
+        }
+      },
+      "task_family": "propositional_logic"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/puzzle24.json",
+      "name": "puzzle24",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/puzzle24.jsonl",
+          "sha256": "9a2278c58cb0d2f263d239f5917aea142901eae027ab91567dc4a791810b5f8e"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/puzzle24.jsonl",
+          "sha256": "bff42d237f0223613053cce5c03ab22dd82e7f9b5f12b196fa2a679dbc9d958d"
+        }
+      },
+      "task_family": "puzzle24"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/quantum_lock.json",
+      "name": "quantum_lock",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/quantum_lock.jsonl",
+          "sha256": "d03dc7e28f86123c1f48a42a752ca99c99e7d3827bd189e402f6192a9575f787"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/quantum_lock.jsonl",
+          "sha256": "91c7452bda1d472d273a11aada3f6dc2712c2e7df34933c8ea3d8f89405de232"
+        }
+      },
+      "task_family": "quantum_lock"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/rotten_oranges.json",
+      "name": "rotten_oranges",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/rotten_oranges.jsonl",
+          "sha256": "5e0144bc05fb71943233fa51ca672297ea2659c2fc3dcbe91d8f5b53e3b40b67"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/rotten_oranges.jsonl",
+          "sha256": "d8004d3f1f52f338a274bded81a70aa41f80ee8817fdc1fa6691975a5b6b8460"
+        }
+      },
+      "task_family": "rotten_oranges"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/rubiks_cube.json",
+      "name": "rubiks_cube",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/rubiks_cube.jsonl",
+          "sha256": "1482f87bacc7fb73dc070d843f433436e45239c4204758ea08ab57d17763008f"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/rubiks_cube.jsonl",
+          "sha256": "e7f9deba8a4ee59ab8746587efeb50052d2e87b1e3da30f9c5f28d95f12111cc"
+        }
+      },
+      "task_family": "rubiks_cube"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/rush_hour.json",
+      "name": "rush_hour",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/rush_hour.jsonl",
+          "sha256": "2224909244ed74f672ebf5d140308b1cd0f3b8ff59a014db6435b8cfa3480c6c"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/rush_hour.jsonl",
+          "sha256": "69b6cc2f1a7f1c15c56c67841344a422ccdb16323713ba6b596a4a4028e0fc4c"
+        }
+      },
+      "task_family": "rush_hour"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/shortest_path.json",
+      "name": "shortest_path",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/shortest_path.jsonl",
+          "sha256": "09a777a900500cd7afdcfba7a90ada89c75b35d621f7aac21534246ea6095952"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/shortest_path.jsonl",
+          "sha256": "e389913dc6e30ef66b279c837e980a860f1da230a8b6e3f8beb379a674b3c8fb"
+        }
+      },
+      "task_family": "shortest_path"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/simple_equations.json",
+      "name": "simple_equations",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/simple_equations.jsonl",
+          "sha256": "eb106cbf2c7ba79cae8075e46147194ff49500a022c9a39ce9b70ed4fef49f5e"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/simple_equations.jsonl",
+          "sha256": "f33834779defff38d1217f8f320217649b477e40236fdea32ea362a7b1f9adc0"
+        }
+      },
+      "task_family": "simple_equations"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/simple_geometry.json",
+      "name": "simple_geometry",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/simple_geometry.jsonl",
+          "sha256": "875bd3724a20525fb95ea33618fd2cddc402f4872453b2ef558af6ea191cd531"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/simple_geometry.jsonl",
+          "sha256": "e9eac8f3db32b67602daf070369c857b5340ca8f00b266bacbc18e5839eaeee9"
+        }
+      },
+      "task_family": "simple_geometry"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/simple_integration.json",
+      "name": "simple_integration",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/simple_integration.jsonl",
+          "sha256": "463a2870a858f9c47822ccc9a24f2f384d9e035cd9d06970b96f4f8e99187067"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/simple_integration.jsonl",
+          "sha256": "30c7811c2452bf3f8b8be64ab3778454e1fb94be90bc38f9c07b185ee0795e86"
+        }
+      },
+      "task_family": "simple_integration"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/sokoban.json",
+      "name": "sokoban",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/sokoban.jsonl",
+          "sha256": "9b81c5826b1e8cad61af44cbfbe97d89591162bda713531a5cedc9e249cf698d"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/sokoban.jsonl",
+          "sha256": "b4aebbde545d49629c16da55b5600eaf07c19146f42561303cacc98bc8f4c077"
+        }
+      },
+      "task_family": "sokoban"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/sudoku.json",
+      "name": "sudoku",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/sudoku.jsonl",
+          "sha256": "e547dc9f33930fd92a21eb081fbc2bbd90ab28e4461bbc8e0492958712a55a67"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/sudoku.jsonl",
+          "sha256": "bfb36bbdbc2677db750d02bba8a8c99334c0d21b3ee5105c85a67a3929265a4b"
+        }
+      },
+      "task_family": "sudoku"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/syllogism.json",
+      "name": "syllogism",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/syllogism.jsonl",
+          "sha256": "60f559f2cf3e4ef0577d16e91d1831e5855362122c282e5f3907181f1958570d"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/syllogism.jsonl",
+          "sha256": "21f0d32b69d381561cb3e3cc0882bac0607127269bd015dd3585280a52d456dc"
+        }
+      },
+      "task_family": "syllogism"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/time_intervals.json",
+      "name": "time_intervals",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/time_intervals.jsonl",
+          "sha256": "64dd482c88c802279869fe4539d1a1efa011cb726333ebf9ba250a8bb9c7ff58"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/time_intervals.jsonl",
+          "sha256": "3197c4e7e7c2bc506397b5952e526f48182317ccfc32a30f6a1397cd608e75d3"
+        }
+      },
+      "task_family": "time_intervals"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/tower_of_hanoi.json",
+      "name": "tower_of_hanoi",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/tower_of_hanoi.jsonl",
+          "sha256": "0c88c7cd292b60872d4d576703db048ac3b391c835bc9fc198d695e3c23e1b23"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/tower_of_hanoi.jsonl",
+          "sha256": "193e5a598b4f90c8756dd977fb3088723b8c30d5173f80747ecf0a8a1301f3b4"
+        }
+      },
+      "task_family": "tower_of_hanoi"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/word_ladder.json",
+      "name": "word_ladder",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/word_ladder.jsonl",
+          "sha256": "78abcf80b5f45df8382f197395c7bd851216eea7ad83d0d436382a9aa28f4690"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/word_ladder.jsonl",
+          "sha256": "bba8824a1c84f0e7a70168c993a450d28abc183b7208895cdc8e4eec7266a985"
+        }
+      },
+      "task_family": "word_ladder"
+    },
+    {
+      "benchmark": "reasoning_gym",
+      "manifest": "manifests/reasoning_gym/zebra_puzzles.json",
+      "name": "zebra_puzzles",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+        "uri": "https://github.com/open-thought/reasoning-gym"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/reasoning_gym/zebra_puzzles.jsonl",
+          "sha256": "59021e2faf3937bbf4455b6d5e4d4daa918d23a7d9232965623f77c0797c08a0"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/reasoning_gym/zebra_puzzles.jsonl",
+          "sha256": "7eab304ab30c20789abb8e4ca626af0b0ba706ea6b379371ed2b9ae14933fcbc"
+        }
+      },
+      "task_family": "zebra_puzzles"
+    },
+    {
+      "benchmark": "swe_bench",
+      "manifest": "manifests/swe_bench/swe_bench_verified.json",
+      "name": "swe_bench_verified",
+      "source": {
+        "license": "upstream-repository-specific; dataset card has no declared license",
+        "revision": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a",
+        "source_split": "test",
+        "uri": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/swe_bench/swe_bench_verified.jsonl",
+          "sha256": "cc53e03986c3f3964986c49fd5dc04192039272b10d205698f9baafb1e7880ea"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/swe_bench/swe_bench_verified.jsonl",
+          "sha256": "f4571d2562ee9a85abe876814c210dcb1979aef6130f55e495202c5e68b9e632"
+        }
+      },
+      "task_family": "swe_bench_verified"
+    },
+    {
+      "benchmark": "tau2",
+      "manifest": "manifests/tau2/tau2_airline.json",
+      "name": "tau2_airline",
+      "source": {
+        "artifact_sha256": "40d692b3fca780f46b56d48b447fd8db79a653f216667b8ed7c1a88380544532",
+        "license": "MIT",
+        "path": "domains/airline/tasks.json",
+        "revision": "60e37c7a19672769a6034c45a5c8b36e7cd3768b",
+        "uri": "https://huggingface.co/datasets/HuggingFaceH4/tau2-bench-data"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/tau2/tau2_airline.jsonl",
+          "sha256": "9746d02fd1b96a9ce6911efbd9ee1c7844c9e44fd222f56340fb8f829924c1c6"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/tau2/tau2_airline.jsonl",
+          "sha256": "165893e7720aef133bcf0fac198043e18f29bd9e4c1aae797d975836761ff507"
+        }
+      },
+      "task_family": "tau2_airline"
+    },
+    {
+      "benchmark": "tau2",
+      "manifest": "manifests/tau2/tau2_retail.json",
+      "name": "tau2_retail",
+      "source": {
+        "artifact_sha256": "76e1fa649a359bef2d2fd30eae834b99d261d84e2e5d364856f6632fdf778dfd",
+        "license": "MIT",
+        "path": "domains/retail/tasks.json",
+        "revision": "60e37c7a19672769a6034c45a5c8b36e7cd3768b",
+        "uri": "https://huggingface.co/datasets/HuggingFaceH4/tau2-bench-data"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/tau2/tau2_retail.jsonl",
+          "sha256": "088d36d832e2fc3ae732616a5eda851f420983b0d8b0b067e59eb4986cd05766"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/tau2/tau2_retail.jsonl",
+          "sha256": "a3c78703960b37e6acee1317f02b26f7887830fdfe6a599ef0982c3aa1f9b36d"
+        }
+      },
+      "task_family": "tau2_retail"
+    },
+    {
+      "benchmark": "tau2",
+      "manifest": "manifests/tau2/tau2_telecom.json",
+      "name": "tau2_telecom",
+      "source": {
+        "artifact_sha256": "192a2c143b3b512c37c3775fdf6c5040c33717388620c38b140c731dc6153cd7",
+        "license": "MIT",
+        "path": "domains/telecom/tasks.json",
+        "revision": "60e37c7a19672769a6034c45a5c8b36e7cd3768b",
+        "uri": "https://huggingface.co/datasets/HuggingFaceH4/tau2-bench-data"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/tau2/tau2_telecom.jsonl",
+          "sha256": "16c8936dd751f92a242cebc96397858ae0e87caba6949b98aff08f7b3bcdd4ef"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/tau2/tau2_telecom.jsonl",
+          "sha256": "343b1f8cfb2d0e3152da7a263375eed549a3baa4912937fa753092e284f6ded4"
+        }
+      },
+      "task_family": "tau2_telecom"
+    },
+    {
+      "benchmark": "terminal_bench",
+      "manifest": "manifests/terminal_bench/terminal_bench_2.json",
+      "name": "terminal-bench@2.0",
+      "source": {
+        "license": "Apache-2.0",
+        "revision": "2.0",
+        "uri": "https://github.com/harbor-framework/terminal-bench-2"
+      },
+      "splits": {
+        "dev": {
+          "count": 30,
+          "path": "dev/terminal_bench/terminal_bench_2.jsonl",
+          "sha256": "657ed361058f87255634de11fcde295d74c7dcf0bf65de91497ca3ad14dafc1e"
+        },
+        "test": {
+          "count": 59,
+          "path": "heldout/terminal_bench/terminal_bench_2.jsonl",
+          "sha256": "f12181e9a57df60483dd9a60947dd680326f3546bdee7ae16002514d815fdb32"
+        }
+      },
+      "task_family": "terminal_bench"
+    },
+    {
+      "benchmark": "text_classification",
+      "manifest": "manifests/text_classification/go_emotions.json",
+      "name": "go_emotions",
+      "source": {
+        "config": "simplified",
+        "license": "Apache-2.0",
+        "revision": "add492243ff905527e67aeb8b80c082af02207c3",
+        "uri": "https://huggingface.co/datasets/google-research-datasets/go_emotions"
+      },
+      "splits": {
+        "dev": {
+          "count": 10,
+          "path": "dev/text_classification/go_emotions.jsonl",
+          "sha256": "08faeff43850137bc755cfd44f47210a0af4842eab2282c3b5fc7cd24f84e0c6"
+        },
+        "test": {
+          "count": 30,
+          "path": "heldout/text_classification/go_emotions.jsonl",
+          "sha256": "b0506849096e09258a274e630e0255463de61eda2de01d7c79c32390ed6044c6"
+        },
+        "train_pool": {
+          "count": 30,
+          "path": "train_pool/text_classification/go_emotions.jsonl",
+          "sha256": "07715e4cbe6e0fe5aee0fefd7f5442af339e5ed02361252d5aaa1875d1ebf67f"
+        }
+      },
+      "task_family": "text_classification"
+    }
+  ],
+  "schema_version": "task-catalog/v1",
+  "summary": {
+    "benchmarks": [
+      "aime",
+      "locomo",
+      "reasoning_gym",
+      "swe_bench",
+      "tau2",
+      "terminal_bench",
+      "text_classification"
+    ],
+    "datasets": 82,
+    "rows": 3319
+  }
+}
