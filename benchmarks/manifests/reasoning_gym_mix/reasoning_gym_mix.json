@@ -1,0 +1,485 @@
+{
+  "benchmark": "reasoning_gym_mix",
+  "derived_from": {
+    "benchmark": "reasoning_gym",
+    "parent_splits": {
+      "ab": {
+        "path": "heldout/reasoning_gym/ab.jsonl",
+        "sha256": "bb281adbc2c6d831b955d9a978e033054fc57b884fd5f7743649d367884a6d51",
+        "split": "test"
+      },
+      "acre": {
+        "path": "dev/reasoning_gym/acre.jsonl",
+        "sha256": "f0ce152c2acf7e73c6436c7d992cdd68ad4016f74f3f18815709a8ca7bc980c2",
+        "split": "dev"
+      },
+      "advanced_geometry": {
+        "path": "heldout/reasoning_gym/advanced_geometry.jsonl",
+        "sha256": "a39d87d2bb4fb3cd9e31b1dc3fc895860c0dd8239f8f6676f7913a771625e5ed",
+        "split": "test"
+      },
+      "arc_1d": {
+        "path": "dev/reasoning_gym/arc_1d.jsonl",
+        "sha256": "5c5cee6d29339b67f5b6102f7a87d487fd6c92f9c55c64118bac8adc5c24bab4",
+        "split": "dev"
+      },
+      "arc_agi": {
+        "path": "dev/reasoning_gym/arc_agi.jsonl",
+        "sha256": "7f93c9e86ce02f40811ba5847e157ad1436c180768b2622bf004cf6495030a0b",
+        "split": "dev"
+      },
+      "base_conversion": {
+        "path": "dev/reasoning_gym/base_conversion.jsonl",
+        "sha256": "e944b004e785768e0d60fa4048410b086b337ef2a254ce62a74690ded2f4c599",
+        "split": "dev"
+      },
+      "basic_arithmetic": {
+        "path": "heldout/reasoning_gym/basic_arithmetic.jsonl",
+        "sha256": "fd38668d538e90877348ec815c1c61d201412f300b0fb0f70483fbd25b0c910c",
+        "split": "test"
+      },
+      "bf": {
+        "path": "heldout/reasoning_gym/bf.jsonl",
+        "sha256": "afd344f1b127e27567688c1398521ecd0d8c42710cf0381e86dccf86485dfaf0",
+        "split": "test"
+      },
+      "binary_alternation": {
+        "path": "heldout/reasoning_gym/binary_alternation.jsonl",
+        "sha256": "ad10e4bda442bdee04aab554984271ac60ecc6c1ebe1c480d14197a1301bd3d2",
+        "split": "test"
+      },
+      "bitwise_arithmetic": {
+        "path": "heldout/reasoning_gym/bitwise_arithmetic.jsonl",
+        "sha256": "77dc210f4a61f24dd6a6c0d28849715883b70d87a820bf3270ec55c4a2c0f862",
+        "split": "test"
+      },
+      "boxnet": {
+        "path": "heldout/reasoning_gym/boxnet.jsonl",
+        "sha256": "e09e2a6c070e616d2d2f19dd3988da8f4d4da504fb953fde86137ea332b3f05a",
+        "split": "test"
+      },
+      "caesar_cipher": {
+        "path": "dev/reasoning_gym/caesar_cipher.jsonl",
+        "sha256": "2e62545ded25fd6745e0dc962a33422acd1a30733c6cbcc4b399d585e6a1e289",
+        "split": "dev"
+      },
+      "calendar_arithmetic": {
+        "path": "dev/reasoning_gym/calendar_arithmetic.jsonl",
+        "sha256": "77b9af267d151f4a73c7b12f2ff74a3f996aadbbab031710e92ab90f8416f562",
+        "split": "dev"
+      },
+      "chain_sum": {
+        "path": "dev/reasoning_gym/chain_sum.jsonl",
+        "sha256": "e200978ce3d590e704905bf279f1b01f670a9741395e1b5c063e53a4326b8100",
+        "split": "dev"
+      },
+      "circuit_logic": {
+        "path": "dev/reasoning_gym/circuit_logic.jsonl",
+        "sha256": "398fb92e645ed9f9a1f5d7562cefed12627d67f343bd47712ff808145258c7b4",
+        "split": "dev"
+      },
+      "codeio": {
+        "path": "heldout/reasoning_gym/codeio.jsonl",
+        "sha256": "f0b3637c06edb205ef6b9fc670de16f7bcdbfcde6b830ba1e9b9b92fb8b19705",
+        "split": "test"
+      },
+      "color_cube_rotation": {
+        "path": "heldout/reasoning_gym/color_cube_rotation.jsonl",
+        "sha256": "37a0608e695c174c6c62a369f836ecb8bed6e9f66eb27dc56c793fdfbb536de2",
+        "split": "test"
+      },
+      "complex_arithmetic": {
+        "path": "dev/reasoning_gym/complex_arithmetic.jsonl",
+        "sha256": "6fe0c230fe94e279c09797e631901df60967552e24f79912e297741bb42d3423",
+        "split": "dev"
+      },
+      "count_bits": {
+        "path": "heldout/reasoning_gym/count_bits.jsonl",
+        "sha256": "4cf98eafcdc5543b66413bdf28d4b40b03e3f9d9d2e5e742860908cfca25f7af",
+        "split": "test"
+      },
+      "count_primes": {
+        "path": "heldout/reasoning_gym/count_primes.jsonl",
+        "sha256": "b654b1db6d3939e18750de9895fabfd77f37bbf5ba84f2350c7e15118528e52b",
+        "split": "test"
+      },
+      "countdown": {
+        "path": "heldout/reasoning_gym/countdown.jsonl",
+        "sha256": "77b75ce8e1df04edbc1360c28eafd7982fe8ede4baaf24cd93ccf77515ea8fb2",
+        "split": "test"
+      },
+      "course_schedule": {
+        "path": "heldout/reasoning_gym/course_schedule.jsonl",
+        "sha256": "70b7a2e26ba018d88c365197d7fdf7719b4de397aaa5c661bf132fc19c2aeaf6",
+        "split": "test"
+      },
+      "cryptarithm": {
+        "path": "heldout/reasoning_gym/cryptarithm.jsonl",
+        "sha256": "a6cacc397eda257fe692995b9ecadd4ab1ee4e07b89ae43fad5c9977e85cb17a",
+        "split": "test"
+      },
+      "decimal_arithmetic": {
+        "path": "heldout/reasoning_gym/decimal_arithmetic.jsonl",
+        "sha256": "f80d3800202c423d7aa5597fcc84ef876e184ddf4e83bdedfac9ef4969e59842",
+        "split": "test"
+      },
+      "decimal_chain_sum": {
+        "path": "heldout/reasoning_gym/decimal_chain_sum.jsonl",
+        "sha256": "dd40023e23ac167b8680c423d31eff2553654beb4508c4cb0427faad7c5d7476",
+        "split": "test"
+      },
+      "dice": {
+        "path": "heldout/reasoning_gym/dice.jsonl",
+        "sha256": "b8422ac7c61d03392c5782dad75eb7ef26f65869a0b996cb657cd91549d7f656",
+        "split": "test"
+      },
+      "emoji_mystery": {
+        "path": "dev/reasoning_gym/emoji_mystery.jsonl",
+        "sha256": "486fcc073923253e47f18d7f8e0367df35101c28f403cda434ec102bbe6e681b",
+        "split": "dev"
+      },
+      "family_relationships": {
+        "path": "heldout/reasoning_gym/family_relationships.jsonl",
+        "sha256": "81783dd617811fee05c10462ff3a76f61d5857517fe1fa02a39fd5e71858357e",
+        "split": "test"
+      },
+      "figlet_font": {
+        "path": "dev/reasoning_gym/figlet_font.jsonl",
+        "sha256": "0af493db1787889aace63143e5e9b9eb3829a27ca820f91c140ff52753882eea",
+        "split": "dev"
+      },
+      "fraction_simplification": {
+        "path": "heldout/reasoning_gym/fraction_simplification.jsonl",
+        "sha256": "71325971890a1744f649bea5f5ee13c7246c5952cbf7c6fe020e34e0e5e0200c",
+        "split": "test"
+      },
+      "futoshiki": {
+        "path": "heldout/reasoning_gym/futoshiki.jsonl",
+        "sha256": "0ac12db010204d1235a9f81da61a2bc31dc44ba9dd31794e4edbd56a9906f9b3",
+        "split": "test"
+      },
+      "game_of_life": {
+        "path": "dev/reasoning_gym/game_of_life.jsonl",
+        "sha256": "f73a413b705cea52f0836e89059d5c0a6e826389bb4159a2b15f208605169588",
+        "split": "dev"
+      },
+      "game_of_life_halting": {
+        "path": "dev/reasoning_gym/game_of_life_halting.jsonl",
+        "sha256": "414d22a355ca6b9d42aac77a12587a088f50afd9599541260c0df6fad67439d3",
+        "split": "dev"
+      },
+      "gcd": {
+        "path": "heldout/reasoning_gym/gcd.jsonl",
+        "sha256": "4548feab8171c15c766cbfafc4cfc008eceef7292dbe69c5c2ae489e062682aa",
+        "split": "test"
+      },
+      "group_anagrams": {
+        "path": "dev/reasoning_gym/group_anagrams.jsonl",
+        "sha256": "290fd1c431677219197e38abec1bba6b46820ec65080c880bb475671923e8d06",
+        "split": "dev"
+      },
+      "gsm_symbolic": {
+        "path": "dev/reasoning_gym/gsm_symbolic.jsonl",
+        "sha256": "fdc891aed022633b3b4462288686581cb40f08b75adeddaae3678c2a219e87c9",
+        "split": "dev"
+      },
+      "intermediate_integration": {
+        "path": "heldout/reasoning_gym/intermediate_integration.jsonl",
+        "sha256": "0697b035489023574a8f22c343460e3b989a82ac49370c790c5a854eb8a85c79",
+        "split": "test"
+      },
+      "jugs": {
+        "path": "heldout/reasoning_gym/jugs.jsonl",
+        "sha256": "efcf5ddb1270ed9ee2db2a5653fdf01362b499ab0d7ba106f1b218e0b15deb10",
+        "split": "test"
+      },
+      "kakurasu": {
+        "path": "dev/reasoning_gym/kakurasu.jsonl",
+        "sha256": "84ab12113bdf6debe3eb9c9d51cc54a56cfc498ff2a88db306933fc60cd9039f",
+        "split": "dev"
+      },
+      "knight_swap": {
+        "path": "heldout/reasoning_gym/knight_swap.jsonl",
+        "sha256": "5497b3c0e9a84b99943e2285ce381e4c798ded1ba93ee47d465acaa44f6d3b26",
+        "split": "test"
+      },
+      "knights_knaves": {
+        "path": "heldout/reasoning_gym/knights_knaves.jsonl",
+        "sha256": "44a228a596747f99519923ab3599ead943ac852516546c4808d4619811ab9ddb",
+        "split": "test"
+      },
+      "lcm": {
+        "path": "dev/reasoning_gym/lcm.jsonl",
+        "sha256": "293c02375f444b245762dd614f2776a589dc01c0619df3a3379f8123f9c95d88",
+        "split": "dev"
+      },
+      "leg_counting": {
+        "path": "heldout/reasoning_gym/leg_counting.jsonl",
+        "sha256": "79ef3a092540e8971cc3535b47d434cf7fd8ea3d22baec707901427b1e4c8e3c",
+        "split": "test"
+      },
+      "letter_jumble": {
+        "path": "heldout/reasoning_gym/letter_jumble.jsonl",
+        "sha256": "7e8893762fa6079e47587e80368f20082882928332a0332fb3dab2005003c2bd",
+        "split": "test"
+      },
+      "list_functions": {
+        "path": "dev/reasoning_gym/list_functions.jsonl",
+        "sha256": "1041315697454fb19d8a065e2f187e6411b16b635dfe5afc97a92d905e8361b4",
+        "split": "dev"
+      },
+      "mahjong_puzzle": {
+        "path": "dev/reasoning_gym/mahjong_puzzle.jsonl",
+        "sha256": "2011a89268248714e48c05cb30ea47e751af844d29a1cfb75aed4d0c7140e0a7",
+        "split": "dev"
+      },
+      "maze": {
+        "path": "heldout/reasoning_gym/maze.jsonl",
+        "sha256": "a3e6c7e71c35711ff115c15adac6bbf5b3fb8d0f43fe440ce5edb0e600fcf1af",
+        "split": "test"
+      },
+      "mini_sudoku": {
+        "path": "heldout/reasoning_gym/mini_sudoku.jsonl",
+        "sha256": "3b5c3f71123da7938ee1221aaf5ee693239e484f7acf71687a6959750c68c54e",
+        "split": "test"
+      },
+      "modulo_grid": {
+        "path": "heldout/reasoning_gym/modulo_grid.jsonl",
+        "sha256": "995b9e7b98935a2aef89851110a9011eca487c2a87ab32e01347806cd125c0b8",
+        "split": "test"
+      },
+      "n_queens": {
+        "path": "heldout/reasoning_gym/n_queens.jsonl",
+        "sha256": "52b34636d739a6c3342b7d912787dbda7a871f6375acd72fe0623a28af249345",
+        "split": "test"
+      },
+      "number_format": {
+        "path": "heldout/reasoning_gym/number_format.jsonl",
+        "sha256": "0d5dcb610fe51fad566f2a8301aca04b2cece4e3118666121410fcb0e6c61047",
+        "split": "test"
+      },
+      "palindrome_partitioning": {
+        "path": "heldout/reasoning_gym/palindrome_partitioning.jsonl",
+        "sha256": "523ed5775db14676dd5293890a28f0c02e4a6e8cdd830e7d0d5fa8a8bd796862",
+        "split": "test"
+      },
+      "polynomial_equations": {
+        "path": "heldout/reasoning_gym/polynomial_equations.jsonl",
+        "sha256": "dce71ec36457f55ad19d550269a1440feb4b58c8ca8fe26e55f9e730a2e02a4b",
+        "split": "test"
+      },
+      "polynomial_multiplication": {
+        "path": "heldout/reasoning_gym/polynomial_multiplication.jsonl",
+        "sha256": "04cede32746525deb364b5ad695b8642eb602e27184e1905aaa7de2f11d64367",
+        "split": "test"
+      },
+      "power_function": {
+        "path": "dev/reasoning_gym/power_function.jsonl",
+        "sha256": "8840c43058063ce58b83547a1a71ac5100e008232f66ad5459dd124aa7daec32",
+        "split": "dev"
+      },
+      "prime_factorization": {
+        "path": "heldout/reasoning_gym/prime_factorization.jsonl",
+        "sha256": "e26e2865d17128dbbfd4b4ce67cb8b52a025cf5cd557c2070862bc7fe808b961",
+        "split": "test"
+      },
+      "products": {
+        "path": "heldout/reasoning_gym/products.jsonl",
+        "sha256": "0d25e6824c47f9ea247662e383365c15fa7ad60c0def48bda63703fe07ffa638",
+        "split": "test"
+      },
+      "propositional_logic": {
+        "path": "heldout/reasoning_gym/propositional_logic.jsonl",
+        "sha256": "c3db95ccc4b242358e2c9e6b7ff5dce5a8d8c5f57bccdab374a5ae96921ecd17",
+        "split": "test"
+      },
+      "puzzle24": {
+        "path": "heldout/reasoning_gym/puzzle24.jsonl",
+        "sha256": "e43dd37ad8054a5d28e3bba60c3251690136b4d8551a9b2425546f63146438df",
+        "split": "test"
+      },
+      "quantum_lock": {
+        "path": "heldout/reasoning_gym/quantum_lock.jsonl",
+        "sha256": "84d71ceea59b189f1beecd298e53921b91eaf36c95831a1cf015b58350f968c7",
+        "split": "test"
+      },
+      "rotten_oranges": {
+        "path": "dev/reasoning_gym/rotten_oranges.jsonl",
+        "sha256": "831217f1b0bb903e55c93d81473caaeb3b6670473daa70f2204827ed7952cc63",
+        "split": "dev"
+      },
+      "rubiks_cube": {
+        "path": "heldout/reasoning_gym/rubiks_cube.jsonl",
+        "sha256": "73ba1d51289f49c79c48f8e0fe0cc93b701d87f7ec7cb754bedee6480b5a2257",
+        "split": "test"
+      },
+      "rush_hour": {
+        "path": "heldout/reasoning_gym/rush_hour.jsonl",
+        "sha256": "8ed4a5a7ef6e7148380099a71c0a74f74f7c0c0262a2acf55c7c1d29d7ffcfb1",
+        "split": "test"
+      },
+      "shortest_path": {
+        "path": "heldout/reasoning_gym/shortest_path.jsonl",
+        "sha256": "e22d3265692eca8c320ed020513e571bda7520e08fc4f660afc9d3a47e613589",
+        "split": "test"
+      },
+      "simple_equations": {
+        "path": "heldout/reasoning_gym/simple_equations.jsonl",
+        "sha256": "fb73723a49f0869a59b3cd3664d6c52fb9b612edec2fd372c9543e8d7e7e612e",
+        "split": "test"
+      },
+      "simple_geometry": {
+        "path": "heldout/reasoning_gym/simple_geometry.jsonl",
+        "sha256": "257126526a279e64483826d205dac54db49da98c2b56fafa16b5d580e434a005",
+        "split": "test"
+      },
+      "simple_integration": {
+        "path": "heldout/reasoning_gym/simple_integration.jsonl",
+        "sha256": "791cd3179cf54bb280b7dca0ad694feb4c6daa29eedc2e441789cff439ea06f6",
+        "split": "test"
+      },
+      "sokoban": {
+        "path": "dev/reasoning_gym/sokoban.jsonl",
+        "sha256": "c2a6968d07066a8d4b4cbe967cba8b6cda4a6162ed07170e0e85f86dd7d9175a",
+        "split": "dev"
+      },
+      "sudoku": {
+        "path": "heldout/reasoning_gym/sudoku.jsonl",
+        "sha256": "3e1d1c227a1d4fadb52a3cbfc0ce49b03c98f3aa76d88f1a771863ca59cb777c",
+        "split": "test"
+      },
+      "syllogism": {
+        "path": "heldout/reasoning_gym/syllogism.jsonl",
+        "sha256": "0f7d78b0da2e523fdf0490c131fa1c7295f0183f5718b794b963aa9e857f45aa",
+        "split": "test"
+      },
+      "time_intervals": {
+        "path": "heldout/reasoning_gym/time_intervals.jsonl",
+        "sha256": "e7568ef7dac4311a1d7820a0b2e3fbd549bd9237373518ff8b62ae6827993b69",
+        "split": "test"
+      },
+      "tower_of_hanoi": {
+        "path": "dev/reasoning_gym/tower_of_hanoi.jsonl",
+        "sha256": "68a60280b0c316e7478c79ddf3aa1d647ff11160dd5afa1fe5b6288fbdeb7112",
+        "split": "dev"
+      },
+      "word_ladder": {
+        "path": "dev/reasoning_gym/word_ladder.jsonl",
+        "sha256": "4fc534328fa64bd63dfaceb87872c45436b94ad72b6761157a9db37071eef7e6",
+        "split": "dev"
+      },
+      "zebra_puzzles": {
+        "path": "dev/reasoning_gym/zebra_puzzles.jsonl",
+        "sha256": "705b7ebd1f0c90c4f680be2580a1d1260cf8d8ee22390c17c2af0aee73881ebc",
+        "split": "dev"
+      }
+    }
+  },
+  "invariants": {
+    "cross_split_family_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "heldout_max_per_family": 2,
+    "unique_public_inputs": true
+  },
+  "sampling": {
+    "dev_family_count": 25,
+    "dev_per_family": 1,
+    "family_seed": 42,
+    "heldout_count": 75,
+    "heldout_max_per_family": 2,
+    "heldout_seed": 20260712,
+    "unit": "instance"
+  },
+  "schema_version": "task-sample/v1",
+  "splits": {
+    "dev": {
+      "count": 25,
+      "families": [
+        "acre",
+        "arc_1d",
+        "arc_agi",
+        "base_conversion",
+        "caesar_cipher",
+        "calendar_arithmetic",
+        "chain_sum",
+        "circuit_logic",
+        "complex_arithmetic",
+        "emoji_mystery",
+        "figlet_font",
+        "game_of_life",
+        "game_of_life_halting",
+        "group_anagrams",
+        "gsm_symbolic",
+        "kakurasu",
+        "lcm",
+        "list_functions",
+        "mahjong_puzzle",
+        "power_function",
+        "rotten_oranges",
+        "sokoban",
+        "tower_of_hanoi",
+        "word_ladder",
+        "zebra_puzzles"
+      ],
+      "path": "dev/reasoning_gym_mix/reasoning_gym_mix.jsonl",
+      "sha256": "499ce830ab6277b4fad3e5a6aebaae2667ab5b987221c647a13287e42133f32b"
+    },
+    "test": {
+      "count": 75,
+      "family_counts": {
+        "ab": 1,
+        "advanced_geometry": 1,
+        "basic_arithmetic": 1,
+        "bf": 1,
+        "binary_alternation": 2,
+        "bitwise_arithmetic": 2,
+        "boxnet": 2,
+        "codeio": 1,
+        "color_cube_rotation": 2,
+        "count_bits": 1,
+        "count_primes": 2,
+        "countdown": 2,
+        "course_schedule": 2,
+        "cryptarithm": 2,
+        "decimal_arithmetic": 1,
+        "decimal_chain_sum": 1,
+        "dice": 2,
+        "family_relationships": 2,
+        "fraction_simplification": 1,
+        "futoshiki": 2,
+        "gcd": 1,
+        "intermediate_integration": 2,
+        "jugs": 1,
+        "knight_swap": 1,
+        "knights_knaves": 2,
+        "leg_counting": 2,
+        "letter_jumble": 2,
+        "maze": 1,
+        "mini_sudoku": 2,
+        "modulo_grid": 1,
+        "n_queens": 2,
+        "number_format": 2,
+        "palindrome_partitioning": 1,
+        "polynomial_equations": 2,
+        "polynomial_multiplication": 1,
+        "prime_factorization": 1,
+        "products": 2,
+        "propositional_logic": 1,
+        "puzzle24": 2,
+        "quantum_lock": 1,
+        "rubiks_cube": 2,
+        "rush_hour": 2,
+        "shortest_path": 2,
+        "simple_equations": 2,
+        "simple_geometry": 1,
+        "simple_integration": 1,
+        "sudoku": 1,
+        "syllogism": 1,
+        "time_intervals": 2
+      },
+      "path": "heldout/reasoning_gym_mix/reasoning_gym_mix.jsonl",
+      "sha256": "79f9971e7fbb3e81e25bc751b4a13688904417aea6adfc31d0a3ac6de0d37b4f"
+    }
+  },
+  "task_family": "reasoning_gym_mix"
+}

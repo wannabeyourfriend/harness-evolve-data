@@ -1778,6 +1778,25 @@
       "task_family": "zebra_puzzles"
     },
     {
+      "benchmark": "reasoning_gym_mix",
+      "manifest": "manifests/reasoning_gym_mix/reasoning_gym_mix.json",
+      "name": "reasoning_gym_mix",
+      "source": {},
+      "splits": {
+        "dev": {
+          "count": 25,
+          "path": "dev/reasoning_gym_mix/reasoning_gym_mix.jsonl",
+          "sha256": "499ce830ab6277b4fad3e5a6aebaae2667ab5b987221c647a13287e42133f32b"
+        },
+        "test": {
+          "count": 75,
+          "path": "heldout/reasoning_gym_mix/reasoning_gym_mix.jsonl",
+          "sha256": "79f9971e7fbb3e81e25bc751b4a13688904417aea6adfc31d0a3ac6de0d37b4f"
+        }
+      },
+      "task_family": "reasoning_gym_mix"
+    },
+    {
       "benchmark": "swe_bench",
       "manifest": "manifests/swe_bench/swe_bench_verified.json",
       "name": "swe_bench_verified",
@@ -1936,12 +1955,13 @@
       "livecodebench",
       "locomo",
       "reasoning_gym",
+      "reasoning_gym_mix",
       "swe_bench",
       "tau2",
       "terminal_bench",
       "text_classification"
     ],
-    "datasets": 83,
-    "rows": 8164
+    "datasets": 84,
+    "rows": 8264
   }
 }
