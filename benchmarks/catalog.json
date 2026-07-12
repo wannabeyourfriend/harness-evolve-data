@@ -53,27 +53,32 @@
       "task_family": "livecodebench"
     },
     {
-      "benchmark": "locomo",
-      "manifest": "manifests/locomo/locomo.json",
-      "name": "locomo",
+      "benchmark": "longmemeval",
+      "manifest": "manifests/longmemeval/longmemeval.json",
+      "name": "longmemeval",
       "source": {
-        "license": "CC-BY-NC-4.0",
-        "revision": "d95b872",
-        "uri": "https://raw.githubusercontent.com/snap-research/locomo/d95b872/data/locomo10.json"
+        "dataset_id": "xiaowu0162/longmemeval-cleaned",
+        "filename": "longmemeval_s_cleaned.json",
+        "license": "MIT",
+        "revision": "98d7416c24c778c2fee6e6f3006e7a073259d48f",
+        "sha256": "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442",
+        "size_bytes": 277383467,
+        "uri": "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned/resolve/98d7416c24c778c2fee6e6f3006e7a073259d48f/longmemeval_s_cleaned.json",
+        "variant": "s"
       },
       "splits": {
         "dev": {
-          "count": 3,
-          "path": "dev/locomo/locomo.jsonl",
-          "sha256": "b1cca047e7cbc4bddb93d4674d5c4edc31b07efadfdec17c457e3b9b7b511cb4"
+          "count": 25,
+          "path": "dev/longmemeval/longmemeval.jsonl",
+          "sha256": "844124886e9fb738f6ddde0ac0258c4ef551949b4a5eda4acc249e8fde6ffd61"
         },
-        "test": {
-          "count": 7,
-          "path": "heldout/locomo/locomo.jsonl",
-          "sha256": "2f9d6a71b385b6ff0e5d7f2afc460bf0d12ac1d5617e224f10d8888603e6691c"
+        "heldout": {
+          "count": 75,
+          "path": "heldout/longmemeval/longmemeval.jsonl",
+          "sha256": "29520f0bb7cfe3482c02648b71b0f67227ef343d3fa536ad2b5cfcac932ec614"
         }
       },
-      "task_family": "locomo"
+      "task_family": "longmemeval"
     },
     {
       "benchmark": "reasoning_gym",
@@ -1972,7 +1977,7 @@
     "benchmarks": [
       "aime",
       "livecodebench",
-      "locomo",
+      "longmemeval",
       "reasoning_gym",
       "reasoning_gym_mix",
       "swe_bench",
@@ -1982,6 +1987,6 @@
       "text_classification"
     ],
     "datasets": 85,
-    "rows": 8364
+    "rows": 8454
   }
 }

@@ -22,8 +22,9 @@ The referee retains `oracle` and provenance. The catalog currently includes:
 | Reasoning Gym | 25 per each of 74 families | 75 per family (tower_of_hanoi 60: instance-space cap) | pinned SSRM generator revision; exact input disjointness; dev seed 42, heldout seed 20260712 |
 | Reasoning Gym Mix | 25 (25 distinct families, 1 each) | 75 (remaining 49 families, round-robin ≤2 each) | derived re-index of the frozen per-family splits (no new generation); family-disjoint dev/heldout for task-type transfer; parent-split sha256s pinned; family seed 42, heldout seed 20260712 |
 | GoEmotions | 25 | 75 | official validation/test splits; 30 labeled train-pool rows |
-| LoCoMo | 3 conversations / 692 QAs | 7 conversations / 1,294 QAs | conversation-disjoint; CC BY-NC 4.0; only 10 conversations exist |
+| LongMemEval | 25 questions | 75 questions | question-disjoint, stratified over all 6 question types with ≥1 abstention case per split; `longmemeval_s` cleaned release (~115k-token haystacks); MIT; dev seed 42, heldout seed 20260712 |
 | TAU2 | airline 12, retail 25, telecom 25 | airline 38, retail 75, telecom 75 | task-ID disjoint (airline pool is 50 tasks, kept at 1:3); official v0.2 simulator; heldout seed 707122026 |
+| TAU2 Mix | 25 (airline 5, retail 10, telecom 10) | 75 (airline 15, retail 30, telecom 30) | derived re-index of the frozen per-domain splits (no new sampling); domain-stratified; parent-split sha256s pinned |
 | AIME | 25 (2022-2023) | 75 (2024-2026, all 30 of 2026 forced) | multi-year; temporally disjoint (max dev 2023 < min heldout 2024); 2026 is the uncontaminated slice; AI-MO Apache-2.0 (2022-2024) + MathArena CC BY-NC-SA 4.0 (2025-2026); dev seed 42, heldout seed 20260712 |
 | Terminal-Bench 2 | 25 | 64 | all 89 public tasks, stratified by category and difficulty |
 | SWE-bench Verified | 25 | 75 | repository-disjoint; gold patches are not redistributed |
@@ -35,10 +36,12 @@ pin immutable upstream revisions and require the optional data dependencies.
 ```bash
 uv sync --extra data
 uv run python -m harness_evolve.benchmarks.reasoning_gym.samples build
+uv run python -m harness_evolve.benchmarks.reasoning_gym.mix
 uv run python -m harness_evolve.benchmarks.tau2.samples
+uv run python -m harness_evolve.benchmarks.tau2.mix
 uv run python -m harness_evolve.benchmarks.aime.samples
 uv run python -m harness_evolve.benchmarks.text_classification.samples --force
-uv run python -m harness_evolve.benchmarks.locomo.samples --force
+uv run python -m harness_evolve.benchmarks.longmemeval.samples --variant s --force
 uv run python -m harness_evolve.benchmarks.swe_bench.samples --force
 uv run python -m harness_evolve.benchmarks.terminal_bench.samples \
   /path/to/exported/terminal-bench-2 --force
