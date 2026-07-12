@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/futoshiki.jsonl",
-      "sha256": "2849a33edb807488eebfdca2fca02b46099e293ba736c7d93820d608f63251cc"
+      "sha256": "fdf041bba7512f5e8e93a9424b61440c2d3249d5bfaeea54f94d6db8457b49c0"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/futoshiki.jsonl",
-      "sha256": "bd3320bfaad84a47d0e4ceef47ae4f9fa04532d913994ef27d91fa35cc342987"
+      "sha256": "0ac12db010204d1235a9f81da61a2bc31dc44ba9dd31794e4edbd56a9906f9b3"
     }
   },
   "task_family": "futoshiki"

@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/game_of_life_halting.jsonl",
-      "sha256": "1f5c616052737982cb7acc4a25f1049987566ef378f710ccf9654d7bb4cfd4d1"
+      "sha256": "414d22a355ca6b9d42aac77a12587a088f50afd9599541260c0df6fad67439d3"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/game_of_life_halting.jsonl",
-      "sha256": "250bbc4ca0aa2d7e51618ddeeeb3b4db813a74b3c5aa3bb3dc4754306d54c2eb"
+      "sha256": "180d85b04620863571de1714b249c0f8b61cc742e1859132f722c26a1a7e34d7"
     }
   },
   "task_family": "game_of_life_halting"

@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/countdown.jsonl",
-      "sha256": "c31e21f68bc6fc2aca5f42c988f9b6c16e020f884ecf6e9732ce6585dab6f844"
+      "sha256": "156709349898a1a0a75f002ef4a8bc57a98e9ed2277edd9b2d179e8f0e882f38"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/countdown.jsonl",
-      "sha256": "1259b37a13856a62129c49ae286c0feb8ad6c8453fcfd3200380cd7cbf85ed58"
+      "sha256": "77b75ce8e1df04edbc1360c28eafd7982fe8ede4baaf24cd93ccf77515ea8fb2"
     }
   },
   "task_family": "countdown"

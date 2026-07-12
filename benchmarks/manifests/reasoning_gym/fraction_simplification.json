@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/fraction_simplification.jsonl",
-      "sha256": "9a67c87f9376470f7af162adb3c44d9483d03f6831ba294e5fd2d6fd8d93a72f"
+      "sha256": "ed287ed36671d0b020ee5db3204f2e1f2c2ff2803527d27af09a2af67dae9dc0"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/fraction_simplification.jsonl",
-      "sha256": "6b536ef64191e4118e293e8d786ac789d106078d2d969c8869b8d937b860f357"
+      "sha256": "71325971890a1744f649bea5f5ee13c7246c5952cbf7c6fe020e34e0e5e0200c"
     }
   },
   "task_family": "fraction_simplification"

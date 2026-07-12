@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/kakurasu.jsonl",
-      "sha256": "b1229370fac2e7c636cd333325454fc0feb13b6a9f555bdbb53426fcd053e2b4"
+      "sha256": "84ab12113bdf6debe3eb9c9d51cc54a56cfc498ff2a88db306933fc60cd9039f"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/kakurasu.jsonl",
-      "sha256": "a1de058ef541b755951cc250695870e6c3b70efb4767a119b5628c205e2383a8"
+      "sha256": "bbb7550bd64c9cea8caf9ea255c03addf45e9d43b1cd9819b234b407a9053835"
     }
   },
   "task_family": "kakurasu"

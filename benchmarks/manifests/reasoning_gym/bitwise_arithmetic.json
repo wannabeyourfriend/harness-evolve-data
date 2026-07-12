@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/bitwise_arithmetic.jsonl",
-      "sha256": "b0b1c43dd60260b5b5765894ce28178ea3a5c1167373a7c73b54914cbe1b0131"
+      "sha256": "acae07dc63a13c293e8dfab920142dadb7f2993ac438e75a7b25b8e92218ea81"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/bitwise_arithmetic.jsonl",
-      "sha256": "2f11f2d596b8bc488b44a09767a68edb78aa0e7fb19f85e771f97ef59a64a7e1"
+      "sha256": "77dc210f4a61f24dd6a6c0d28849715883b70d87a820bf3270ec55c4a2c0f862"
     }
   },
   "task_family": "bitwise_arithmetic"

@@ -50,15 +50,15 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "path": "dev/text_classification/go_emotions.jsonl",
-      "sha256": "08faeff43850137bc755cfd44f47210a0af4842eab2282c3b5fc7cd24f84e0c6",
+      "sha256": "96674814c911d821d1e6682a4d6dd6de472ce669eabad553161eabdb794a884a",
       "source_split": "validation"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "path": "heldout/text_classification/go_emotions.jsonl",
-      "sha256": "b0506849096e09258a274e630e0255463de61eda2de01d7c79c32390ed6044c6",
+      "sha256": "6b3f62c308870e15f641b3f0cef78b8ca5e1d74c3f44b7d8853c8aaa3d2e1b64",
       "source_split": "test"
     },
     "train_pool": {

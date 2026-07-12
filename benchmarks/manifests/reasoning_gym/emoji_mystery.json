@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/emoji_mystery.jsonl",
-      "sha256": "36d451d94df99ce64c847bf9ca883e1168deed03a602af442d6d5ef88ef50112"
+      "sha256": "486fcc073923253e47f18d7f8e0367df35101c28f403cda434ec102bbe6e681b"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/emoji_mystery.jsonl",
-      "sha256": "ec6740651a65dee2af6e3de48262b50ac451c1d9f010d3afde699c78e798018e"
+      "sha256": "d11f0d251b40aad7c7d71107dade2fa3bf3610d521063552e043bd32ad58db3c"
     }
   },
   "task_family": "emoji_mystery"

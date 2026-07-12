@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/syllogism.jsonl",
-      "sha256": "60f559f2cf3e4ef0577d16e91d1831e5855362122c282e5f3907181f1958570d"
+      "sha256": "8a77e937eee38167386dec3fd56c4cf7c6ed274700cc37bfc2aedec5273ad840"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/syllogism.jsonl",
-      "sha256": "21f0d32b69d381561cb3e3cc0882bac0607127269bd015dd3585280a52d456dc"
+      "sha256": "0f7d78b0da2e523fdf0490c131fa1c7295f0183f5718b794b963aa9e857f45aa"
     }
   },
   "task_family": "syllogism"

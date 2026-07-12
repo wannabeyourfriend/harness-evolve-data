@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/color_cube_rotation.jsonl",
-      "sha256": "10979f9e95285f4e7cea92a7ce66a44fc1b44a5032603f25759b2b1de30b178a"
+      "sha256": "9fd8670c9b957f1cfd7be631e729fc4fa7fd807cb125b18755e2a09ec2cf8205"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/color_cube_rotation.jsonl",
-      "sha256": "bb2f13796e9cbe1306e1b41c020f54df88322251e1708fdcc599981c30b48ebf"
+      "sha256": "37a0608e695c174c6c62a369f836ecb8bed6e9f66eb27dc56c793fdfbb536de2"
     }
   },
   "task_family": "color_cube_rotation"

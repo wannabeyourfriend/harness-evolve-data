@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/course_schedule.jsonl",
-      "sha256": "9b2d2949177fc74ce9ed85dd161cb5b98c58a3693fcf784c56eee7696bc92cfc"
+      "sha256": "99dba90bddc1b76cf813fc0ffc3fe6db08bcaa2a3eabd014862624d926b5d800"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/course_schedule.jsonl",
-      "sha256": "bfe4aed1be6f73ab9dd2e20313d430f868e7ce5e94e41f9996cfe4ed8cd70d27"
+      "sha256": "70b7a2e26ba018d88c365197d7fdf7719b4de397aaa5c661bf132fc19c2aeaf6"
     }
   },
   "task_family": "course_schedule"

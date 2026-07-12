@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/decimal_arithmetic.jsonl",
-      "sha256": "c1cccc54d6216e545c2e1214a406867c7c67bf64734d5354f1a192ecbb510263"
+      "sha256": "6f2e6fd221eb00d7762a1febce8b3da30cfa637a137833df03a5160764f8429f"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/decimal_arithmetic.jsonl",
-      "sha256": "5ce7726a55cd01b1ef5b51541765ba3be9d5ce7665d559d94f7c81668a293f8e"
+      "sha256": "f80d3800202c423d7aa5597fcc84ef876e184ddf4e83bdedfac9ef4969e59842"
     }
   },
   "task_family": "decimal_arithmetic"

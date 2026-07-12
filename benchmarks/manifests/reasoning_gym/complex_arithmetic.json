@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/complex_arithmetic.jsonl",
-      "sha256": "d5602d37941bd580b2c69bed5ee2724c7bef8f25778d2f578a2a5cf45517c452"
+      "sha256": "6fe0c230fe94e279c09797e631901df60967552e24f79912e297741bb42d3423"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/complex_arithmetic.jsonl",
-      "sha256": "f052d568952aa11baca72f6b5999eeecd1ac708370f0cc600290fd82cda13b36"
+      "sha256": "986ffc70ff98b96e8fc6ab2ecd4f4d05e787f422856900ac0ea76f57c49af9f3"
     }
   },
   "task_family": "complex_arithmetic"

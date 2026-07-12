@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/caesar_cipher.jsonl",
-      "sha256": "e3dc8712f370f1f7e24462bedf19a264b4066396ba3b4b4ce1ad76b01ee7473c"
+      "sha256": "2e62545ded25fd6745e0dc962a33422acd1a30733c6cbcc4b399d585e6a1e289"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/caesar_cipher.jsonl",
-      "sha256": "447574888e46185b557f10431c0fcff6aafce0e42e0f5cf793ed31ca219634de"
+      "sha256": "50c13b1041c9a3669db97404d3e399ef80625e2693fe55b077b62a8414a00449"
     }
   },
   "task_family": "caesar_cipher"

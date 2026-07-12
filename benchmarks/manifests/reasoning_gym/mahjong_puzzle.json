@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/mahjong_puzzle.jsonl",
-      "sha256": "47dbc5a9775a7a317c260894aa695801a60a13b5b6faaf44e9c90f50566099d7"
+      "sha256": "2011a89268248714e48c05cb30ea47e751af844d29a1cfb75aed4d0c7140e0a7"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/mahjong_puzzle.jsonl",
-      "sha256": "d52998ef2fba76653ad11991d11ca9c317cd5e2f8ed83e7bf1bf81c89ad59f97"
+      "sha256": "5054f80d04d6362c06ac473f1a010e4c0e0daadc48b1e0efaf8a7cb0e6ea5efc"
     }
   },
   "task_family": "mahjong_puzzle"

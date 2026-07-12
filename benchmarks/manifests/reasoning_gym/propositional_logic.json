@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/propositional_logic.jsonl",
-      "sha256": "9921e60549ea3e760cca9fba813d76a10c6c195763b270af32e08530c4e58acb"
+      "sha256": "ab9d2894842c2745d88ee96f1b8b932bbfd4fe159cea8bb73a02b53e55f5ed29"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/propositional_logic.jsonl",
-      "sha256": "721e300d008e167d23bcf2db377d10f23813c13cde0becd3073ca4ff036053af"
+      "sha256": "c3db95ccc4b242358e2c9e6b7ff5dce5a8d8c5f57bccdab374a5ae96921ecd17"
     }
   },
   "task_family": "propositional_logic"

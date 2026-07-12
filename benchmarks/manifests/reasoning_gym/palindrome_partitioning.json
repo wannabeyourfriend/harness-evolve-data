@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/palindrome_partitioning.jsonl",
-      "sha256": "c08782c45e12b17754dadd9a12e577c888b1bd486e6569bc18fbaa0299f97d82"
+      "sha256": "01723b4273c0be69faae61f2663fccb781a21220209e46336e5031a997adc208"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/palindrome_partitioning.jsonl",
-      "sha256": "9daecddc9597945e8894372c34e252c53b503daa0e99a0b3a25fba1ebfde67e5"
+      "sha256": "523ed5775db14676dd5293890a28f0c02e4a6e8cdd830e7d0d5fa8a8bd796862"
     }
   },
   "task_family": "palindrome_partitioning"

@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/calendar_arithmetic.jsonl",
-      "sha256": "986db06536b863cfa83c514a549ea819f7c6211abb71f2be81e0521dd552e64a"
+      "sha256": "77b9af267d151f4a73c7b12f2ff74a3f996aadbbab031710e92ab90f8416f562"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/calendar_arithmetic.jsonl",
-      "sha256": "97e6254af2ccb0f40ceeba9249d851bf8e85991441b3e053dbf5d91cb866092f"
+      "sha256": "6f24e8481c5fe6e9166356b06483fe5f6078c1fb98a2b2be5717c8951bb5a06e"
     }
   },
   "task_family": "calendar_arithmetic"

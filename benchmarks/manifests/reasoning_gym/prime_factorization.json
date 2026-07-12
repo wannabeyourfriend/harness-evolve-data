@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/prime_factorization.jsonl",
-      "sha256": "683f898e0a69e401a0bae6d9e0c89d156c362eebe119e39841ca0e2563ee719b"
+      "sha256": "41e44c92e7c9f5193cb613a7da9cc5afce8482a5f6229c40d6b3b2bafc85f966"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/prime_factorization.jsonl",
-      "sha256": "2a1c87ec638cbbc07c4266b07e6be0cde60f198951e0449896cfb0ff6b61ed24"
+      "sha256": "e26e2865d17128dbbfd4b4ce67cb8b52a025cf5cd557c2070862bc7fe808b961"
     }
   },
   "task_family": "prime_factorization"

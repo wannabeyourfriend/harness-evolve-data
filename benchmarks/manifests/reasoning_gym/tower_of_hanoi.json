@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/tower_of_hanoi.jsonl",
-      "sha256": "0c88c7cd292b60872d4d576703db048ac3b391c835bc9fc198d695e3c23e1b23"
+      "sha256": "68a60280b0c316e7478c79ddf3aa1d647ff11160dd5afa1fe5b6288fbdeb7112"
     },
     "test": {
-      "count": 30,
+      "count": 60,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/tower_of_hanoi.jsonl",
-      "sha256": "193e5a598b4f90c8756dd977fb3088723b8c30d5173f80747ecf0a8a1301f3b4"
+      "sha256": "4f0a969d7291f8f618a3d2354ebdec0b698abd8c86e49755dd00616e581442c1"
     }
   },
   "task_family": "tower_of_hanoi"

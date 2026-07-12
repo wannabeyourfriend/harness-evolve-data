@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/cryptarithm.jsonl",
-      "sha256": "43e59985a7560266256f75c50f3e5f826a85621ec927e7bee1f7b63bcdd77b3a"
+      "sha256": "04363c3cd729477dab3211d74081226ece91dc34065294cc07dd0ffb4cad4d55"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/cryptarithm.jsonl",
-      "sha256": "9bfda502ac8adc2c31e28b66b91685347fc492d087733183b6afd71d0e40c489"
+      "sha256": "a6cacc397eda257fe692995b9ecadd4ab1ee4e07b89ae43fad5c9977e85cb17a"
     }
   },
   "task_family": "cryptarithm"

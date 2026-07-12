@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/puzzle24.jsonl",
-      "sha256": "9a2278c58cb0d2f263d239f5917aea142901eae027ab91567dc4a791810b5f8e"
+      "sha256": "f8447a2e6bf91a58e7f76ff05d961f89e0811be0ce816a70eba8c8c0a4c193b2"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/puzzle24.jsonl",
-      "sha256": "bff42d237f0223613053cce5c03ab22dd82e7f9b5f12b196fa2a679dbc9d958d"
+      "sha256": "e43dd37ad8054a5d28e3bba60c3251690136b4d8551a9b2425546f63146438df"
     }
   },
   "task_family": "puzzle24"

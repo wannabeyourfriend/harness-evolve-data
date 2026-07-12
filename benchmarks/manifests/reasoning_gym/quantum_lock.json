@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/quantum_lock.jsonl",
-      "sha256": "d03dc7e28f86123c1f48a42a752ca99c99e7d3827bd189e402f6192a9575f787"
+      "sha256": "a34ecb0784cc73c8d555e2690cc9a05f27a20888f5f8f98aae09b7891d83a96b"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/quantum_lock.jsonl",
-      "sha256": "91c7452bda1d472d273a11aada3f6dc2712c2e7df34933c8ea3d8f89405de232"
+      "sha256": "84d71ceea59b189f1beecd298e53921b91eaf36c95831a1cf015b58350f968c7"
     }
   },
   "task_family": "quantum_lock"

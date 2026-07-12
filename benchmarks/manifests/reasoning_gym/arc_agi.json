@@ -17,7 +17,7 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {
         "mirrors": [],
         "mirrors_weights": [
@@ -34,10 +34,10 @@
       },
       "generator_seed": 42,
       "path": "dev/reasoning_gym/arc_agi.jsonl",
-      "sha256": "2aa7f5dae386ad10b579c93e5ba3190fff74cfb3ab9b476916e9fc4d9dac1a0a"
+      "sha256": "7f93c9e86ce02f40811ba5847e157ad1436c180768b2622bf004cf6495030a0b"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {
         "mirrors": [],
         "mirrors_weights": [
@@ -54,7 +54,7 @@
       },
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/arc_agi.jsonl",
-      "sha256": "a77af154bad97fa626881601e1079054a9d7f7328c32520fd81e4fd3edddc60e"
+      "sha256": "cab3db171b979f50d6e1784d0127e88edba4feb3d8dc9235a5085b39ea5c05e2"
     }
   },
   "task_family": "arc_agi"

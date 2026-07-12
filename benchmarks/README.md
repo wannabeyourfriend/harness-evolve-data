@@ -19,13 +19,14 @@ The referee retains `oracle` and provenance. The catalog currently includes:
 
 | Benchmark | Dev | Held out | Source policy |
 |---|---:|---:|---|
-| Reasoning Gym | 10 per each of 74 families | 30 per family | pinned SSRM generator revision; exact input disjointness |
-| GoEmotions | 10 | 30 | official validation/test splits; 30 labeled train-pool rows |
-| LoCoMo | 3 conversations / 692 QAs | 7 conversations / 1,294 QAs | conversation-disjoint; CC BY-NC 4.0 |
-| TAU2 | 10 per domain | 30 per domain | airline, retail, and telecom task-ID disjoint splits; official v0.2 simulator |
+| Reasoning Gym | 25 per each of 74 families | 75 per family (tower_of_hanoi 60: instance-space cap) | pinned SSRM generator revision; exact input disjointness; dev seed 42, heldout seed 20260712 |
+| GoEmotions | 25 | 75 | official validation/test splits; 30 labeled train-pool rows |
+| LoCoMo | 3 conversations / 692 QAs | 7 conversations / 1,294 QAs | conversation-disjoint; CC BY-NC 4.0; only 10 conversations exist |
+| TAU2 | airline 12, retail 25, telecom 25 | airline 38, retail 75, telecom 75 | task-ID disjoint (airline pool is 50 tasks, kept at 1:3); official v0.2 simulator; heldout seed 707122026 |
 | AIME 2026 | — | all 30 problems | reporting-only; MathArena release; CC BY-NC-SA 4.0 |
-| Terminal-Bench 2 | 30 | 59 | all 89 public tasks, stratified by category and difficulty |
-| SWE-bench Verified | 10 | 30 | repository-disjoint; gold patches are not redistributed |
+| Terminal-Bench 2 | 25 | 64 | all 89 public tasks, stratified by category and difficulty |
+| SWE-bench Verified | 25 | 75 | repository-disjoint; gold patches are not redistributed |
+| LiveCodeBench | 25 (release_v5 delta, 2024-09..2025-01) | 75 (release_v6 delta, 2025-01..2025-04) | temporal disjointness across the release boundary; tests embedded in oracle payloads (private tests keep the lite encoding); dataset card license "cc" without a stated variant |
 
 Use the benchmark-local builders to regenerate data. Network-backed builders
 pin immutable upstream revisions and require the optional data dependencies.

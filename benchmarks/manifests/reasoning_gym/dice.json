@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/dice.jsonl",
-      "sha256": "95ed201bab1d2aad6e94c9b813221ab12d3814f93ae2aaedd9ba88e35cae9bda"
+      "sha256": "85c81a3f75b005d4384ca73903c50520aee002008567f10e65b7f4510a8a394c"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/dice.jsonl",
-      "sha256": "9bdbba790217be078cbfe9d585944259c9208c37a3476b85a446eae1c2a3a05e"
+      "sha256": "b8422ac7c61d03392c5782dad75eb7ef26f65869a0b996cb657cd91549d7f656"
     }
   },
   "task_family": "dice"

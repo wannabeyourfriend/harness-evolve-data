@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/count_primes.jsonl",
-      "sha256": "33272d6fb7ced378534baf678601fe214b4b252f6b48c12ccffb4ea76cda7f71"
+      "sha256": "1c977f0462c5b5391e21208f3ef4574946cc46079f48ee66f17e59879d8c05dc"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/count_primes.jsonl",
-      "sha256": "0de53c817821717004290f7e031c6397fadeef2e739819bff7580d256b71a30e"
+      "sha256": "b654b1db6d3939e18750de9895fabfd77f37bbf5ba84f2350c7e15118528e52b"
     }
   },
   "task_family": "count_primes"

@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/decimal_chain_sum.jsonl",
-      "sha256": "554ae9acb246d7bffd97ac46e1835be796ac11cdd73dc05a98d0c0fbdd30b507"
+      "sha256": "388d862a98ad4d575815e246212a549b75901ebec30c8523de059ae7631a1810"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/decimal_chain_sum.jsonl",
-      "sha256": "3531b69731f13e31ba9b06448303b286717cffb9de33550550832585edc53bd9"
+      "sha256": "dd40023e23ac167b8680c423d31eff2553654beb4508c4cb0427faad7c5d7476"
     }
   },
   "task_family": "decimal_chain_sum"

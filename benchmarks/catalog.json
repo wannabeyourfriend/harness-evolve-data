@@ -21,6 +21,39 @@
       "task_family": "aime_2026"
     },
     {
+      "benchmark": "livecodebench",
+      "manifest": "manifests/livecodebench/livecodebench.json",
+      "name": "livecodebench",
+      "source": {
+        "dataset_id": "livecodebench/code_generation_lite",
+        "files": {
+          "v5": {
+            "artifact_sha256": "7f77571c2a6df0c2a72a3277650309f67e01e0008e18117e624633df53f81214",
+            "path": "test5.jsonl"
+          },
+          "v6": {
+            "artifact_sha256": "bb4c364f71921c4495a6ad15abe1a927350b720009f4933e2e71f8af0f6fd1f5",
+            "path": "test6.jsonl"
+          }
+        },
+        "license": "cc (unspecified variant on dataset card)",
+        "uri": "https://huggingface.co/datasets/livecodebench/code_generation_lite"
+      },
+      "splits": {
+        "dev": {
+          "count": 25,
+          "path": "dev/livecodebench/livecodebench.jsonl",
+          "sha256": "104654944a742991ad11e24a3d7e5d984e34771eb656bf5e6a26066ccc585942"
+        },
+        "test": {
+          "count": 75,
+          "path": "heldout/livecodebench/livecodebench.jsonl",
+          "sha256": "710e9709c668e9e33b59a7d931e0d43e421cc150813680af4005773d942b481e"
+        }
+      },
+      "task_family": "livecodebench"
+    },
+    {
       "benchmark": "locomo",
       "manifest": "manifests/locomo/locomo.json",
       "name": "locomo",
@@ -54,14 +87,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/ab.jsonl",
-          "sha256": "485fe75dfce41f7287e763b1bcc4b1a553f297900dacc580a1ef35fc8ebde694"
+          "sha256": "f3f73b392cfeca127070bb53df44edae9108c8cc90c4a4263cfd8c241d94aefd"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/ab.jsonl",
-          "sha256": "f199d4bf62429696c46cf0f3c407ea9f48984eba818faf273c5e0cbb2fe8f4b7"
+          "sha256": "bb281adbc2c6d831b955d9a978e033054fc57b884fd5f7743649d367884a6d51"
         }
       },
       "task_family": "ab"
@@ -77,14 +110,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/acre.jsonl",
-          "sha256": "dd8b25839d8ab2cabd8490e75f61492ec25cb5262835b570f19925fcdd8d95f1"
+          "sha256": "f0ce152c2acf7e73c6436c7d992cdd68ad4016f74f3f18815709a8ca7bc980c2"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/acre.jsonl",
-          "sha256": "9606fd436df9d7a8a76994bcc248be6712c8e479761316e23e45caa394c45863"
+          "sha256": "798c9cf097d8a34bdb2d1ab017beea1fa7963555e12f4220d17b14f2525ab769"
         }
       },
       "task_family": "acre"
@@ -100,14 +133,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/advanced_geometry.jsonl",
-          "sha256": "51c96b4049e683d535119f673150fa5ee9f937b878cd109fdf9b9bacbe74b242"
+          "sha256": "dc7c6152e9a262eb31f479c68b532540d7b87d20ec761482c15ca7276655f39b"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/advanced_geometry.jsonl",
-          "sha256": "6e878d1def9228a56fbce03535bdba3f346a8b7c6eb29ece73e258ab822606e2"
+          "sha256": "a39d87d2bb4fb3cd9e31b1dc3fc895860c0dd8239f8f6676f7913a771625e5ed"
         }
       },
       "task_family": "advanced_geometry"
@@ -123,14 +156,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/arc_1d.jsonl",
-          "sha256": "d648e40706795e7b857cb2b605843cf2714e442ff1726e088ecf822c0c6f1d61"
+          "sha256": "5c5cee6d29339b67f5b6102f7a87d487fd6c92f9c55c64118bac8adc5c24bab4"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/arc_1d.jsonl",
-          "sha256": "a30c0c5dde32c477fd244bb8ecbf751c4a7576e047930fb3ba24404aed16cd92"
+          "sha256": "07914a8dc27e61e44b56379e13965b48b3f45bb64bc8234a5085aec5314a4e67"
         }
       },
       "task_family": "arc_1d"
@@ -146,14 +179,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/arc_agi.jsonl",
-          "sha256": "2aa7f5dae386ad10b579c93e5ba3190fff74cfb3ab9b476916e9fc4d9dac1a0a"
+          "sha256": "7f93c9e86ce02f40811ba5847e157ad1436c180768b2622bf004cf6495030a0b"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/arc_agi.jsonl",
-          "sha256": "a77af154bad97fa626881601e1079054a9d7f7328c32520fd81e4fd3edddc60e"
+          "sha256": "cab3db171b979f50d6e1784d0127e88edba4feb3d8dc9235a5085b39ea5c05e2"
         }
       },
       "task_family": "arc_agi"
@@ -169,14 +202,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/base_conversion.jsonl",
-          "sha256": "299056ccf541852f748e03de56674f5c2dbe5f0a4e1fd4d19293e9d0f3202b4b"
+          "sha256": "e944b004e785768e0d60fa4048410b086b337ef2a254ce62a74690ded2f4c599"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/base_conversion.jsonl",
-          "sha256": "5c35dd7e960d3160eda0c5c4f8f79f079640a86001db3ef72e63bc56d97c319b"
+          "sha256": "d9f67f1b66a5882d8633a635278d829eafc99b06a2927ea5cd560ac10a5331f7"
         }
       },
       "task_family": "base_conversion"
@@ -192,14 +225,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/basic_arithmetic.jsonl",
-          "sha256": "6c76218bdda34700a324306dc8bd1df74bf1ac140b571c3102d2058a4080f535"
+          "sha256": "3d497b36589f35c8f37375a692bee0bc7fa9d5b1d1f726d48c38a847b316c696"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/basic_arithmetic.jsonl",
-          "sha256": "d66d8eb064c2161e729fe46a84b0a717303b2cec00a130b070f32f254a92033a"
+          "sha256": "fd38668d538e90877348ec815c1c61d201412f300b0fb0f70483fbd25b0c910c"
         }
       },
       "task_family": "basic_arithmetic"
@@ -215,14 +248,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/bf.jsonl",
-          "sha256": "0d25fb2fffbda41bad461e013fba0dc5d19ac8179fa9ce5bb0acb04ac9fe3b6e"
+          "sha256": "15264cd58d0836bd62841894aab9e6cc5ed79af4e3ea031a0c392b3daded8d9d"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/bf.jsonl",
-          "sha256": "bcceb1288d74ba43d5e9a86f694ea8da6372625f13a2ef475464ef306d5f8bd9"
+          "sha256": "afd344f1b127e27567688c1398521ecd0d8c42710cf0381e86dccf86485dfaf0"
         }
       },
       "task_family": "bf"
@@ -238,14 +271,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/binary_alternation.jsonl",
-          "sha256": "a7f5a0a33659ef9218a228568fa292ec0ddbe1b957d20c752c7ba7e8d36c3763"
+          "sha256": "e6d2fde2200c8d43152dee45ee739e58b4128664e1e846a00e7ef1d03a371b06"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/binary_alternation.jsonl",
-          "sha256": "db056c6cb307bbf57ad8b4b425a1d8115a93e84c7efaf55dd7b722ed3cf04853"
+          "sha256": "ad10e4bda442bdee04aab554984271ac60ecc6c1ebe1c480d14197a1301bd3d2"
         }
       },
       "task_family": "binary_alternation"
@@ -261,14 +294,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/bitwise_arithmetic.jsonl",
-          "sha256": "b0b1c43dd60260b5b5765894ce28178ea3a5c1167373a7c73b54914cbe1b0131"
+          "sha256": "acae07dc63a13c293e8dfab920142dadb7f2993ac438e75a7b25b8e92218ea81"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/bitwise_arithmetic.jsonl",
-          "sha256": "2f11f2d596b8bc488b44a09767a68edb78aa0e7fb19f85e771f97ef59a64a7e1"
+          "sha256": "77dc210f4a61f24dd6a6c0d28849715883b70d87a820bf3270ec55c4a2c0f862"
         }
       },
       "task_family": "bitwise_arithmetic"
@@ -284,14 +317,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/boxnet.jsonl",
-          "sha256": "3f9c84cf1425094fac0fe1c9ea83ed6c5f25f723f355b1f686606571f236c1ff"
+          "sha256": "e33b0db2f9e176451b44316294a77a4f470bb7e9bd6b59b7867d46cac3ee629c"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/boxnet.jsonl",
-          "sha256": "e59a4513d01a42ab255c370e9da5f6a90facb2cdc3325a8fa056594de1365439"
+          "sha256": "e09e2a6c070e616d2d2f19dd3988da8f4d4da504fb953fde86137ea332b3f05a"
         }
       },
       "task_family": "boxnet"
@@ -307,14 +340,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/caesar_cipher.jsonl",
-          "sha256": "e3dc8712f370f1f7e24462bedf19a264b4066396ba3b4b4ce1ad76b01ee7473c"
+          "sha256": "2e62545ded25fd6745e0dc962a33422acd1a30733c6cbcc4b399d585e6a1e289"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/caesar_cipher.jsonl",
-          "sha256": "447574888e46185b557f10431c0fcff6aafce0e42e0f5cf793ed31ca219634de"
+          "sha256": "50c13b1041c9a3669db97404d3e399ef80625e2693fe55b077b62a8414a00449"
         }
       },
       "task_family": "caesar_cipher"
@@ -330,14 +363,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/calendar_arithmetic.jsonl",
-          "sha256": "986db06536b863cfa83c514a549ea819f7c6211abb71f2be81e0521dd552e64a"
+          "sha256": "77b9af267d151f4a73c7b12f2ff74a3f996aadbbab031710e92ab90f8416f562"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/calendar_arithmetic.jsonl",
-          "sha256": "97e6254af2ccb0f40ceeba9249d851bf8e85991441b3e053dbf5d91cb866092f"
+          "sha256": "6f24e8481c5fe6e9166356b06483fe5f6078c1fb98a2b2be5717c8951bb5a06e"
         }
       },
       "task_family": "calendar_arithmetic"
@@ -353,14 +386,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/chain_sum.jsonl",
-          "sha256": "8b09a6aacced34c44524a3088c9723a6cf3fd5b046306046a821d37054215361"
+          "sha256": "e200978ce3d590e704905bf279f1b01f670a9741395e1b5c063e53a4326b8100"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/chain_sum.jsonl",
-          "sha256": "0983a1c7f01c7dab70ebcadaa90ddf0feff4843cf5110fbfe69abef93bd14c19"
+          "sha256": "73d5d715cc9cd5836f626c931b7478753cae653e757ca83145f72667ce9ad475"
         }
       },
       "task_family": "chain_sum"
@@ -376,14 +409,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/circuit_logic.jsonl",
-          "sha256": "f7e6159aed6ec894795f666241e0c0fab136bef47f9b664653da1a93a4721f04"
+          "sha256": "398fb92e645ed9f9a1f5d7562cefed12627d67f343bd47712ff808145258c7b4"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/circuit_logic.jsonl",
-          "sha256": "6448a1cc14206dd90e81576eed55df597282bbbd7ef8c700a94950528214a3b0"
+          "sha256": "88fed7195cebe3d10e0be663d0b27f8d527740884a269b721906eacbd8b3ac5d"
         }
       },
       "task_family": "circuit_logic"
@@ -399,14 +432,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/codeio.jsonl",
-          "sha256": "793a3dcfa0859b352512793b1ff2e5706983fae3795cf6f9cd0c41b8103555c6"
+          "sha256": "1bf3bb723b184b1c8d45501c084c9144812f574132bf986005a359f0b8ad031e"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/codeio.jsonl",
-          "sha256": "2d21aa5eec1bce718e5bfdf391b18c696f06e00f87ec9a4217045d0f8c1581e7"
+          "sha256": "f0b3637c06edb205ef6b9fc670de16f7bcdbfcde6b830ba1e9b9b92fb8b19705"
         }
       },
       "task_family": "codeio"
@@ -422,14 +455,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/color_cube_rotation.jsonl",
-          "sha256": "10979f9e95285f4e7cea92a7ce66a44fc1b44a5032603f25759b2b1de30b178a"
+          "sha256": "9fd8670c9b957f1cfd7be631e729fc4fa7fd807cb125b18755e2a09ec2cf8205"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/color_cube_rotation.jsonl",
-          "sha256": "bb2f13796e9cbe1306e1b41c020f54df88322251e1708fdcc599981c30b48ebf"
+          "sha256": "37a0608e695c174c6c62a369f836ecb8bed6e9f66eb27dc56c793fdfbb536de2"
         }
       },
       "task_family": "color_cube_rotation"
@@ -445,14 +478,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/complex_arithmetic.jsonl",
-          "sha256": "d5602d37941bd580b2c69bed5ee2724c7bef8f25778d2f578a2a5cf45517c452"
+          "sha256": "6fe0c230fe94e279c09797e631901df60967552e24f79912e297741bb42d3423"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/complex_arithmetic.jsonl",
-          "sha256": "f052d568952aa11baca72f6b5999eeecd1ac708370f0cc600290fd82cda13b36"
+          "sha256": "986ffc70ff98b96e8fc6ab2ecd4f4d05e787f422856900ac0ea76f57c49af9f3"
         }
       },
       "task_family": "complex_arithmetic"
@@ -468,14 +501,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/count_bits.jsonl",
-          "sha256": "859d32ddb857bfa6b0f23792de039c28e0215629a8f73cf8bd2db19f11b454ff"
+          "sha256": "170beb10d04cbe6e3753a428bcb1670801dae76677a6685443dd4a89014480aa"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/count_bits.jsonl",
-          "sha256": "9861d7288ebc816539396f6d2b52072ca12e4510f787a30df8f4627a21a90a62"
+          "sha256": "4cf98eafcdc5543b66413bdf28d4b40b03e3f9d9d2e5e742860908cfca25f7af"
         }
       },
       "task_family": "count_bits"
@@ -491,14 +524,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/count_primes.jsonl",
-          "sha256": "33272d6fb7ced378534baf678601fe214b4b252f6b48c12ccffb4ea76cda7f71"
+          "sha256": "1c977f0462c5b5391e21208f3ef4574946cc46079f48ee66f17e59879d8c05dc"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/count_primes.jsonl",
-          "sha256": "0de53c817821717004290f7e031c6397fadeef2e739819bff7580d256b71a30e"
+          "sha256": "b654b1db6d3939e18750de9895fabfd77f37bbf5ba84f2350c7e15118528e52b"
         }
       },
       "task_family": "count_primes"
@@ -514,14 +547,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/countdown.jsonl",
-          "sha256": "c31e21f68bc6fc2aca5f42c988f9b6c16e020f884ecf6e9732ce6585dab6f844"
+          "sha256": "156709349898a1a0a75f002ef4a8bc57a98e9ed2277edd9b2d179e8f0e882f38"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/countdown.jsonl",
-          "sha256": "1259b37a13856a62129c49ae286c0feb8ad6c8453fcfd3200380cd7cbf85ed58"
+          "sha256": "77b75ce8e1df04edbc1360c28eafd7982fe8ede4baaf24cd93ccf77515ea8fb2"
         }
       },
       "task_family": "countdown"
@@ -537,14 +570,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/course_schedule.jsonl",
-          "sha256": "9b2d2949177fc74ce9ed85dd161cb5b98c58a3693fcf784c56eee7696bc92cfc"
+          "sha256": "99dba90bddc1b76cf813fc0ffc3fe6db08bcaa2a3eabd014862624d926b5d800"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/course_schedule.jsonl",
-          "sha256": "bfe4aed1be6f73ab9dd2e20313d430f868e7ce5e94e41f9996cfe4ed8cd70d27"
+          "sha256": "70b7a2e26ba018d88c365197d7fdf7719b4de397aaa5c661bf132fc19c2aeaf6"
         }
       },
       "task_family": "course_schedule"
@@ -560,14 +593,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/cryptarithm.jsonl",
-          "sha256": "43e59985a7560266256f75c50f3e5f826a85621ec927e7bee1f7b63bcdd77b3a"
+          "sha256": "04363c3cd729477dab3211d74081226ece91dc34065294cc07dd0ffb4cad4d55"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/cryptarithm.jsonl",
-          "sha256": "9bfda502ac8adc2c31e28b66b91685347fc492d087733183b6afd71d0e40c489"
+          "sha256": "a6cacc397eda257fe692995b9ecadd4ab1ee4e07b89ae43fad5c9977e85cb17a"
         }
       },
       "task_family": "cryptarithm"
@@ -583,14 +616,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/decimal_arithmetic.jsonl",
-          "sha256": "c1cccc54d6216e545c2e1214a406867c7c67bf64734d5354f1a192ecbb510263"
+          "sha256": "6f2e6fd221eb00d7762a1febce8b3da30cfa637a137833df03a5160764f8429f"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/decimal_arithmetic.jsonl",
-          "sha256": "5ce7726a55cd01b1ef5b51541765ba3be9d5ce7665d559d94f7c81668a293f8e"
+          "sha256": "f80d3800202c423d7aa5597fcc84ef876e184ddf4e83bdedfac9ef4969e59842"
         }
       },
       "task_family": "decimal_arithmetic"
@@ -606,14 +639,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/decimal_chain_sum.jsonl",
-          "sha256": "554ae9acb246d7bffd97ac46e1835be796ac11cdd73dc05a98d0c0fbdd30b507"
+          "sha256": "388d862a98ad4d575815e246212a549b75901ebec30c8523de059ae7631a1810"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/decimal_chain_sum.jsonl",
-          "sha256": "3531b69731f13e31ba9b06448303b286717cffb9de33550550832585edc53bd9"
+          "sha256": "dd40023e23ac167b8680c423d31eff2553654beb4508c4cb0427faad7c5d7476"
         }
       },
       "task_family": "decimal_chain_sum"
@@ -629,14 +662,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/dice.jsonl",
-          "sha256": "95ed201bab1d2aad6e94c9b813221ab12d3814f93ae2aaedd9ba88e35cae9bda"
+          "sha256": "85c81a3f75b005d4384ca73903c50520aee002008567f10e65b7f4510a8a394c"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/dice.jsonl",
-          "sha256": "9bdbba790217be078cbfe9d585944259c9208c37a3476b85a446eae1c2a3a05e"
+          "sha256": "b8422ac7c61d03392c5782dad75eb7ef26f65869a0b996cb657cd91549d7f656"
         }
       },
       "task_family": "dice"
@@ -652,14 +685,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/emoji_mystery.jsonl",
-          "sha256": "36d451d94df99ce64c847bf9ca883e1168deed03a602af442d6d5ef88ef50112"
+          "sha256": "486fcc073923253e47f18d7f8e0367df35101c28f403cda434ec102bbe6e681b"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/emoji_mystery.jsonl",
-          "sha256": "ec6740651a65dee2af6e3de48262b50ac451c1d9f010d3afde699c78e798018e"
+          "sha256": "d11f0d251b40aad7c7d71107dade2fa3bf3610d521063552e043bd32ad58db3c"
         }
       },
       "task_family": "emoji_mystery"
@@ -675,14 +708,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/family_relationships.jsonl",
-          "sha256": "cbe3f16bb76a95d719841425a2a09027b86aefbaad4e08bcd087ad34a8f8e344"
+          "sha256": "2ff406c855efb432abde206ba63fc720bde40ba6c8c1ae73117f211b0404ec8d"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/family_relationships.jsonl",
-          "sha256": "ed86ca9c6195bb89e889804a51f000090b566b9e28a3824f94fc59143d2eeb43"
+          "sha256": "81783dd617811fee05c10462ff3a76f61d5857517fe1fa02a39fd5e71858357e"
         }
       },
       "task_family": "family_relationships"
@@ -698,14 +731,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/figlet_font.jsonl",
-          "sha256": "75f64c1023a7b221b4527f372d60569f8e4094874caecdfa9d244b5dd3b18b48"
+          "sha256": "0af493db1787889aace63143e5e9b9eb3829a27ca820f91c140ff52753882eea"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/figlet_font.jsonl",
-          "sha256": "38b6edfed66e390eb1c49cb8173fc2bc5d246c3e2b5af4c82c834f4e8c00e527"
+          "sha256": "7caf703ef2c06904082483987ea52ebd744a4b7505c39c68f20da02ad30c9c10"
         }
       },
       "task_family": "figlet_font"
@@ -721,14 +754,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/fraction_simplification.jsonl",
-          "sha256": "9a67c87f9376470f7af162adb3c44d9483d03f6831ba294e5fd2d6fd8d93a72f"
+          "sha256": "ed287ed36671d0b020ee5db3204f2e1f2c2ff2803527d27af09a2af67dae9dc0"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/fraction_simplification.jsonl",
-          "sha256": "6b536ef64191e4118e293e8d786ac789d106078d2d969c8869b8d937b860f357"
+          "sha256": "71325971890a1744f649bea5f5ee13c7246c5952cbf7c6fe020e34e0e5e0200c"
         }
       },
       "task_family": "fraction_simplification"
@@ -744,14 +777,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/futoshiki.jsonl",
-          "sha256": "2849a33edb807488eebfdca2fca02b46099e293ba736c7d93820d608f63251cc"
+          "sha256": "fdf041bba7512f5e8e93a9424b61440c2d3249d5bfaeea54f94d6db8457b49c0"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/futoshiki.jsonl",
-          "sha256": "bd3320bfaad84a47d0e4ceef47ae4f9fa04532d913994ef27d91fa35cc342987"
+          "sha256": "0ac12db010204d1235a9f81da61a2bc31dc44ba9dd31794e4edbd56a9906f9b3"
         }
       },
       "task_family": "futoshiki"
@@ -767,14 +800,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/game_of_life.jsonl",
-          "sha256": "fbfd255a63b0e5963556ffe670827c2ba14c951c160f29b890d067d1d3a281f6"
+          "sha256": "f73a413b705cea52f0836e89059d5c0a6e826389bb4159a2b15f208605169588"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/game_of_life.jsonl",
-          "sha256": "7dfe454a24d70bb2e6ebcee4e449077ca9b31be2441e9419170b7c211f0d1d7b"
+          "sha256": "b90b23cb4cc1d30384ca9acd24a8e3d9ad46ed92580b2f50b96ed319cba99869"
         }
       },
       "task_family": "game_of_life"
@@ -790,14 +823,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/game_of_life_halting.jsonl",
-          "sha256": "1f5c616052737982cb7acc4a25f1049987566ef378f710ccf9654d7bb4cfd4d1"
+          "sha256": "414d22a355ca6b9d42aac77a12587a088f50afd9599541260c0df6fad67439d3"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/game_of_life_halting.jsonl",
-          "sha256": "250bbc4ca0aa2d7e51618ddeeeb3b4db813a74b3c5aa3bb3dc4754306d54c2eb"
+          "sha256": "180d85b04620863571de1714b249c0f8b61cc742e1859132f722c26a1a7e34d7"
         }
       },
       "task_family": "game_of_life_halting"
@@ -813,14 +846,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/gcd.jsonl",
-          "sha256": "b4c6162495e9d909a78b923a68eee6d3ad097aad67b060b9dcdbdf3011da3e91"
+          "sha256": "30dac37e4b24ddb4e5206d5c8d1764e634f27a2886d2938436f22215c69c3b0f"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/gcd.jsonl",
-          "sha256": "27a89b71c802fe24f1cd3055347b847310197440180224f17618898dac3ee1b4"
+          "sha256": "4548feab8171c15c766cbfafc4cfc008eceef7292dbe69c5c2ae489e062682aa"
         }
       },
       "task_family": "gcd"
@@ -836,14 +869,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/group_anagrams.jsonl",
-          "sha256": "0e8fa68667294043d39110dcdb150d952230bce99fc869fd8fd92b85c51c85b8"
+          "sha256": "290fd1c431677219197e38abec1bba6b46820ec65080c880bb475671923e8d06"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/group_anagrams.jsonl",
-          "sha256": "44e8456933d44e23585f8fb8b4103f31ee1f6c324e6344c4720d123eadc0eb47"
+          "sha256": "234ca8f000065fbbd9441f92f7c5cbc0c1028f5e1b1774b29ba71a07952badbd"
         }
       },
       "task_family": "group_anagrams"
@@ -859,14 +892,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/gsm_symbolic.jsonl",
-          "sha256": "fd18162b9c862caed5b47f224a6a14101776712f94827211ead8ba7020455349"
+          "sha256": "fdc891aed022633b3b4462288686581cb40f08b75adeddaae3678c2a219e87c9"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/gsm_symbolic.jsonl",
-          "sha256": "76b930767125a5f61939f2c0c2eed51fad9a11664e1b3ae4288a89379c5a8491"
+          "sha256": "024ff518a5064535aeeae15cc5d1748dc8433eae664e80dca3378eae50d3cbb8"
         }
       },
       "task_family": "gsm_symbolic"
@@ -882,14 +915,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/intermediate_integration.jsonl",
-          "sha256": "f647ec2e58e58806cf66735d722521eef37b1f160543d5d9b0f36cd41d364a9b"
+          "sha256": "b9ef93b589e2d962bfbd70323c4388d1cbe4e9d4921d0a4ecabc81bbb73b8f12"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/intermediate_integration.jsonl",
-          "sha256": "64645bceef7450fbc8e7745c33e92cc1574e3108ae2cbfc9f78c99f5f22c960d"
+          "sha256": "0697b035489023574a8f22c343460e3b989a82ac49370c790c5a854eb8a85c79"
         }
       },
       "task_family": "intermediate_integration"
@@ -905,14 +938,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/jugs.jsonl",
-          "sha256": "0833041e694c87e9c95299c8fda4893f66b9b9331df21cf89eb1c926b7c72c3c"
+          "sha256": "eccfef09ca83ec1b09370585fb88080dd4be71c6fb010dbdfc8338190f7aa503"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/jugs.jsonl",
-          "sha256": "26a116d29f12a48c5da805d02b00792403ec89359fb9e9ccfa04c8276ebb39e2"
+          "sha256": "efcf5ddb1270ed9ee2db2a5653fdf01362b499ab0d7ba106f1b218e0b15deb10"
         }
       },
       "task_family": "jugs"
@@ -928,14 +961,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/kakurasu.jsonl",
-          "sha256": "b1229370fac2e7c636cd333325454fc0feb13b6a9f555bdbb53426fcd053e2b4"
+          "sha256": "84ab12113bdf6debe3eb9c9d51cc54a56cfc498ff2a88db306933fc60cd9039f"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/kakurasu.jsonl",
-          "sha256": "a1de058ef541b755951cc250695870e6c3b70efb4767a119b5628c205e2383a8"
+          "sha256": "bbb7550bd64c9cea8caf9ea255c03addf45e9d43b1cd9819b234b407a9053835"
         }
       },
       "task_family": "kakurasu"
@@ -951,14 +984,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/knight_swap.jsonl",
-          "sha256": "54bac388236a6b8401979995e4799065910153e1f7bad8546552b060f13fee9a"
+          "sha256": "efd2e67a7559ae4f26fc3cb178150c1d44f54cef321382406f029a60e2e62ae5"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/knight_swap.jsonl",
-          "sha256": "e539d4653be982841f6d244fa0da2ab1c35a92d2f1fa737d4ece10cacf81a1a6"
+          "sha256": "5497b3c0e9a84b99943e2285ce381e4c798ded1ba93ee47d465acaa44f6d3b26"
         }
       },
       "task_family": "knight_swap"
@@ -974,14 +1007,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/knights_knaves.jsonl",
-          "sha256": "7bdfc18724b4b35d6f8940ef69bb18340be96955359d83ecd0e8448da7cc9a20"
+          "sha256": "fc15ae1260c82863816a73f407168973e2033864f9b212daa6dc66c558ec65f4"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/knights_knaves.jsonl",
-          "sha256": "ca6180aad867e7d83f0aca545215e080d1e3efdc01cfa399cc16cb761e726cad"
+          "sha256": "44a228a596747f99519923ab3599ead943ac852516546c4808d4619811ab9ddb"
         }
       },
       "task_family": "knights_knaves"
@@ -997,14 +1030,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/lcm.jsonl",
-          "sha256": "b9a0ac45f43ed33ae51fb96f71039c8963908cd8bb8082cee25eeb29b9a2d872"
+          "sha256": "293c02375f444b245762dd614f2776a589dc01c0619df3a3379f8123f9c95d88"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/lcm.jsonl",
-          "sha256": "a606523202f685df22e437407c3beb46746e71a9e67ad598c158621f495729b0"
+          "sha256": "8027551b996577bb17923a0aa2accf1456416c7be28df8f9299d56cdaf802728"
         }
       },
       "task_family": "lcm"
@@ -1020,14 +1053,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/leg_counting.jsonl",
-          "sha256": "78ef1d329a2c97166fbea8a5313d2882985887007c109643564ffcc1ad659625"
+          "sha256": "858257ce67c7d1b3cefe0d58055f37df067492ab63db831e3edb871678548c6e"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/leg_counting.jsonl",
-          "sha256": "e0d434ee536150c8362c873cc7e9d6a6b512a74ca1b23b3c5321459ee5b1a1e8"
+          "sha256": "79ef3a092540e8971cc3535b47d434cf7fd8ea3d22baec707901427b1e4c8e3c"
         }
       },
       "task_family": "leg_counting"
@@ -1043,14 +1076,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/letter_jumble.jsonl",
-          "sha256": "7cef119009d8d36cb3ef07c041e6e2295695b2c189e468955fab464f21a88dc6"
+          "sha256": "79413c424917271c87f16df429a8b548b881b9837f3815039f04b6d7913cc5a0"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/letter_jumble.jsonl",
-          "sha256": "9bf54763e8f1793e6264936303ad92ec6bbd924ef162495254593545522dfe18"
+          "sha256": "7e8893762fa6079e47587e80368f20082882928332a0332fb3dab2005003c2bd"
         }
       },
       "task_family": "letter_jumble"
@@ -1066,14 +1099,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/list_functions.jsonl",
-          "sha256": "4c0ffff226d7b61a96935129a5f222da639a897e9221b3f5edd4e6d4bfe5dfb4"
+          "sha256": "1041315697454fb19d8a065e2f187e6411b16b635dfe5afc97a92d905e8361b4"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/list_functions.jsonl",
-          "sha256": "a6c0a2557eb0b659abc3a3bc1716715ab3017ae1f20a6889bf00423364d8a7fd"
+          "sha256": "7141ed3f417afa16082109f8b013f9e9a4239dffd9f7ad068fd10da4798d0db8"
         }
       },
       "task_family": "list_functions"
@@ -1089,14 +1122,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/mahjong_puzzle.jsonl",
-          "sha256": "47dbc5a9775a7a317c260894aa695801a60a13b5b6faaf44e9c90f50566099d7"
+          "sha256": "2011a89268248714e48c05cb30ea47e751af844d29a1cfb75aed4d0c7140e0a7"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/mahjong_puzzle.jsonl",
-          "sha256": "d52998ef2fba76653ad11991d11ca9c317cd5e2f8ed83e7bf1bf81c89ad59f97"
+          "sha256": "5054f80d04d6362c06ac473f1a010e4c0e0daadc48b1e0efaf8a7cb0e6ea5efc"
         }
       },
       "task_family": "mahjong_puzzle"
@@ -1112,14 +1145,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/maze.jsonl",
-          "sha256": "3d10df2bf08de12f8d35f1d07718cfad1a5f48016578a9e2d6baf26c6267d670"
+          "sha256": "63819c858a4f457b7769513eab8bb3ae1292c5c338190db92c5c43041139e203"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/maze.jsonl",
-          "sha256": "f360c71bc4271bd7b9c78a75b68aadf7c318a15dba3b1095d364b34d4b28f3cd"
+          "sha256": "a3e6c7e71c35711ff115c15adac6bbf5b3fb8d0f43fe440ce5edb0e600fcf1af"
         }
       },
       "task_family": "maze"
@@ -1135,14 +1168,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/mini_sudoku.jsonl",
-          "sha256": "bbac744fad2f41804cb22eec5c6a58f3063f1f2280d742c2fb8f44f0e6081901"
+          "sha256": "846aec35e6a4debf6bb5be20fe2aca5e92b5814342546c74205e77f7c0b97039"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/mini_sudoku.jsonl",
-          "sha256": "4c72dd93f4f0c2fa7af82608fc3bee37dec660f996ec11eea106b02cafbca9e4"
+          "sha256": "3b5c3f71123da7938ee1221aaf5ee693239e484f7acf71687a6959750c68c54e"
         }
       },
       "task_family": "mini_sudoku"
@@ -1158,14 +1191,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/modulo_grid.jsonl",
-          "sha256": "6451d251a5767b09080e63aed1b3568e8187d3e2f98b4f2f0a07f16c9e75d2a4"
+          "sha256": "1a0a50b2ec3df70a95c9b26a2e83caa2f326753b2d0b94887577c94dbf321e0c"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/modulo_grid.jsonl",
-          "sha256": "bc702337cb97c7bb5952af1a67a616b2b467fdaa76f804d510da52d385afe0a1"
+          "sha256": "995b9e7b98935a2aef89851110a9011eca487c2a87ab32e01347806cd125c0b8"
         }
       },
       "task_family": "modulo_grid"
@@ -1181,14 +1214,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/n_queens.jsonl",
-          "sha256": "3be09a27c7fb0ae5b45d51b61db35cbff415d066c38e69694a36d799a1b0b7ba"
+          "sha256": "6710677bad5328ff64940b66ab078fb8675c1e8453daa96d046c00c3d4be5c96"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/n_queens.jsonl",
-          "sha256": "17f89c77387223e0d38e764967816cb7d45aff67a5ea867ff9c1ed94c6ec7f6e"
+          "sha256": "52b34636d739a6c3342b7d912787dbda7a871f6375acd72fe0623a28af249345"
         }
       },
       "task_family": "n_queens"
@@ -1204,14 +1237,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/number_format.jsonl",
-          "sha256": "21fc6279907bacc77a40a5754d6b156bf99e253d48619dad27236ff8825fc888"
+          "sha256": "d9748b63e9a858d763a5d60fadd32f62986b34b49be2f569983d2bcd937ce238"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/number_format.jsonl",
-          "sha256": "89a28c96749f62297a0765676b460a338ef95258ca00e6cba05f695a1c3f3a10"
+          "sha256": "0d5dcb610fe51fad566f2a8301aca04b2cece4e3118666121410fcb0e6c61047"
         }
       },
       "task_family": "number_format"
@@ -1227,14 +1260,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/palindrome_partitioning.jsonl",
-          "sha256": "c08782c45e12b17754dadd9a12e577c888b1bd486e6569bc18fbaa0299f97d82"
+          "sha256": "01723b4273c0be69faae61f2663fccb781a21220209e46336e5031a997adc208"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/palindrome_partitioning.jsonl",
-          "sha256": "9daecddc9597945e8894372c34e252c53b503daa0e99a0b3a25fba1ebfde67e5"
+          "sha256": "523ed5775db14676dd5293890a28f0c02e4a6e8cdd830e7d0d5fa8a8bd796862"
         }
       },
       "task_family": "palindrome_partitioning"
@@ -1250,14 +1283,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/polynomial_equations.jsonl",
-          "sha256": "5edc17b3c82b725ac8f0e310cf48f79df77f49aca57b7c8970bdef46fc348937"
+          "sha256": "6fa5b2b6faf482e1d4c245b5bb69fe59d80505756f50bc5cb9362699cca3d844"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/polynomial_equations.jsonl",
-          "sha256": "dcc40664ea1a48d04b9d7bb847c7f49039538bb45f097e87e2e373846c67b345"
+          "sha256": "dce71ec36457f55ad19d550269a1440feb4b58c8ca8fe26e55f9e730a2e02a4b"
         }
       },
       "task_family": "polynomial_equations"
@@ -1273,14 +1306,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/polynomial_multiplication.jsonl",
-          "sha256": "f8ba5aa8656a8f1a0eb91d9aeab0ad948375072c2cc10df5302078bf9035c4b7"
+          "sha256": "c0f8c4ba96d505813b293fd3d58f9d30babb5f47646d1fc3834264d9e1eff06d"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/polynomial_multiplication.jsonl",
-          "sha256": "3e29b99a69d0f244b8c30960884b06dff557e7d2337327fcc79cd6397b4a9f91"
+          "sha256": "04cede32746525deb364b5ad695b8642eb602e27184e1905aaa7de2f11d64367"
         }
       },
       "task_family": "polynomial_multiplication"
@@ -1296,14 +1329,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/power_function.jsonl",
-          "sha256": "194dfe99af6fb7f7c9801e7a153fed3e04884d0ebda6ebf1e29d339e677c61ee"
+          "sha256": "8840c43058063ce58b83547a1a71ac5100e008232f66ad5459dd124aa7daec32"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/power_function.jsonl",
-          "sha256": "d2ed600a932ee450dfda6506bf0e857e4a27d28f2ea1a74c5b2223b3a9226d7e"
+          "sha256": "b9321dbc663cea313acf122a359f7a3dc6bbf1dd9ecea5c11479649893441792"
         }
       },
       "task_family": "power_function"
@@ -1319,14 +1352,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/prime_factorization.jsonl",
-          "sha256": "683f898e0a69e401a0bae6d9e0c89d156c362eebe119e39841ca0e2563ee719b"
+          "sha256": "41e44c92e7c9f5193cb613a7da9cc5afce8482a5f6229c40d6b3b2bafc85f966"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/prime_factorization.jsonl",
-          "sha256": "2a1c87ec638cbbc07c4266b07e6be0cde60f198951e0449896cfb0ff6b61ed24"
+          "sha256": "e26e2865d17128dbbfd4b4ce67cb8b52a025cf5cd557c2070862bc7fe808b961"
         }
       },
       "task_family": "prime_factorization"
@@ -1342,14 +1375,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/products.jsonl",
-          "sha256": "2b6aa4525de6be4f9a2ff0c11bb096f63c3694b92c4662eebb5dc47b850c9963"
+          "sha256": "e5eacf149aa498cf6e2574dd3e39da99fb92e837ce866a4822695c2b458b68bb"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/products.jsonl",
-          "sha256": "4b3f6c972c797acd14e67096214ae2c42e4409f7e52bc4b85d307b6b57b427ed"
+          "sha256": "0d25e6824c47f9ea247662e383365c15fa7ad60c0def48bda63703fe07ffa638"
         }
       },
       "task_family": "products"
@@ -1365,14 +1398,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/propositional_logic.jsonl",
-          "sha256": "9921e60549ea3e760cca9fba813d76a10c6c195763b270af32e08530c4e58acb"
+          "sha256": "ab9d2894842c2745d88ee96f1b8b932bbfd4fe159cea8bb73a02b53e55f5ed29"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/propositional_logic.jsonl",
-          "sha256": "721e300d008e167d23bcf2db377d10f23813c13cde0becd3073ca4ff036053af"
+          "sha256": "c3db95ccc4b242358e2c9e6b7ff5dce5a8d8c5f57bccdab374a5ae96921ecd17"
         }
       },
       "task_family": "propositional_logic"
@@ -1388,14 +1421,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/puzzle24.jsonl",
-          "sha256": "9a2278c58cb0d2f263d239f5917aea142901eae027ab91567dc4a791810b5f8e"
+          "sha256": "f8447a2e6bf91a58e7f76ff05d961f89e0811be0ce816a70eba8c8c0a4c193b2"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/puzzle24.jsonl",
-          "sha256": "bff42d237f0223613053cce5c03ab22dd82e7f9b5f12b196fa2a679dbc9d958d"
+          "sha256": "e43dd37ad8054a5d28e3bba60c3251690136b4d8551a9b2425546f63146438df"
         }
       },
       "task_family": "puzzle24"
@@ -1411,14 +1444,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/quantum_lock.jsonl",
-          "sha256": "d03dc7e28f86123c1f48a42a752ca99c99e7d3827bd189e402f6192a9575f787"
+          "sha256": "a34ecb0784cc73c8d555e2690cc9a05f27a20888f5f8f98aae09b7891d83a96b"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/quantum_lock.jsonl",
-          "sha256": "91c7452bda1d472d273a11aada3f6dc2712c2e7df34933c8ea3d8f89405de232"
+          "sha256": "84d71ceea59b189f1beecd298e53921b91eaf36c95831a1cf015b58350f968c7"
         }
       },
       "task_family": "quantum_lock"
@@ -1434,14 +1467,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/rotten_oranges.jsonl",
-          "sha256": "5e0144bc05fb71943233fa51ca672297ea2659c2fc3dcbe91d8f5b53e3b40b67"
+          "sha256": "831217f1b0bb903e55c93d81473caaeb3b6670473daa70f2204827ed7952cc63"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/rotten_oranges.jsonl",
-          "sha256": "d8004d3f1f52f338a274bded81a70aa41f80ee8817fdc1fa6691975a5b6b8460"
+          "sha256": "eaff7030202ca1e906ca8a1f57ba280d77878699256b4bf63ab5019857a2603d"
         }
       },
       "task_family": "rotten_oranges"
@@ -1457,14 +1490,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/rubiks_cube.jsonl",
-          "sha256": "1482f87bacc7fb73dc070d843f433436e45239c4204758ea08ab57d17763008f"
+          "sha256": "39b00b54cfbddb035f4290df14e46bc15bc58fab2a9f21e2ed5ee463c1aa067e"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/rubiks_cube.jsonl",
-          "sha256": "e7f9deba8a4ee59ab8746587efeb50052d2e87b1e3da30f9c5f28d95f12111cc"
+          "sha256": "73ba1d51289f49c79c48f8e0fe0cc93b701d87f7ec7cb754bedee6480b5a2257"
         }
       },
       "task_family": "rubiks_cube"
@@ -1480,14 +1513,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/rush_hour.jsonl",
-          "sha256": "2224909244ed74f672ebf5d140308b1cd0f3b8ff59a014db6435b8cfa3480c6c"
+          "sha256": "611923b6b122f5a18fd08d8f99b46dfb256eb0fb21eccd36face3293fbcde392"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/rush_hour.jsonl",
-          "sha256": "69b6cc2f1a7f1c15c56c67841344a422ccdb16323713ba6b596a4a4028e0fc4c"
+          "sha256": "8ed4a5a7ef6e7148380099a71c0a74f74f7c0c0262a2acf55c7c1d29d7ffcfb1"
         }
       },
       "task_family": "rush_hour"
@@ -1503,14 +1536,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/shortest_path.jsonl",
-          "sha256": "09a777a900500cd7afdcfba7a90ada89c75b35d621f7aac21534246ea6095952"
+          "sha256": "97689603fa76eb69e2a29170cbcf56f7978e14ec6f23e52fb06de4d5c30d3e34"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/shortest_path.jsonl",
-          "sha256": "e389913dc6e30ef66b279c837e980a860f1da230a8b6e3f8beb379a674b3c8fb"
+          "sha256": "e22d3265692eca8c320ed020513e571bda7520e08fc4f660afc9d3a47e613589"
         }
       },
       "task_family": "shortest_path"
@@ -1526,14 +1559,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/simple_equations.jsonl",
-          "sha256": "eb106cbf2c7ba79cae8075e46147194ff49500a022c9a39ce9b70ed4fef49f5e"
+          "sha256": "190c4a315f82031b3fface67b624d8e66b8abb7bed5f33637632b2bcda6da151"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/simple_equations.jsonl",
-          "sha256": "f33834779defff38d1217f8f320217649b477e40236fdea32ea362a7b1f9adc0"
+          "sha256": "fb73723a49f0869a59b3cd3664d6c52fb9b612edec2fd372c9543e8d7e7e612e"
         }
       },
       "task_family": "simple_equations"
@@ -1549,14 +1582,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/simple_geometry.jsonl",
-          "sha256": "875bd3724a20525fb95ea33618fd2cddc402f4872453b2ef558af6ea191cd531"
+          "sha256": "1b2c43c20d53d8437887eafbf1c837af2de1f835371c9fec70084c330d11b247"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/simple_geometry.jsonl",
-          "sha256": "e9eac8f3db32b67602daf070369c857b5340ca8f00b266bacbc18e5839eaeee9"
+          "sha256": "257126526a279e64483826d205dac54db49da98c2b56fafa16b5d580e434a005"
         }
       },
       "task_family": "simple_geometry"
@@ -1572,14 +1605,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/simple_integration.jsonl",
-          "sha256": "463a2870a858f9c47822ccc9a24f2f384d9e035cd9d06970b96f4f8e99187067"
+          "sha256": "cfca82645093e7e23ea920a6d061a3afbfb84ad93073aa81cf8c7c91dfe883f4"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/simple_integration.jsonl",
-          "sha256": "30c7811c2452bf3f8b8be64ab3778454e1fb94be90bc38f9c07b185ee0795e86"
+          "sha256": "791cd3179cf54bb280b7dca0ad694feb4c6daa29eedc2e441789cff439ea06f6"
         }
       },
       "task_family": "simple_integration"
@@ -1595,14 +1628,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/sokoban.jsonl",
-          "sha256": "9b81c5826b1e8cad61af44cbfbe97d89591162bda713531a5cedc9e249cf698d"
+          "sha256": "c2a6968d07066a8d4b4cbe967cba8b6cda4a6162ed07170e0e85f86dd7d9175a"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/sokoban.jsonl",
-          "sha256": "b4aebbde545d49629c16da55b5600eaf07c19146f42561303cacc98bc8f4c077"
+          "sha256": "b9da902e6310b0b33f8d2fa6de041beac284336ddd526fccb41b7f85e8728ee1"
         }
       },
       "task_family": "sokoban"
@@ -1618,14 +1651,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/sudoku.jsonl",
-          "sha256": "e547dc9f33930fd92a21eb081fbc2bbd90ab28e4461bbc8e0492958712a55a67"
+          "sha256": "03e9d552e7a78051d971cc9d357fbb9f278aeed40c5cdfb0452da95cb6acffc2"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/sudoku.jsonl",
-          "sha256": "bfb36bbdbc2677db750d02bba8a8c99334c0d21b3ee5105c85a67a3929265a4b"
+          "sha256": "3e1d1c227a1d4fadb52a3cbfc0ce49b03c98f3aa76d88f1a771863ca59cb777c"
         }
       },
       "task_family": "sudoku"
@@ -1641,14 +1674,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/syllogism.jsonl",
-          "sha256": "60f559f2cf3e4ef0577d16e91d1831e5855362122c282e5f3907181f1958570d"
+          "sha256": "8a77e937eee38167386dec3fd56c4cf7c6ed274700cc37bfc2aedec5273ad840"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/syllogism.jsonl",
-          "sha256": "21f0d32b69d381561cb3e3cc0882bac0607127269bd015dd3585280a52d456dc"
+          "sha256": "0f7d78b0da2e523fdf0490c131fa1c7295f0183f5718b794b963aa9e857f45aa"
         }
       },
       "task_family": "syllogism"
@@ -1664,14 +1697,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/time_intervals.jsonl",
-          "sha256": "64dd482c88c802279869fe4539d1a1efa011cb726333ebf9ba250a8bb9c7ff58"
+          "sha256": "b9aaafb160a8873b2648f8b49de3ba3a5d35f4e3ae714e700b917915fa7e24ca"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/time_intervals.jsonl",
-          "sha256": "3197c4e7e7c2bc506397b5952e526f48182317ccfc32a30f6a1397cd608e75d3"
+          "sha256": "e7568ef7dac4311a1d7820a0b2e3fbd549bd9237373518ff8b62ae6827993b69"
         }
       },
       "task_family": "time_intervals"
@@ -1687,14 +1720,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/tower_of_hanoi.jsonl",
-          "sha256": "0c88c7cd292b60872d4d576703db048ac3b391c835bc9fc198d695e3c23e1b23"
+          "sha256": "68a60280b0c316e7478c79ddf3aa1d647ff11160dd5afa1fe5b6288fbdeb7112"
         },
         "test": {
-          "count": 30,
+          "count": 60,
           "path": "heldout/reasoning_gym/tower_of_hanoi.jsonl",
-          "sha256": "193e5a598b4f90c8756dd977fb3088723b8c30d5173f80747ecf0a8a1301f3b4"
+          "sha256": "4f0a969d7291f8f618a3d2354ebdec0b698abd8c86e49755dd00616e581442c1"
         }
       },
       "task_family": "tower_of_hanoi"
@@ -1710,14 +1743,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/word_ladder.jsonl",
-          "sha256": "78abcf80b5f45df8382f197395c7bd851216eea7ad83d0d436382a9aa28f4690"
+          "sha256": "4fc534328fa64bd63dfaceb87872c45436b94ad72b6761157a9db37071eef7e6"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/word_ladder.jsonl",
-          "sha256": "bba8824a1c84f0e7a70168c993a450d28abc183b7208895cdc8e4eec7266a985"
+          "sha256": "fe281fe4d313bc1ff50572eb57260ab682dfd1e06fdc92bbf3dfc9abb615d4f2"
         }
       },
       "task_family": "word_ladder"
@@ -1733,14 +1766,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/reasoning_gym/zebra_puzzles.jsonl",
-          "sha256": "59021e2faf3937bbf4455b6d5e4d4daa918d23a7d9232965623f77c0797c08a0"
+          "sha256": "705b7ebd1f0c90c4f680be2580a1d1260cf8d8ee22390c17c2af0aee73881ebc"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/reasoning_gym/zebra_puzzles.jsonl",
-          "sha256": "7eab304ab30c20789abb8e4ca626af0b0ba706ea6b379371ed2b9ae14933fcbc"
+          "sha256": "05e578a61262896ce24e295ece432133c6c83ad28f689c70d4a3b5760de020be"
         }
       },
       "task_family": "zebra_puzzles"
@@ -1757,14 +1790,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/swe_bench/swe_bench_verified.jsonl",
-          "sha256": "cc53e03986c3f3964986c49fd5dc04192039272b10d205698f9baafb1e7880ea"
+          "sha256": "3e69a4b88fcd8546a5baeca4b9ebe66c24abb60f7f58962b603cfe604a2ed3eb"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/swe_bench/swe_bench_verified.jsonl",
-          "sha256": "f4571d2562ee9a85abe876814c210dcb1979aef6130f55e495202c5e68b9e632"
+          "sha256": "8843aceae4fa3c4bcbae0dad5d956c7bc2d0eef8a1e7d9d12e262985bd1f1dc3"
         }
       },
       "task_family": "swe_bench_verified"
@@ -1782,14 +1815,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 12,
           "path": "dev/tau2/tau2_airline.jsonl",
-          "sha256": "9746d02fd1b96a9ce6911efbd9ee1c7844c9e44fd222f56340fb8f829924c1c6"
+          "sha256": "b9c3dc7ad75f2ca662bac2a53a13f61b7a5d883f11322dbdb178c5f509dca083"
         },
         "test": {
-          "count": 30,
+          "count": 38,
           "path": "heldout/tau2/tau2_airline.jsonl",
-          "sha256": "165893e7720aef133bcf0fac198043e18f29bd9e4c1aae797d975836761ff507"
+          "sha256": "e5c22ae037523f5b546bd8f13bb9bdb18ab534382c20065739024c0d7e3e0ccd"
         }
       },
       "task_family": "tau2_airline"
@@ -1807,14 +1840,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/tau2/tau2_retail.jsonl",
-          "sha256": "088d36d832e2fc3ae732616a5eda851f420983b0d8b0b067e59eb4986cd05766"
+          "sha256": "e8a30760a553e4fb78bcb8112b31bd76f4ab1db600da1e61ae617d583a8c7884"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/tau2/tau2_retail.jsonl",
-          "sha256": "a3c78703960b37e6acee1317f02b26f7887830fdfe6a599ef0982c3aa1f9b36d"
+          "sha256": "1524655ada6395dd2928d31ab498e08d8f048144e4f79e46b04ada03b0487283"
         }
       },
       "task_family": "tau2_retail"
@@ -1832,14 +1865,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/tau2/tau2_telecom.jsonl",
-          "sha256": "16c8936dd751f92a242cebc96397858ae0e87caba6949b98aff08f7b3bcdd4ef"
+          "sha256": "c1789abad0a64ab82b4ae632164da2ba9f6fda8594f886584871d51d29bcbb53"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/tau2/tau2_telecom.jsonl",
-          "sha256": "343b1f8cfb2d0e3152da7a263375eed549a3baa4912937fa753092e284f6ded4"
+          "sha256": "8dd38222ed007c081b488e5c3e9fda623704a7d572e2ebdfe79cdbc3b76cddd2"
         }
       },
       "task_family": "tau2_telecom"
@@ -1855,14 +1888,14 @@
       },
       "splits": {
         "dev": {
-          "count": 30,
+          "count": 25,
           "path": "dev/terminal_bench/terminal_bench_2.jsonl",
-          "sha256": "657ed361058f87255634de11fcde295d74c7dcf0bf65de91497ca3ad14dafc1e"
+          "sha256": "f72799c4b3ee2784bc432e4aec70f6daae287f3b884a59fb2968b045be763f88"
         },
         "test": {
-          "count": 59,
+          "count": 64,
           "path": "heldout/terminal_bench/terminal_bench_2.jsonl",
-          "sha256": "f12181e9a57df60483dd9a60947dd680326f3546bdee7ae16002514d815fdb32"
+          "sha256": "89b9e230af7cea56a7b233474b8fe812e14165143c34fb14971ca8ec06aa8cea"
         }
       },
       "task_family": "terminal_bench"
@@ -1879,14 +1912,14 @@
       },
       "splits": {
         "dev": {
-          "count": 10,
+          "count": 25,
           "path": "dev/text_classification/go_emotions.jsonl",
-          "sha256": "08faeff43850137bc755cfd44f47210a0af4842eab2282c3b5fc7cd24f84e0c6"
+          "sha256": "96674814c911d821d1e6682a4d6dd6de472ce669eabad553161eabdb794a884a"
         },
         "test": {
-          "count": 30,
+          "count": 75,
           "path": "heldout/text_classification/go_emotions.jsonl",
-          "sha256": "b0506849096e09258a274e630e0255463de61eda2de01d7c79c32390ed6044c6"
+          "sha256": "6b3f62c308870e15f641b3f0cef78b8ca5e1d74c3f44b7d8853c8aaa3d2e1b64"
         },
         "train_pool": {
           "count": 30,
@@ -1901,6 +1934,7 @@
   "summary": {
     "benchmarks": [
       "aime",
+      "livecodebench",
       "locomo",
       "reasoning_gym",
       "swe_bench",
@@ -1908,7 +1942,7 @@
       "terminal_bench",
       "text_classification"
     ],
-    "datasets": 82,
-    "rows": 3319
+    "datasets": 83,
+    "rows": 8094
   }
 }

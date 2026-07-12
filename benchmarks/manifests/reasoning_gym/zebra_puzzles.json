@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/zebra_puzzles.jsonl",
-      "sha256": "59021e2faf3937bbf4455b6d5e4d4daa918d23a7d9232965623f77c0797c08a0"
+      "sha256": "705b7ebd1f0c90c4f680be2580a1d1260cf8d8ee22390c17c2af0aee73881ebc"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/zebra_puzzles.jsonl",
-      "sha256": "7eab304ab30c20789abb8e4ca626af0b0ba706ea6b379371ed2b9ae14933fcbc"
+      "sha256": "05e578a61262896ce24e295ece432133c6c83ad28f689c70d4a3b5760de020be"
     }
   },
   "task_family": "zebra_puzzles"

@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/sokoban.jsonl",
-      "sha256": "9b81c5826b1e8cad61af44cbfbe97d89591162bda713531a5cedc9e249cf698d"
+      "sha256": "c2a6968d07066a8d4b4cbe967cba8b6cda4a6162ed07170e0e85f86dd7d9175a"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/sokoban.jsonl",
-      "sha256": "b4aebbde545d49629c16da55b5600eaf07c19146f42561303cacc98bc8f4c077"
+      "sha256": "b9da902e6310b0b33f8d2fa6de041beac284336ddd526fccb41b7f85e8728ee1"
     }
   },
   "task_family": "sokoban"

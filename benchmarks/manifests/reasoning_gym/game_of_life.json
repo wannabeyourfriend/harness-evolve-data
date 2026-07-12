@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/game_of_life.jsonl",
-      "sha256": "fbfd255a63b0e5963556ffe670827c2ba14c951c160f29b890d067d1d3a281f6"
+      "sha256": "f73a413b705cea52f0836e89059d5c0a6e826389bb4159a2b15f208605169588"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/game_of_life.jsonl",
-      "sha256": "7dfe454a24d70bb2e6ebcee4e449077ca9b31be2441e9419170b7c211f0d1d7b"
+      "sha256": "b90b23cb4cc1d30384ca9acd24a8e3d9ad46ed92580b2f50b96ed319cba99869"
     }
   },
   "task_family": "game_of_life"

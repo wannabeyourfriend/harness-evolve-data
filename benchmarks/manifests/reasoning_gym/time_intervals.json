@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/time_intervals.jsonl",
-      "sha256": "64dd482c88c802279869fe4539d1a1efa011cb726333ebf9ba250a8bb9c7ff58"
+      "sha256": "b9aaafb160a8873b2648f8b49de3ba3a5d35f4e3ae714e700b917915fa7e24ca"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/time_intervals.jsonl",
-      "sha256": "3197c4e7e7c2bc506397b5952e526f48182317ccfc32a30f6a1397cd608e75d3"
+      "sha256": "e7568ef7dac4311a1d7820a0b2e3fbd549bd9237373518ff8b62ae6827993b69"
     }
   },
   "task_family": "time_intervals"

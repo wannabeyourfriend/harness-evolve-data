@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/rush_hour.jsonl",
-      "sha256": "2224909244ed74f672ebf5d140308b1cd0f3b8ff59a014db6435b8cfa3480c6c"
+      "sha256": "611923b6b122f5a18fd08d8f99b46dfb256eb0fb21eccd36face3293fbcde392"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/rush_hour.jsonl",
-      "sha256": "69b6cc2f1a7f1c15c56c67841344a422ccdb16323713ba6b596a4a4028e0fc4c"
+      "sha256": "8ed4a5a7ef6e7148380099a71c0a74f74f7c0c0262a2acf55c7c1d29d7ffcfb1"
     }
   },
   "task_family": "rush_hour"

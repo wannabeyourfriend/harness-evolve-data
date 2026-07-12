@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/boxnet.jsonl",
-      "sha256": "3f9c84cf1425094fac0fe1c9ea83ed6c5f25f723f355b1f686606571f236c1ff"
+      "sha256": "e33b0db2f9e176451b44316294a77a4f470bb7e9bd6b59b7867d46cac3ee629c"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/boxnet.jsonl",
-      "sha256": "e59a4513d01a42ab255c370e9da5f6a90facb2cdc3325a8fa056594de1365439"
+      "sha256": "e09e2a6c070e616d2d2f19dd3988da8f4d4da504fb953fde86137ea332b3f05a"
     }
   },
   "task_family": "boxnet"

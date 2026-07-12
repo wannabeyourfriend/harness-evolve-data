@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/polynomial_multiplication.jsonl",
-      "sha256": "f8ba5aa8656a8f1a0eb91d9aeab0ad948375072c2cc10df5302078bf9035c4b7"
+      "sha256": "c0f8c4ba96d505813b293fd3d58f9d30babb5f47646d1fc3834264d9e1eff06d"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/polynomial_multiplication.jsonl",
-      "sha256": "3e29b99a69d0f244b8c30960884b06dff557e7d2337327fcc79cd6397b4a9f91"
+      "sha256": "04cede32746525deb364b5ad695b8642eb602e27184e1905aaa7de2f11d64367"
     }
   },
   "task_family": "polynomial_multiplication"

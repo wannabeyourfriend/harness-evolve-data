@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/leg_counting.jsonl",
-      "sha256": "78ef1d329a2c97166fbea8a5313d2882985887007c109643564ffcc1ad659625"
+      "sha256": "858257ce67c7d1b3cefe0d58055f37df067492ab63db831e3edb871678548c6e"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/leg_counting.jsonl",
-      "sha256": "e0d434ee536150c8362c873cc7e9d6a6b512a74ca1b23b3c5321459ee5b1a1e8"
+      "sha256": "79ef3a092540e8971cc3535b47d434cf7fd8ea3d22baec707901427b1e4c8e3c"
     }
   },
   "task_family": "leg_counting"

@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/advanced_geometry.jsonl",
-      "sha256": "51c96b4049e683d535119f673150fa5ee9f937b878cd109fdf9b9bacbe74b242"
+      "sha256": "dc7c6152e9a262eb31f479c68b532540d7b87d20ec761482c15ca7276655f39b"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/advanced_geometry.jsonl",
-      "sha256": "6e878d1def9228a56fbce03535bdba3f346a8b7c6eb29ece73e258ab822606e2"
+      "sha256": "a39d87d2bb4fb3cd9e31b1dc3fc895860c0dd8239f8f6676f7913a771625e5ed"
     }
   },
   "task_family": "advanced_geometry"

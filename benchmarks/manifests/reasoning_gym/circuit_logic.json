@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/circuit_logic.jsonl",
-      "sha256": "f7e6159aed6ec894795f666241e0c0fab136bef47f9b664653da1a93a4721f04"
+      "sha256": "398fb92e645ed9f9a1f5d7562cefed12627d67f343bd47712ff808145258c7b4"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/circuit_logic.jsonl",
-      "sha256": "6448a1cc14206dd90e81576eed55df597282bbbd7ef8c700a94950528214a3b0"
+      "sha256": "88fed7195cebe3d10e0be663d0b27f8d527740884a269b721906eacbd8b3ac5d"
     }
   },
   "task_family": "circuit_logic"

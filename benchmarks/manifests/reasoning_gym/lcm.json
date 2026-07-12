@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/lcm.jsonl",
-      "sha256": "b9a0ac45f43ed33ae51fb96f71039c8963908cd8bb8082cee25eeb29b9a2d872"
+      "sha256": "293c02375f444b245762dd614f2776a589dc01c0619df3a3379f8123f9c95d88"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/lcm.jsonl",
-      "sha256": "a606523202f685df22e437407c3beb46746e71a9e67ad598c158621f495729b0"
+      "sha256": "8027551b996577bb17923a0aa2accf1456416c7be28df8f9299d56cdaf802728"
     }
   },
   "task_family": "lcm"

@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/letter_jumble.jsonl",
-      "sha256": "7cef119009d8d36cb3ef07c041e6e2295695b2c189e468955fab464f21a88dc6"
+      "sha256": "79413c424917271c87f16df429a8b548b881b9837f3815039f04b6d7913cc5a0"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/letter_jumble.jsonl",
-      "sha256": "9bf54763e8f1793e6264936303ad92ec6bbd924ef162495254593545522dfe18"
+      "sha256": "7e8893762fa6079e47587e80368f20082882928332a0332fb3dab2005003c2bd"
     }
   },
   "task_family": "letter_jumble"

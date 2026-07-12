@@ -17,18 +17,18 @@
   },
   "splits": {
     "dev": {
-      "count": 10,
+      "count": 25,
       "dataset_kwargs": {},
       "generator_seed": 42,
       "path": "dev/reasoning_gym/rotten_oranges.jsonl",
-      "sha256": "5e0144bc05fb71943233fa51ca672297ea2659c2fc3dcbe91d8f5b53e3b40b67"
+      "sha256": "831217f1b0bb903e55c93d81473caaeb3b6670473daa70f2204827ed7952cc63"
     },
     "test": {
-      "count": 30,
+      "count": 75,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/rotten_oranges.jsonl",
-      "sha256": "d8004d3f1f52f338a274bded81a70aa41f80ee8817fdc1fa6691975a5b6b8460"
+      "sha256": "eaff7030202ca1e906ca8a1f57ba280d77878699256b4bf63ab5019857a2603d"
     }
   },
   "task_family": "rotten_oranges"
