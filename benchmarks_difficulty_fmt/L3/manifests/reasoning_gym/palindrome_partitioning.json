@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "format_varied": {
+    "K": 3,
+    "mechanism": "runs/_drivers/perturbations (exact-reversible, i%K rotation, v0=original)"
+  },
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_string_len": 22,
+        "min_string_len": 12
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/palindrome_partitioning.jsonl",
+      "sha256": "79d4428c842e9ab0b92f24567c33498aa2ae9d0113bff23fcdd780cfafc598f2"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_string_len": 22,
+        "min_string_len": 12
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/palindrome_partitioning.jsonl",
+      "sha256": "7d03feaa24a8f39f33dee4b3400317f412ad0247dc835673242b0fa55eedcf52"
+    }
+  },
+  "task_family": "palindrome_partitioning"
+}

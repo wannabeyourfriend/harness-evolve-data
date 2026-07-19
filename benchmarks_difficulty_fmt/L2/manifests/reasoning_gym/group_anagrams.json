@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "format_varied": {
+    "K": 3,
+    "mechanism": "runs/_drivers/perturbations (exact-reversible, i%K rotation, v0=original)"
+  },
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_anagram_groups": 50,
+        "min_anagram_groups": 10
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/group_anagrams.jsonl",
+      "sha256": "ffb64681e4d799588f731add6e9a848a3e855ec0064e1e7a2c33d083dec1256b"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_anagram_groups": 50,
+        "min_anagram_groups": 10
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/group_anagrams.jsonl",
+      "sha256": "cac5b79824e2a825054298b871369be80e71002c04be3a07d8c93aa0b3f9625c"
+    }
+  },
+  "task_family": "group_anagrams"
+}

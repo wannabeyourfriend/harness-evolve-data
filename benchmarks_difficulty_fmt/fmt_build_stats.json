@@ -1,0 +1,1082 @@
+{
+ "L1/ab/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/ab/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/arc_1d/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/arc_1d/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/basic_arithmetic/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/basic_arithmetic/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/binary_alternation/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/binary_alternation/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/boxnet/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/boxnet/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/caesar_cipher/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/caesar_cipher/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/circuit_logic/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/circuit_logic/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/codeio/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/codeio/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/color_cube_rotation/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/color_cube_rotation/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/count_primes/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/count_primes/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/emoji_mystery/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/emoji_mystery/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/family_relationships/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/family_relationships/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/group_anagrams/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/group_anagrams/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/jugs/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/jugs/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/kakurasu/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/kakurasu/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/knight_swap/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/knight_swap/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/leg_counting/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/leg_counting/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/letter_jumble/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/letter_jumble/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/mahjong_puzzle/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/mahjong_puzzle/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/maze/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/maze/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/mini_sudoku/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/mini_sudoku/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/modulo_grid/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/modulo_grid/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/n_queens/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/n_queens/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/palindrome_partitioning/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/palindrome_partitioning/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/polynomial_equations/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/polynomial_equations/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/power_function/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/power_function/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/propositional_logic/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/propositional_logic/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/rotten_oranges/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/rotten_oranges/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/shortest_path/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/shortest_path/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/simple_geometry/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/simple_geometry/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/sokoban/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/sokoban/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/sudoku/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/sudoku/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/syllogism/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/syllogism/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/tower_of_hanoi/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 4
+ },
+ "L1/tower_of_hanoi/test": {
+  "n": 65,
+  "fellback": 0,
+  "K": 4
+ },
+ "L1/word_ladder/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/word_ladder/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/zebra_puzzles/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L1/zebra_puzzles/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/ab/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/ab/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/arc_1d/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/arc_1d/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/basic_arithmetic/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/basic_arithmetic/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/binary_alternation/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/binary_alternation/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/boxnet/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/boxnet/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/caesar_cipher/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/caesar_cipher/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/circuit_logic/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/circuit_logic/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/codeio/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/codeio/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/color_cube_rotation/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/color_cube_rotation/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/count_primes/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/count_primes/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/emoji_mystery/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/emoji_mystery/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/family_relationships/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/family_relationships/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/group_anagrams/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/group_anagrams/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/jugs/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/jugs/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/kakurasu/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/kakurasu/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/knight_swap/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/knight_swap/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/leg_counting/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/leg_counting/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/letter_jumble/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/letter_jumble/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/mahjong_puzzle/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/mahjong_puzzle/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/maze/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/maze/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/mini_sudoku/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/mini_sudoku/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/modulo_grid/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/modulo_grid/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/n_queens/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/n_queens/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/palindrome_partitioning/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/palindrome_partitioning/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/polynomial_equations/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/polynomial_equations/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/power_function/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/power_function/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/propositional_logic/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/propositional_logic/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/rotten_oranges/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/rotten_oranges/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/shortest_path/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/shortest_path/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/simple_geometry/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/simple_geometry/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/sokoban/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/sokoban/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/sudoku/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/sudoku/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/syllogism/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/syllogism/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/tower_of_hanoi/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 4
+ },
+ "L2/tower_of_hanoi/test": {
+  "n": 65,
+  "fellback": 0,
+  "K": 4
+ },
+ "L2/word_ladder/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/word_ladder/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/zebra_puzzles/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L2/zebra_puzzles/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/ab/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/ab/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/arc_1d/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/arc_1d/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/basic_arithmetic/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/basic_arithmetic/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/binary_alternation/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/binary_alternation/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/boxnet/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/boxnet/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/caesar_cipher/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/caesar_cipher/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/circuit_logic/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/circuit_logic/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/codeio/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/codeio/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/color_cube_rotation/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/color_cube_rotation/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/count_primes/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/count_primes/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/emoji_mystery/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/emoji_mystery/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/family_relationships/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/family_relationships/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/group_anagrams/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/group_anagrams/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/jugs/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/jugs/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/kakurasu/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/kakurasu/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/knight_swap/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/knight_swap/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/leg_counting/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/leg_counting/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/letter_jumble/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/letter_jumble/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/mahjong_puzzle/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/mahjong_puzzle/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/maze/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/maze/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/mini_sudoku/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/mini_sudoku/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/modulo_grid/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/modulo_grid/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/n_queens/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/n_queens/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/palindrome_partitioning/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/palindrome_partitioning/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/polynomial_equations/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/polynomial_equations/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/power_function/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/power_function/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/propositional_logic/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/propositional_logic/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/rotten_oranges/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/rotten_oranges/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/shortest_path/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/shortest_path/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/simple_geometry/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/simple_geometry/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/sokoban/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/sokoban/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/sudoku/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/sudoku/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/syllogism/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/syllogism/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/tower_of_hanoi/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 4
+ },
+ "L3/tower_of_hanoi/test": {
+  "n": 65,
+  "fellback": 0,
+  "K": 4
+ },
+ "L3/word_ladder/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/word_ladder/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/zebra_puzzles/dev": {
+  "n": 25,
+  "fellback": 0,
+  "K": 3
+ },
+ "L3/zebra_puzzles/test": {
+  "n": 75,
+  "fellback": 0,
+  "K": 3
+ }
+}

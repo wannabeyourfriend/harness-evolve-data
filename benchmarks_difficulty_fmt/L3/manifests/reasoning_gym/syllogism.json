@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "format_varied": {
+    "K": 3,
+    "mechanism": "runs/_drivers/perturbations (exact-reversible, i%K rotation, v0=original)"
+  },
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "invalid_ratio": 0.5,
+        "inversion_probability": 0.0
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/syllogism.jsonl",
+      "sha256": "5372ad8e3ead073637fdc02954da91c3c54c1e4dbe74793979a420cc9bb75f64"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "invalid_ratio": 0.5,
+        "inversion_probability": 0.0
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/syllogism.jsonl",
+      "sha256": "447dea37ecb97f8b90bc821a3842daf3ea206f2a44cc35b56622e22613a8e711"
+    }
+  },
+  "task_family": "syllogism"
+}

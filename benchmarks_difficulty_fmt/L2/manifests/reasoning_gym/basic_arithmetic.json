@@ -1,0 +1,49 @@
+{
+  "benchmark": "reasoning_gym",
+  "format_varied": {
+    "K": 3,
+    "mechanism": "runs/_drivers/perturbations (exact-reversible, i%K rotation, v0=original)"
+  },
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_digits": 4,
+        "max_terms": 8,
+        "min_digits": 2,
+        "min_terms": 4
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/basic_arithmetic.jsonl",
+      "sha256": "541c4df9bb37e436b7854fed3629776bac66608ccc601e7e5369f6ef3060b065"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_digits": 4,
+        "max_terms": 8,
+        "min_digits": 2,
+        "min_terms": 4
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/basic_arithmetic.jsonl",
+      "sha256": "fd2a1c301bd88b290c1622bd3aac9d929d948e95d086d1fe85b7b38cb52bd9e2"
+    }
+  },
+  "task_family": "basic_arithmetic"
+}

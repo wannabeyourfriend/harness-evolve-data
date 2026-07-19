@@ -1,0 +1,43 @@
+{
+  "benchmark": "reasoning_gym",
+  "format_varied": {
+    "K": 3,
+    "mechanism": "runs/_drivers/perturbations (exact-reversible, i%K rotation, v0=original)"
+  },
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_holes": 5
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/modulo_grid.jsonl",
+      "sha256": "cc376c15a4f7157e5befcd830c5a8ff73a85f4e197fa5527baf7b2ab78f63fb6"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_holes": 5
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/modulo_grid.jsonl",
+      "sha256": "d678fa2f62c5c05d2e2c489cc71741992a097e3166cca4b52aff69a0d92e037f"
+    }
+  },
+  "task_family": "modulo_grid"
+}

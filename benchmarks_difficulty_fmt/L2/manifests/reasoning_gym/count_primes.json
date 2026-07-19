@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "format_varied": {
+    "K": 3,
+    "mechanism": "runs/_drivers/perturbations (exact-reversible, i%K rotation, v0=original)"
+  },
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_n": 25000,
+        "min_n": 5000
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/count_primes.jsonl",
+      "sha256": "57b6fdeb5d0767ab4fab66716e1751445ff2990dc6b81d9bb8b207e9b85fdee6"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_n": 25000,
+        "min_n": 5000
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/count_primes.jsonl",
+      "sha256": "78911e5201ea1529d596433bc14de08d67b4b8dd17ea02fcb44a66fdcc2c897f"
+    }
+  },
+  "task_family": "count_primes"
+}

@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "format_varied": {
+    "K": 3,
+    "mechanism": "runs/_drivers/perturbations (exact-reversible, i%K rotation, v0=original)"
+  },
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "num_characteristics": 6,
+        "num_people": 6
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/zebra_puzzles.jsonl",
+      "sha256": "2610df3ed6449949fd012dd4d743165bfde2d6e437cf8937650be03102afd4b8"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "num_characteristics": 6,
+        "num_people": 6
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/zebra_puzzles.jsonl",
+      "sha256": "0c3c871163cee7b73ebcb7eded00addbd4b163754ab9c3055cf89d7dd91be4d2"
+    }
+  },
+  "task_family": "zebra_puzzles"
+}

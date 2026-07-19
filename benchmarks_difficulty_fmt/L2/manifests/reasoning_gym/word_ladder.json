@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "format_varied": {
+    "K": 3,
+    "mechanism": "runs/_drivers/perturbations (exact-reversible, i%K rotation, v0=original)"
+  },
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_word_length": 5,
+        "min_word_length": 4
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/word_ladder.jsonl",
+      "sha256": "ca55859a8ac5c49743c21216b3a04148f71d3c74b9d3615dfaa840fb4287f014"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_word_length": 5,
+        "min_word_length": 4
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/word_ladder.jsonl",
+      "sha256": "0096de0e2c9bcb91ee1585cdaa4ae955aa4ae014a93c838fb6a24ac8364b3c5f"
+    }
+  },
+  "task_family": "word_ladder"
+}
