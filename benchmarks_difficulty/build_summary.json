@@ -1,0 +1,926 @@
+{
+ "summary": {
+  "L1": {
+   "ab": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 587
+   },
+   "arc_1d": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 712
+   },
+   "basic_arithmetic": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 31
+   },
+   "binary_alternation": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 467
+   },
+   "boxnet": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 3043
+   },
+   "caesar_cipher": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 136
+   },
+   "circuit_logic": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 657
+   },
+   "codeio": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 3132
+   },
+   "color_cube_rotation": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 375
+   },
+   "count_primes": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 74
+   },
+   "emoji_mystery": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 952
+   },
+   "family_relationships": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 212
+   },
+   "group_anagrams": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 538
+   },
+   "jugs": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 663
+   },
+   "kakurasu": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 617
+   },
+   "knight_swap": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 833
+   },
+   "leg_counting": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 219
+   },
+   "letter_jumble": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 484
+   },
+   "mahjong_puzzle": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 2485
+   },
+   "maze": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 304
+   },
+   "mini_sudoku": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 383
+   },
+   "modulo_grid": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 581
+   },
+   "n_queens": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 654
+   },
+   "palindrome_partitioning": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 390
+   },
+   "polynomial_equations": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 811
+   },
+   "power_function": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 215
+   },
+   "propositional_logic": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 503
+   },
+   "rotten_oranges": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 1483
+   },
+   "shortest_path": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 761
+   },
+   "simple_geometry": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 224
+   },
+   "sokoban": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 381
+   },
+   "sudoku": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 320
+   },
+   "syllogism": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 158
+   },
+   "tower_of_hanoi": {
+    "dev": 25,
+    "heldout": 65,
+    "kwargs": {},
+    "mean_dev_question_chars": 482
+   },
+   "word_ladder": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 203
+   },
+   "zebra_puzzles": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {},
+    "mean_dev_question_chars": 1174
+   }
+  },
+  "L2": {
+   "ab": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "length": 25
+    },
+    "mean_dev_question_chars": 632
+   },
+   "arc_1d": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_size": 20,
+     "max_size": 50
+    },
+    "mean_dev_question_chars": 929
+   },
+   "basic_arithmetic": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_terms": 4,
+     "max_terms": 8,
+     "min_digits": 2,
+     "max_digits": 4
+    },
+    "mean_dev_question_chars": 47
+   },
+   "binary_alternation": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_n": 30,
+     "max_n": 100
+    },
+    "mean_dev_question_chars": 508
+   },
+   "boxnet": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_row_num": 2,
+     "max_row_num": 5,
+     "min_column_num": 2,
+     "max_column_num": 5,
+     "min_box_num": 1,
+     "max_box_num": 2
+    },
+    "mean_dev_question_chars": 3668
+   },
+   "caesar_cipher": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_words": 10,
+     "max_words": 30
+    },
+    "mean_dev_question_chars": 176
+   },
+   "circuit_logic": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_terms": 5,
+     "max_terms": 7,
+     "min_inputs": 3,
+     "max_inputs": 5
+    },
+    "mean_dev_question_chars": 1792
+   },
+   "codeio": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "difficulty": 8
+    },
+    "mean_dev_question_chars": 3166
+   },
+   "color_cube_rotation": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_rotations": 4,
+     "max_rotations": 6
+    },
+    "mean_dev_question_chars": 559
+   },
+   "count_primes": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_n": 5000,
+     "max_n": 25000
+    },
+    "mean_dev_question_chars": 76
+   },
+   "emoji_mystery": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_words_in_sentence": 6,
+     "max_words_in_sentence": 32
+    },
+    "mean_dev_question_chars": 952
+   },
+   "family_relationships": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_family_size": 7,
+     "max_family_size": 9
+    },
+    "mean_dev_question_chars": 268
+   },
+   "group_anagrams": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_anagram_groups": 10,
+     "max_anagram_groups": 50
+    },
+    "mean_dev_question_chars": 1122
+   },
+   "jugs": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "difficulty": 15
+    },
+    "mean_dev_question_chars": 664
+   },
+   "kakurasu": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_rows": 5,
+     "max_rows": 6,
+     "min_cols": 5,
+     "max_cols": 6
+    },
+    "mean_dev_question_chars": 625
+   },
+   "knight_swap": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_nodes": 8,
+     "max_nodes": 10
+    },
+    "mean_dev_question_chars": 837
+   },
+   "leg_counting": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_animals": 5,
+     "max_animals": 15,
+     "max_instances": 32
+    },
+    "mean_dev_question_chars": 261
+   },
+   "letter_jumble": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_words": 10,
+     "max_words": 30,
+     "min_corruption_level": 0.3
+    },
+    "mean_dev_question_chars": 526
+   },
+   "mahjong_puzzle": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_num_rounds": 30,
+     "max_num_rounds": 75
+    },
+    "mean_dev_question_chars": 3552
+   },
+   "maze": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_dist": 10,
+     "max_dist": 15,
+     "min_grid_size": 15,
+     "max_grid_size": 25
+    },
+    "mean_dev_question_chars": 642
+   },
+   "mini_sudoku": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_empty": 10,
+     "max_empty": 12
+    },
+    "mean_dev_question_chars": 383
+   },
+   "modulo_grid": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "max_holes": 5
+    },
+    "mean_dev_question_chars": 581
+   },
+   "n_queens": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "n": 8,
+     "min_remove": 3,
+     "max_remove": 6
+    },
+    "mean_dev_question_chars": 654
+   },
+   "palindrome_partitioning": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_string_len": 10,
+     "max_string_len": 18
+    },
+    "mean_dev_question_chars": 393
+   },
+   "polynomial_equations": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_degree": 2,
+     "max_degree": 3,
+     "min_terms": 3,
+     "max_terms": 5
+    },
+    "mean_dev_question_chars": 820
+   },
+   "power_function": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_exponent": 2,
+     "max_exponent": 10
+    },
+    "mean_dev_question_chars": 215
+   },
+   "propositional_logic": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_vars": 3,
+     "max_vars": 6,
+     "min_statements": 3,
+     "max_statements": 6,
+     "min_complexity": 2,
+     "max_complexity": 3
+    },
+    "mean_dev_question_chars": 528
+   },
+   "rotten_oranges": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_n": 18,
+     "max_n": 40
+    },
+    "mean_dev_question_chars": 2498
+   },
+   "shortest_path": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_rows": 8,
+     "max_rows": 12,
+     "min_cols": 8,
+     "max_cols": 12
+    },
+    "mean_dev_question_chars": 888
+   },
+   "simple_geometry": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_sides": 5,
+     "max_sides": 10
+    },
+    "mean_dev_question_chars": 242
+   },
+   "sokoban": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_w": 8,
+     "max_w": 12,
+     "min_h": 8,
+     "max_h": 12
+    },
+    "mean_dev_question_chars": 456
+   },
+   "sudoku": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_empty": 35,
+     "max_empty": 45
+    },
+    "mean_dev_question_chars": 320
+   },
+   "syllogism": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "invalid_ratio": 0.4,
+     "inversion_probability": 0.15
+    },
+    "mean_dev_question_chars": 159
+   },
+   "tower_of_hanoi": {
+    "dev": 25,
+    "heldout": 65,
+    "kwargs": {
+     "min_disks": 4,
+     "max_disks": 8
+    },
+    "mean_dev_question_chars": 482
+   },
+   "word_ladder": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_word_length": 4,
+     "max_word_length": 5
+    },
+    "mean_dev_question_chars": 204
+   },
+   "zebra_puzzles": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "num_people": 5,
+     "num_characteristics": 5
+    },
+    "mean_dev_question_chars": 1685
+   }
+  },
+  "L3": {
+   "ab": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "length": 50
+    },
+    "mean_dev_question_chars": 707
+   },
+   "arc_1d": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_size": 40,
+     "max_size": 100
+    },
+    "mean_dev_question_chars": 1411
+   },
+   "basic_arithmetic": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_terms": 6,
+     "max_terms": 10,
+     "min_digits": 3,
+     "max_digits": 5
+    },
+    "mean_dev_question_chars": 69
+   },
+   "binary_alternation": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_n": 100,
+     "max_n": 500
+    },
+    "mean_dev_question_chars": 772
+   },
+   "boxnet": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_row_num": 3,
+     "max_row_num": 6,
+     "min_column_num": 3,
+     "max_column_num": 6,
+     "min_box_num": 2,
+     "max_box_num": 4
+    },
+    "mean_dev_question_chars": 4896
+   },
+   "caesar_cipher": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_words": 20,
+     "max_words": 50
+    },
+    "mean_dev_question_chars": 240
+   },
+   "circuit_logic": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_terms": 7,
+     "max_terms": 9,
+     "min_inputs": 4,
+     "max_inputs": 5
+    },
+    "mean_dev_question_chars": 3305
+   },
+   "codeio": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "difficulty": 9
+    },
+    "mean_dev_question_chars": 3695
+   },
+   "color_cube_rotation": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_rotations": 8,
+     "max_rotations": 12
+    },
+    "mean_dev_question_chars": 867
+   },
+   "count_primes": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_n": 10000,
+     "max_n": 50000
+    },
+    "mean_dev_question_chars": 76
+   },
+   "emoji_mystery": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_words_in_sentence": 10,
+     "max_words_in_sentence": 30
+    },
+    "mean_dev_question_chars": 977
+   },
+   "family_relationships": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_family_size": 9,
+     "max_family_size": 11
+    },
+    "mean_dev_question_chars": 309
+   },
+   "group_anagrams": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_anagram_groups": 50,
+     "max_anagram_groups": 100,
+     "max_words_per_group": 10
+    },
+    "mean_dev_question_chars": 2347
+   },
+   "jugs": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "difficulty": 20
+    },
+    "mean_dev_question_chars": 664
+   },
+   "kakurasu": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_rows": 6,
+     "max_rows": 7,
+     "min_cols": 6,
+     "max_cols": 7
+    },
+    "mean_dev_question_chars": 641
+   },
+   "knight_swap": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_nodes": 10,
+     "max_nodes": 12,
+     "min_pieces": 3,
+     "max_pieces": 3,
+     "max_steps": 30
+    },
+    "mean_dev_question_chars": 837
+   },
+   "leg_counting": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_animals": 8,
+     "max_animals": 20,
+     "max_instances": 64
+    },
+    "mean_dev_question_chars": 314
+   },
+   "letter_jumble": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_words": 20,
+     "max_words": 50,
+     "min_corruption_level": 0.6
+    },
+    "mean_dev_question_chars": 605
+   },
+   "mahjong_puzzle": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_num_rounds": 50,
+     "max_num_rounds": 100
+    },
+    "mean_dev_question_chars": 4474
+   },
+   "maze": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_dist": 15,
+     "max_dist": 20,
+     "min_grid_size": 25,
+     "max_grid_size": 50
+    },
+    "mean_dev_question_chars": 1679
+   },
+   "mini_sudoku": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_empty": 12,
+     "max_empty": 12
+    },
+    "mean_dev_question_chars": 383
+   },
+   "modulo_grid": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "max_holes": 10
+    },
+    "mean_dev_question_chars": 581
+   },
+   "n_queens": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "n": 8,
+     "min_remove": 4,
+     "max_remove": 6
+    },
+    "mean_dev_question_chars": 654
+   },
+   "palindrome_partitioning": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_string_len": 12,
+     "max_string_len": 22
+    },
+    "mean_dev_question_chars": 397
+   },
+   "polynomial_equations": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_degree": 3,
+     "max_degree": 4,
+     "min_terms": 4,
+     "max_terms": 6
+    },
+    "mean_dev_question_chars": 822
+   },
+   "power_function": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_exponent": 4,
+     "max_exponent": 12
+    },
+    "mean_dev_question_chars": 215
+   },
+   "propositional_logic": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_vars": 4,
+     "max_vars": 8,
+     "min_statements": 4,
+     "max_statements": 8,
+     "min_complexity": 2,
+     "max_complexity": 4
+    },
+    "mean_dev_question_chars": 600
+   },
+   "rotten_oranges": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_n": 25,
+     "max_n": 50
+    },
+    "mean_dev_question_chars": 3745
+   },
+   "shortest_path": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_rows": 15,
+     "max_rows": 25,
+     "min_cols": 15,
+     "max_cols": 25
+    },
+    "mean_dev_question_chars": 1524
+   },
+   "simple_geometry": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_sides": 10,
+     "max_sides": 15
+    },
+    "mean_dev_question_chars": 285
+   },
+   "sokoban": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_w": 10,
+     "max_w": 15,
+     "min_h": 10,
+     "max_h": 15
+    },
+    "mean_dev_question_chars": 569
+   },
+   "sudoku": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_empty": 50,
+     "max_empty": 60
+    },
+    "mean_dev_question_chars": 320
+   },
+   "syllogism": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "invalid_ratio": 0.5,
+     "inversion_probability": 0.0
+    },
+    "mean_dev_question_chars": 160
+   },
+   "tower_of_hanoi": {
+    "dev": 25,
+    "heldout": 65,
+    "kwargs": {
+     "min_disks": 5,
+     "max_disks": 10,
+     "min_pegs": 3,
+     "max_pegs": 4
+    },
+    "mean_dev_question_chars": 482
+   },
+   "word_ladder": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "min_word_length": 3,
+     "max_word_length": 5
+    },
+    "mean_dev_question_chars": 203
+   },
+   "zebra_puzzles": {
+    "dev": 25,
+    "heldout": 75,
+    "kwargs": {
+     "num_people": 6,
+     "num_characteristics": 6
+    },
+    "mean_dev_question_chars": 2314
+   }
+  }
+ },
+ "heldout_caps": {
+  "tower_of_hanoi": 65
+ },
+ "dropped": {}
+}

@@ -1,0 +1,41 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_words_in_sentence": 32,
+        "min_words_in_sentence": 6
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/emoji_mystery.jsonl",
+      "sha256": "d9a1c937b50ded828ad6cddf13e58bf3f75fc6adb984b317394924e29dc1137c"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_words_in_sentence": 32,
+        "min_words_in_sentence": 6
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/emoji_mystery.jsonl",
+      "sha256": "5ef3f889d4d5d623d668b06bf5c918eaa41ab45bac4f61fb81148ebb88df7770"
+    }
+  },
+  "task_family": "emoji_mystery"
+}

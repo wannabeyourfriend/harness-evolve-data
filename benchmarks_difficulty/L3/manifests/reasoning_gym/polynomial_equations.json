@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_degree": 4,
+        "max_terms": 6,
+        "min_degree": 3,
+        "min_terms": 4
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/polynomial_equations.jsonl",
+      "sha256": "9cb8db63c3bff11712f834075747aa1df79b1d599e34ec5cf9898b6446636b5b"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_degree": 4,
+        "max_terms": 6,
+        "min_degree": 3,
+        "min_terms": 4
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/polynomial_equations.jsonl",
+      "sha256": "069c5afd09f9ba73728981c19129deaaa8ecf659fde14be9f11fe2052d7e5cd8"
+    }
+  },
+  "task_family": "polynomial_equations"
+}

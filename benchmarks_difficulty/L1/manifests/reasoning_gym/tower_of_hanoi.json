@@ -24,11 +24,11 @@
       "sha256": "68a60280b0c316e7478c79ddf3aa1d647ff11160dd5afa1fe5b6288fbdeb7112"
     },
     "test": {
-      "count": 60,
+      "count": 65,
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/tower_of_hanoi.jsonl",
-      "sha256": "dd614b81d5ddc93ca76c158cb6c27e3a6f092a6363a85b18ffc1e8d5a420b0a9"
+      "sha256": "c01bdf6902d3c8c9c5d71728be94365513d9b80232f14a7db5f41c4ab48b566b"
     }
   },
   "task_family": "tower_of_hanoi"

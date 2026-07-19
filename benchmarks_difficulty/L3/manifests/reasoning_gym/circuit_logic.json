@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_inputs": 5,
+        "max_terms": 9,
+        "min_inputs": 4,
+        "min_terms": 7
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/circuit_logic.jsonl",
+      "sha256": "9b0fbba3244cf3f7db5a27b46e96d03a9510168a37195e1e83cf33efd5f48431"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_inputs": 5,
+        "max_terms": 9,
+        "min_inputs": 4,
+        "min_terms": 7
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/circuit_logic.jsonl",
+      "sha256": "d6104a959024f75e0ff42ce62cbc81e1607f6f6a5c0a7e3d3d7986b5db0e7bb8"
+    }
+  },
+  "task_family": "circuit_logic"
+}

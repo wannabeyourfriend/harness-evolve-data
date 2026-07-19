@@ -1,0 +1,39 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "difficulty": 15
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/jugs.jsonl",
+      "sha256": "950ee4a8d1123b44f8139ec942d057c125ff2a1ab06d635dc09abaf73b0ddea8"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "difficulty": 15
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/jugs.jsonl",
+      "sha256": "8623a129e5c5eebb2aeb26d8817b9ff737000c37683fc1959f7a29ba77469a17"
+    }
+  },
+  "task_family": "jugs"
+}

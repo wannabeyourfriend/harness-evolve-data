@@ -1,0 +1,35 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {},
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/mahjong_puzzle.jsonl",
+      "sha256": "2011a89268248714e48c05cb30ea47e751af844d29a1cfb75aed4d0c7140e0a7"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {},
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/mahjong_puzzle.jsonl",
+      "sha256": "6644e0e831f4f6f27fc258d85b4957d07360b6f50782f3261b560a35d60f3332"
+    }
+  },
+  "task_family": "mahjong_puzzle"
+}

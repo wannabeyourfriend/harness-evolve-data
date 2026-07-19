@@ -1,0 +1,43 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_words": 30,
+        "min_corruption_level": 0.3,
+        "min_words": 10
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/letter_jumble.jsonl",
+      "sha256": "f30bd5d6db9cc97272019dfb557359429db07013142b8142a9f89a50dfb751d2"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_words": 30,
+        "min_corruption_level": 0.3,
+        "min_words": 10
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/letter_jumble.jsonl",
+      "sha256": "0f8804ffe10b4e56ebba32146b200ace65bb6103c6b173c4b0238c137656b6c6"
+    }
+  },
+  "task_family": "letter_jumble"
+}

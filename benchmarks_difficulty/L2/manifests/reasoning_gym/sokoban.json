@@ -38,7 +38,7 @@
       },
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/sokoban.jsonl",
-      "sha256": "0296225adca3d2898f5f5048854ca68415d1e3f20c8ee575c452bb8a3a83f076"
+      "sha256": "aea5f9c7825e061ee7af192633a4e00efc7913a2438e75fa43aedf7ba9cb89b2"
     }
   },
   "task_family": "sokoban"

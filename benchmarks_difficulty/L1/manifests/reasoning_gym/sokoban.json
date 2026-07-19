@@ -28,7 +28,7 @@
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/sokoban.jsonl",
-      "sha256": "d8a7ca0484a746400562880edf21a64bb3a2c868da6eb677190a25959d12b37b"
+      "sha256": "2a4a4ea6fc6d590982a0fb09dfdccd5a73b1cdc1b709ae085f987ef6c73c365c"
     }
   },
   "task_family": "sokoban"

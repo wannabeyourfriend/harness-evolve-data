@@ -28,7 +28,7 @@
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/propositional_logic.jsonl",
-      "sha256": "ceaea7e1f8828c212c80bfd851cb0930433f5fb9b7e8be7866d791cafeee392f"
+      "sha256": "e392d4e014ce77acc1f518c3320ae3103cb56534b3a66ce8a53982025bbe0086"
     }
   },
   "task_family": "propositional_logic"

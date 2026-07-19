@@ -34,7 +34,7 @@
       },
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/count_primes.jsonl",
-      "sha256": "3b5ac3d06be54979a234523135f59235cfc05c141e4464af107d2763dae03c51"
+      "sha256": "f7d8d04fbcf982fb379d33e86dddcd60d5a69c404e47a1e3540d7e0bcd446525"
     }
   },
   "task_family": "count_primes"

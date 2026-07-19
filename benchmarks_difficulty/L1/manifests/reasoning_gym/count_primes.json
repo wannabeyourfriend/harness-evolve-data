@@ -28,7 +28,7 @@
       "dataset_kwargs": {},
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/count_primes.jsonl",
-      "sha256": "b776399c611b63681ab15f50a95e34b29d8fd315b79faa50fb2ee96723791c4b"
+      "sha256": "240439d0df96cb3d7d0972c4dddace8d600ebaff3a2ba08278e22dbc2d1be627"
     }
   },
   "task_family": "count_primes"

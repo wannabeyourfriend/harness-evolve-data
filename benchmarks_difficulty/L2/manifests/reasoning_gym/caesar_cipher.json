@@ -1,0 +1,41 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_words": 30,
+        "min_words": 10
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/caesar_cipher.jsonl",
+      "sha256": "b244840b455c927331641fdf1e49fbe5d080a850597df6853f99511ed084ea6f"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_words": 30,
+        "min_words": 10
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/caesar_cipher.jsonl",
+      "sha256": "93226f960565769955f085c555233d77072cc79db201a3354c0c4f9dc2646125"
+    }
+  },
+  "task_family": "caesar_cipher"
+}

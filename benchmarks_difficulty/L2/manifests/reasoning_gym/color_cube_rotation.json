@@ -1,0 +1,41 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_rotations": 6,
+        "min_rotations": 4
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/color_cube_rotation.jsonl",
+      "sha256": "e1c6dd7b82899df4d4007ba27e082d944e2ba960a8f88b85b11114555a7a1cf5"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_rotations": 6,
+        "min_rotations": 4
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/color_cube_rotation.jsonl",
+      "sha256": "63bd1974f2b14738d28867e050d9501ccd96fd1f23db6f2f39759d09865e7aa1"
+    }
+  },
+  "task_family": "color_cube_rotation"
+}

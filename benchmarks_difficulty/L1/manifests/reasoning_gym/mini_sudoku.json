@@ -1,0 +1,35 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {},
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/mini_sudoku.jsonl",
+      "sha256": "846aec35e6a4debf6bb5be20fe2aca5e92b5814342546c74205e77f7c0b97039"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {},
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/mini_sudoku.jsonl",
+      "sha256": "5537cb6986b6060f4abb37bd428c8c4854afa1b889fa3ca996681212cda5add9"
+    }
+  },
+  "task_family": "mini_sudoku"
+}

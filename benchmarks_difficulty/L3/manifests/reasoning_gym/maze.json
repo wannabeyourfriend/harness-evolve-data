@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_dist": 20,
+        "max_grid_size": 50,
+        "min_dist": 15,
+        "min_grid_size": 25
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/maze.jsonl",
+      "sha256": "64b61d079ba7228cbd4570375b22581916ee59e35f24fca4e89ac572525f3a39"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_dist": 20,
+        "max_grid_size": 50,
+        "min_dist": 15,
+        "min_grid_size": 25
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/maze.jsonl",
+      "sha256": "03af6443cdf167603e97ac9be50821a339746b059efcf014d23936571ed9a3c8"
+    }
+  },
+  "task_family": "maze"
+}

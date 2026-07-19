@@ -1,0 +1,41 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "num_characteristics": 6,
+        "num_people": 6
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/zebra_puzzles.jsonl",
+      "sha256": "0672e49a5718fb4ab43d7b32c4431fa72eac037608b90be18f0cea34d69304ec"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "num_characteristics": 6,
+        "num_people": 6
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/zebra_puzzles.jsonl",
+      "sha256": "0bf74bfea99cd4e569255eee71c8b4b412e4dd47da174ed0195af2874769937f"
+    }
+  },
+  "task_family": "zebra_puzzles"
+}

@@ -1,0 +1,45 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_cols": 7,
+        "max_rows": 7,
+        "min_cols": 6,
+        "min_rows": 6
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/kakurasu.jsonl",
+      "sha256": "a1ae7afdf94bafa6a3190d66e0f023aa41e84aed3e8a558376f2ed8fac193242"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_cols": 7,
+        "max_rows": 7,
+        "min_cols": 6,
+        "min_rows": 6
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/kakurasu.jsonl",
+      "sha256": "f8f17854cd1d1cd0887037c9866c9015006d929d6929e237303e948314a07a88"
+    }
+  },
+  "task_family": "kakurasu"
+}

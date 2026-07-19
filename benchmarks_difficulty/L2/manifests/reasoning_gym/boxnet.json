@@ -1,0 +1,49 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "dynamic"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_box_num": 2,
+        "max_column_num": 5,
+        "max_row_num": 5,
+        "min_box_num": 1,
+        "min_column_num": 2,
+        "min_row_num": 2
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/boxnet.jsonl",
+      "sha256": "11ea3393a790fa94362c00677cf332517be34945ebbe390f0d05073134cc98b1"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_box_num": 2,
+        "max_column_num": 5,
+        "max_row_num": 5,
+        "min_box_num": 1,
+        "min_column_num": 2,
+        "min_row_num": 2
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/boxnet.jsonl",
+      "sha256": "4362286b7cf5cdb4b719db4f6e5559c3f820c41c087f7c06c84fd45b8d8f1741"
+    }
+  },
+  "task_family": "boxnet"
+}

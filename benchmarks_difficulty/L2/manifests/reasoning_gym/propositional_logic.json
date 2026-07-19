@@ -42,7 +42,7 @@
       },
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/propositional_logic.jsonl",
-      "sha256": "ecfd0b9ee13e45ee4d2908a955f634c12d54e092a753182b6f6e4d3223f7d9cb"
+      "sha256": "f22823254273c4289f7aad7f8c6749c69e7d874c73a8469c3f4656b46b654778"
     }
   },
   "task_family": "propositional_logic"

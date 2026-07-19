@@ -1,0 +1,43 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_remove": 6,
+        "min_remove": 4,
+        "n": 8
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/n_queens.jsonl",
+      "sha256": "09c4f71d9d0f1e9c8fda8ad2504c45489e75ca0e267d67b2bb5150ef2d7a0792"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_remove": 6,
+        "min_remove": 4,
+        "n": 8
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/n_queens.jsonl",
+      "sha256": "9aca4bcc64d4202f6f39109711a145a3c403df26eb3f70c4d09f73a2f3e1132f"
+    }
+  },
+  "task_family": "n_queens"
+}

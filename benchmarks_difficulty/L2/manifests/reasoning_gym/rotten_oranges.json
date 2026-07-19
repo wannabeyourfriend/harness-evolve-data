@@ -1,0 +1,41 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_n": 40,
+        "min_n": 18
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/rotten_oranges.jsonl",
+      "sha256": "6d618eea4889715f2c4978c05b15e2eca8c8fe0fc14003f6f5b6ec9bf1175868"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_n": 40,
+        "min_n": 18
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/rotten_oranges.jsonl",
+      "sha256": "581c5e937663799af6572715c906e1872568eb501f511c53e849ffcf9c627f81"
+    }
+  },
+  "task_family": "rotten_oranges"
+}

@@ -1,0 +1,41 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_family_size": 11,
+        "min_family_size": 9
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/family_relationships.jsonl",
+      "sha256": "8c0debd1c5a540d1758e39ac50d0f7f4ba00701d254999e33786515562fe5b8c"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_family_size": 11,
+        "min_family_size": 9
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/family_relationships.jsonl",
+      "sha256": "e9948db94991a823aa14e9b4f71ae472f172a67a23f10e8fdc7ccb0242409488"
+    }
+  },
+  "task_family": "family_relationships"
+}

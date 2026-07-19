@@ -27,14 +27,14 @@
       "sha256": "b96dd39f62dec73075ca79ef882f812a36b40cf2ae64f88db77446e7c1d6bc58"
     },
     "test": {
-      "count": 60,
+      "count": 65,
       "dataset_kwargs": {
         "max_disks": 8,
         "min_disks": 4
       },
       "generator_seed": "stored in reporting-only records",
       "path": "heldout/reasoning_gym/tower_of_hanoi.jsonl",
-      "sha256": "1d737e38bf9455005706375830e7dd1179b707874422119931923e836e31855a"
+      "sha256": "adfdbd6358dc0b4355d9b74ca7e4d4c32d04aea5bf170ff929d2171ff923ac89"
     }
   },
   "task_family": "tower_of_hanoi"
