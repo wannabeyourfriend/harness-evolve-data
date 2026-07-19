@@ -1,0 +1,35 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {},
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/tower_of_hanoi.jsonl",
+      "sha256": "68a60280b0c316e7478c79ddf3aa1d647ff11160dd5afa1fe5b6288fbdeb7112"
+    },
+    "test": {
+      "count": 60,
+      "dataset_kwargs": {},
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/tower_of_hanoi.jsonl",
+      "sha256": "dd614b81d5ddc93ca76c158cb6c27e3a6f092a6363a85b18ffc1e8d5a420b0a9"
+    }
+  },
+  "task_family": "tower_of_hanoi"
+}

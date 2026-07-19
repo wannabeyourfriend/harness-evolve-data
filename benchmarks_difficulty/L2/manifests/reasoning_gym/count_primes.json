@@ -1,0 +1,41 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "reference_target"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_n": 25000,
+        "min_n": 5000
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/count_primes.jsonl",
+      "sha256": "9f29c2c547ac378578b865deadb72f4e5fa8b5219c34abb26bf39fbf0471bc6d"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_n": 25000,
+        "min_n": 5000
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/count_primes.jsonl",
+      "sha256": "3b5ac3d06be54979a234523135f59235cfc05c141e4464af107d2763dae03c51"
+    }
+  },
+  "task_family": "count_primes"
+}

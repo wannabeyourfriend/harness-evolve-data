@@ -1,0 +1,49 @@
+{
+  "benchmark": "reasoning_gym",
+  "invariants": {
+    "cross_split_group_overlap": 0,
+    "cross_split_input_overlap": 0,
+    "unique_public_inputs": true
+  },
+  "oracle": {
+    "grader": "reasoning_gym",
+    "mode": "dynamic"
+  },
+  "schema_version": "task-sample/v1",
+  "source": {
+    "license": "Apache-2.0",
+    "revision": "e0f181abf07742518a9c6da08128264c106c6873",
+    "uri": "https://github.com/open-thought/reasoning-gym"
+  },
+  "splits": {
+    "dev": {
+      "count": 25,
+      "dataset_kwargs": {
+        "max_complexity": 4,
+        "max_statements": 8,
+        "max_vars": 8,
+        "min_complexity": 2,
+        "min_statements": 4,
+        "min_vars": 4
+      },
+      "generator_seed": 42,
+      "path": "dev/reasoning_gym/propositional_logic.jsonl",
+      "sha256": "417004e3890db63a4800c807729618eb6ccd3a40dc09b6bd57ea82015cbad10e"
+    },
+    "test": {
+      "count": 75,
+      "dataset_kwargs": {
+        "max_complexity": 4,
+        "max_statements": 8,
+        "max_vars": 8,
+        "min_complexity": 2,
+        "min_statements": 4,
+        "min_vars": 4
+      },
+      "generator_seed": "stored in reporting-only records",
+      "path": "heldout/reasoning_gym/propositional_logic.jsonl",
+      "sha256": "5df1e96425b16ab0dde8713997f6c2a2451ad48694632930411aba3273c57725"
+    }
+  },
+  "task_family": "propositional_logic"
+}
